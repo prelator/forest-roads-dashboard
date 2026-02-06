@@ -1,0 +1,297 @@
+import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
+import { PieChart } from '@mui/x-charts/PieChart';
+import type { RouteStats } from '../types/forest.types';
+
+interface RouteStatisticsProps {
+  stats: RouteStats;
+}
+
+// Shared styled table component
+const StatsTable = ({ children }: { children: React.ReactNode }) => (
+  <Box
+    component="table"
+    sx={{
+      width: '100%',
+      maxWidth: 300,
+      mb: 2,
+      '& td, & th': { py: 0.5, px: 1 },
+      '& th': { textAlign: 'left', fontWeight: 'bold' },
+      '& th:last-child': { textAlign: 'right' },
+      '& td': { textAlign: 'left' },
+      '& td:last-child': { textAlign: 'right' },
+    }}
+  >
+    {children}
+  </Box>
+);
+
+// Color schemes
+const maintenanceLevelColors = [
+  '#2196F3', // Blue
+  '#4CAF50', // Green
+  '#FFC107', // Amber
+  '#FF9800', // Orange
+  '#F44336', // Red
+  '#9E9E9E', // Gray
+  '#757575', // Dark Gray
+];
+
+const trailTypeColors = [
+  '#673AB7', // Deep Purple
+  '#FF9800', // Orange
+  '#009688', // Teal
+  '#CDDC39', // Lime
+  '#795548', // Brown
+];
+
+// Helper to format mileage
+const formatMileage = (mileage: number) =>
+  mileage.toLocaleString(undefined, {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  });
+
+// Helper to create pie chart data
+const createPieData = (items: Array<{ level?: string; type?: string; mileage: number }>, colors: string[]) => {
+  const total = items.reduce((sum, item) => sum + item.mileage, 0);
+  return items.map((item, index) => {
+    const percentage = total > 0 ? (item.mileage / total * 100).toFixed(1) : 0;
+    const label = item.level || item.type || 'Unknown';
+    return {
+      id: index,
+      value: item.mileage,
+      label: `${label} (${percentage}%)`,
+      color: colors[index % colors.length],
+    };
+  });
+};
+
+const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
+  // Calculate maintenance level data for MVUM roads
+  const mvumRoadMaintenanceLevels = [
+    { level: 'ML1', mileage: stats.MVUM_ROADS?.MAINTENANCE_LEVELS?.ML1 || 0 },
+    { level: 'ML2', mileage: stats.MVUM_ROADS?.MAINTENANCE_LEVELS?.ML2 || 0 },
+    { level: 'ML3', mileage: stats.MVUM_ROADS?.MAINTENANCE_LEVELS?.ML3 || 0 },
+    { level: 'ML4', mileage: stats.MVUM_ROADS?.MAINTENANCE_LEVELS?.ML4 || 0 },
+    { level: 'ML5', mileage: stats.MVUM_ROADS?.MAINTENANCE_LEVELS?.ML5 || 0 },
+    { level: 'None', mileage: stats.MVUM_ROADS?.MAINTENANCE_LEVELS?.NONE || 0 },
+  ];
+
+  const mvumRoadPieData = createPieData(
+    mvumRoadMaintenanceLevels.filter((item) => item.mileage > 0),
+    maintenanceLevelColors
+  );
+
+  // Calculate trail type data
+  const trailTypeData = [
+    { type: 'Full Size', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0 },
+    { type: 'ATV', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.ATV || 0 },
+    { type: 'Motorcycle', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.MOTORCYCLE || 0 },
+    { type: 'UTV', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.SPECIAL || 0 },
+    { type: 'Other', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.OTHER || 0 },
+  ];
+
+  const trailTypePieData = createPieData(
+    trailTypeData.filter((item) => item.mileage > 0),
+    trailTypeColors
+  );
+
+  // Calculate maintenance level data for closed roads
+  const closedRoadMaintenanceLevels = [
+    { level: 'Decommissioned', mileage: stats.CLOSED_ROADS?.MAINTENANCE_LEVELS?.DECOMMISSIONED || 0 },
+    { level: 'ML1', mileage: stats.CLOSED_ROADS?.MAINTENANCE_LEVELS?.ML1 || 0 },
+    { level: 'ML2', mileage: stats.CLOSED_ROADS?.MAINTENANCE_LEVELS?.ML2 || 0 },
+    { level: 'ML3', mileage: stats.CLOSED_ROADS?.MAINTENANCE_LEVELS?.ML3 || 0 },
+    { level: 'ML4', mileage: stats.CLOSED_ROADS?.MAINTENANCE_LEVELS?.ML4 || 0 },
+    { level: 'ML5', mileage: stats.CLOSED_ROADS?.MAINTENANCE_LEVELS?.ML5 || 0 },
+    { level: 'None', mileage: stats.CLOSED_ROADS?.MAINTENANCE_LEVELS?.NONE || 0 },
+  ];
+
+  const closedRoadPieData = createPieData(
+    closedRoadMaintenanceLevels.filter((item) => item.mileage > 0),
+    maintenanceLevelColors
+  );
+
+  return (
+    <Box>
+      <Typography variant="h5" gutterBottom fontWeight="bold" sx={{ mb: 3 }}>
+        Route Statistics
+      </Typography>
+
+      <Grid container spacing={3}>
+        {/* MVUM Roads */}
+        <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
+          <Card sx={{ minHeight: 620 }}>
+            <CardContent>
+              <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
+                MVUM Roads
+              </Typography>
+              <Box sx={{ mb: 2 }}>
+                <Typography variant="body1">
+                  <strong>Total:</strong> {stats.MVUM_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
+                  {formatMileage(stats.MVUM_ROADS?.TOTAL_MILEAGE || 0)} miles)
+                </Typography>
+                <Typography variant="body1">
+                  <strong>Seasonal Restrictions:</strong>{' '}
+                  {formatMileage(stats.MVUM_ROADS?.TOTAL_SEASONAL_MILEAGE || 0)} miles
+                </Typography>
+              </Box>
+
+              <Typography variant="subtitle2" gutterBottom fontWeight="bold">
+                By Maintenance Level
+              </Typography>
+              <StatsTable>
+                <thead>
+                  <tr>
+                    <th>Maintenance Level</th>
+                    <th>Mileage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {mvumRoadMaintenanceLevels.map((item) => (
+                    <tr key={item.level}>
+                      <td>{item.level}</td>
+                      <td>{formatMileage(item.mileage)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </StatsTable>
+
+              {mvumRoadPieData.length > 0 && (
+                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                  <PieChart
+                    series={[
+                      {
+                        data: mvumRoadPieData,
+                        highlightScope: { fade: 'global', highlight: 'item' },
+                      },
+                    ]}
+                    width={300}
+                    height={200}
+                  />
+                </Box>
+              )}
+            </CardContent>
+          </Card>
+        </Grid>
+
+        {/* Closed Roads */}
+        <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
+          <Card sx={{ minHeight: 620 }}>
+            <CardContent>
+              <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
+                Closed Roads
+              </Typography>
+              <Box sx={{ mb: 2 }}>
+                <Typography variant="body1">
+                  <strong>Total:</strong> {stats.CLOSED_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
+                  {formatMileage(stats.CLOSED_ROADS?.TOTAL_MILEAGE || 0)} miles)
+                </Typography>
+                <Typography variant="body1">
+                  <strong>Admin Roads:</strong> {formatMileage(stats.CLOSED_ROADS?.ADMIN_MILEAGE || 0)} miles
+                </Typography>
+                <Typography variant="body1">
+                  <strong>Available for Trail Conversion:</strong>{' '}
+                  {formatMileage(stats.CLOSED_ROADS?.MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION || 0)} miles
+                </Typography>
+              </Box>
+
+              <Typography variant="subtitle2" gutterBottom fontWeight="bold">
+                By Maintenance Level
+              </Typography>
+              <StatsTable>
+                <thead>
+                  <tr>
+                    <th>Maintenance Level</th>
+                    <th>Mileage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {closedRoadMaintenanceLevels.map((item) => (
+                    <tr key={item.level}>
+                      <td>{item.level}</td>
+                      <td>{formatMileage(item.mileage)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </StatsTable>
+
+              {closedRoadPieData.length > 0 && (
+                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                  <PieChart
+                    series={[
+                      {
+                        data: closedRoadPieData,
+                        highlightScope: { fade: 'global', highlight: 'item' },
+                      },
+                    ]}
+                    width={300}
+                    height={200}
+                  />
+                </Box>
+              )}
+            </CardContent>
+          </Card>
+        </Grid>
+
+        {/* Motorized Trails */}
+        <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
+          <Card sx={{ minHeight: 620 }}>
+            <CardContent>
+              <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
+                Motorized Trails
+              </Typography>
+              <Box sx={{ mb: 2 }}>
+                <Typography variant="body1">
+                  <strong>Total:</strong> {stats.MVUM_TRAILS?.NUM_TRAILS?.toLocaleString() || 0} trails (
+                  {formatMileage(stats.MVUM_TRAILS?.TOTAL_MILEAGE || 0)} miles)
+                </Typography>
+                <Typography variant="body1">
+                  <strong>Seasonal Restrictions:</strong>{' '}
+                  {formatMileage(stats.MVUM_TRAILS?.TOTAL_SEASONAL_MILEAGE || 0)} miles
+                </Typography>
+              </Box>
+
+              <Typography variant="subtitle2" gutterBottom fontWeight="bold">
+                By Trail Type
+              </Typography>
+              <StatsTable>
+                <thead>
+                  <tr>
+                    <th>Trail Type</th>
+                    <th>Mileage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {trailTypeData.map((item) => (
+                    <tr key={item.type}>
+                      <td>{item.type}</td>
+                      <td>{formatMileage(item.mileage)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </StatsTable>
+
+              {trailTypePieData.length > 0 && (
+                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                  <PieChart
+                    series={[
+                      {
+                        data: trailTypePieData,
+                        highlightScope: { fade: 'global', highlight: 'item' },
+                      },
+                    ]}
+                    width={300}
+                    height={200}
+                  />
+                </Box>
+              )}
+            </CardContent>
+          </Card>
+        </Grid>
+      </Grid>
+    </Box>
+  );
+};
+
+export default RouteStatistics;

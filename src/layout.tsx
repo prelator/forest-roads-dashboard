@@ -85,7 +85,7 @@ const Layout = () => {
 
       <Box
         component="nav"
-        sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
+        sx={{ width: { md: drawerWidth }, flexShrink: { md: 0 } }}
       >
         {isMobile ? (
           <Drawer
@@ -125,7 +125,7 @@ const Layout = () => {
         sx={{
           flexGrow: 1,
           p: 3,
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
+          width: { md: `calc(100% - ${drawerWidth}px)` },
           maxWidth: '100vw',
           overflowX: 'hidden',
           boxSizing: 'border-box',

@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { Link as RouterLink } from 'react-router';
 import {
   Box,
@@ -8,6 +8,7 @@ import {
   Container,
   Grid,
   Link,
+  TextField,
   Typography,
   useMediaQuery,
   useTheme,
@@ -20,18 +21,36 @@ const DashboardPage = () => {
   const { data: forests, isLoading, error } = useForests();
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
+  const [searchTerm, setSearchTerm] = useState('');
 
   // Calculate aggregate statistics
   const aggregateStats = useMemo(() => {
-    if (!forests) return { totalMvumRoads: 0, totalMotorizedTrails: 0, totalClosedRoads: 0 };
+    if (!forests) return { 
+      totalMvumRoads: 0, 
+      totalMvumRoadsMileage: 0,
+      totalMotorizedTrails: 0, 
+      totalMotorizedTrailsMileage: 0,
+      totalClosedRoads: 0,
+      totalClosedRoadsMileage: 0
+    };
 
     return forests.reduce(
       (acc, forest) => ({
         totalMvumRoads: acc.totalMvumRoads + (forest.MVUM_ROADS?.NUM_ROADS || 0),
+        totalMvumRoadsMileage: acc.totalMvumRoadsMileage + (forest.MVUM_ROADS?.TOTAL_MILEAGE || 0),
         totalMotorizedTrails: acc.totalMotorizedTrails + (forest.MVUM_TRAILS?.NUM_TRAILS || 0),
+        totalMotorizedTrailsMileage: acc.totalMotorizedTrailsMileage + (forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0),
         totalClosedRoads: acc.totalClosedRoads + (forest.CLOSED_ROADS?.NUM_ROADS || 0),
+        totalClosedRoadsMileage: acc.totalClosedRoadsMileage + (forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0),
       }),
-      { totalMvumRoads: 0, totalMotorizedTrails: 0, totalClosedRoads: 0 }
+      { 
+        totalMvumRoads: 0, 
+        totalMvumRoadsMileage: 0,
+        totalMotorizedTrails: 0, 
+        totalMotorizedTrailsMileage: 0,
+        totalClosedRoads: 0,
+        totalClosedRoadsMileage: 0
+      }
     );
   }, [forests]);
 
@@ -50,6 +69,16 @@ const DashboardPage = () => {
       totalMileage: (forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0),
     }));
   }, [forests]);
+
+  // Filter rows based on search term
+  const filteredRows = useMemo(() => {
+    if (!searchTerm) return rows;
+    
+    const searchLower = searchTerm.toLowerCase();
+    return rows.filter((row) => 
+      row.forestName.toLowerCase().includes(searchLower)
+    );
+  }, [rows, searchTerm]);
 
   // Define columns for the data grid
   const columns: GridColDef[] = [
@@ -195,7 +224,7 @@ const DashboardPage = () => {
                 Total MVUM Roads
               </Typography>
               <Typography variant="h3" component="div" fontWeight="bold">
-                {aggregateStats.totalMvumRoads.toLocaleString()}
+                {aggregateStats.totalMvumRoads.toLocaleString()} <Typography component="span" variant="h5" color="text.secondary">({aggregateStats.totalMvumRoadsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mi)</Typography>
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
                 Open forest roads across all forests
@@ -211,7 +240,7 @@ const DashboardPage = () => {
                 Total Motorized Trails
               </Typography>
               <Typography variant="h3" component="div" fontWeight="bold">
-                {aggregateStats.totalMotorizedTrails.toLocaleString()}
+                {aggregateStats.totalMotorizedTrails.toLocaleString()} <Typography component="span" variant="h5" color="text.secondary">({aggregateStats.totalMotorizedTrailsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mi)</Typography>
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
                 Designated motorized trails
@@ -227,7 +256,7 @@ const DashboardPage = () => {
                 Total Closed Roads
               </Typography>
               <Typography variant="h3" component="div" fontWeight="bold">
-                {aggregateStats.totalClosedRoads.toLocaleString()}
+                {aggregateStats.totalClosedRoads.toLocaleString()} <Typography component="span" variant="h5" color="text.secondary">({aggregateStats.totalClosedRoadsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mi)</Typography>
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
                 Roads currently closed or restricted to admin use
@@ -240,12 +269,29 @@ const DashboardPage = () => {
       {/* Data Grid */}
       <Card sx={{ overflow: 'hidden' }}>
         <CardContent>
-          <Typography variant="h6" gutterBottom fontWeight="bold">
-            All National Forests
-          </Typography>
+          <Box sx={{ 
+            display: 'flex', 
+            justifyContent: 'space-between', 
+            alignItems: 'center', 
+            mb: 2,
+            flexWrap: 'wrap',
+            gap: 2
+          }}>
+            <Typography variant="h6" fontWeight="bold">
+              All National Forests
+            </Typography>
+            <TextField
+              placeholder="Search forests..."
+              variant="outlined"
+              size="small"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              sx={{ minWidth: 250 }}
+            />
+          </Box>
           <Box sx={{ width: '100%', height: 700, overflow: 'auto' }}>
             <DataGrid
-              rows={rows}
+              rows={filteredRows}
               columns={columns}
               initialState={{
                 sorting: {

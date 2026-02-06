@@ -6,6 +6,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Layout from './layout';
 import HomePage from './pages/home';
 import DashboardPage from './pages/dashboard';
+import ForestPage from './pages/forest';
+import DistrictPage from './pages/district';
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -28,8 +30,8 @@ const router = createBrowserRouter([
     children: [
       {index: true, Component: HomePage},
       {path: "/dashboard", Component: DashboardPage},
-      {path: "/dashboard/:forestId", Component: () => <h1>Forest Details</h1>},
-      {path: "/dashboard/:forestId/:districtId", Component: () => <h1>District Details</h1>},
+      {path: "/dashboard/:forestId", Component: ForestPage},
+      {path: "/dashboard/:forestId/:districtId", Component: DistrictPage},
       {path: "/map", Component: () => <h1>Map</h1>},
     ]
   },

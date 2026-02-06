@@ -75,3 +75,9 @@ export interface NationalForest {
 }
 
 export type ForestsData = NationalForest[];
+
+export interface RouteStats {
+  MVUM_ROADS: MvumRoads;
+  MVUM_TRAILS: MvumTrails;
+  CLOSED_ROADS: ClosedRoads;
+}
