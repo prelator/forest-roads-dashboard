@@ -64,7 +64,15 @@ const DashboardPage = () => {
           to={`/dashboard/${params.row.forestNameEncoded}`}
           underline="hover"
           color="primary"
-          sx={{ fontWeight: 500 }}
+          sx={{ 
+            fontWeight: 500,
+            whiteSpace: 'normal',
+            lineHeight: 1.2,
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
+            overflow: 'hidden'
+          }}
         >
           {params.value}
         </Link>
@@ -244,10 +252,10 @@ const DashboardPage = () => {
                   sortModel: [{ field: 'forestName', sort: 'asc' }],
                 },
                 pagination: {
-                  paginationModel: { pageSize: 50, page: 0 },
+                  paginationModel: { pageSize: 100, page: 0 },
                 },
               }}
-              pageSizeOptions={[50]}
+              pageSizeOptions={[50, 100]}
               disableRowSelectionOnClick
               disableVirtualization={false}
               rowHeight={60}
