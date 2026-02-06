@@ -6,6 +6,8 @@ interface RouteStatisticsProps {
   stats: RouteStats;
 }
 
+const CARD_MIN_HEIGHT = 650;
+
 // Shared styled table component
 const StatsTable = ({ children }: { children: React.ReactNode }) => (
   <Box
@@ -26,23 +28,23 @@ const StatsTable = ({ children }: { children: React.ReactNode }) => (
 );
 
 // Color schemes
-const maintenanceLevelColors = [
-  '#2196F3', // Blue
-  '#4CAF50', // Green
-  '#FFC107', // Amber
-  '#FF9800', // Orange
-  '#F44336', // Red
-  '#9E9E9E', // Gray
-  '#757575', // Dark Gray
-];
+const maintenanceLevelColorMap: Record<string, string> = {
+  'ML1': '#2196F3', // Blue
+  'ML2': '#4CAF50', // Green
+  'ML3': '#FFC107', // Amber
+  'ML4': '#FF9800', // Orange
+  'ML5': '#F44336', // Red
+  'None': '#9E9E9E', // Gray
+  'Decommissioned': '#757575', // Dark Gray
+};
 
-const trailTypeColors = [
-  '#673AB7', // Deep Purple
-  '#FF9800', // Orange
-  '#009688', // Teal
-  '#CDDC39', // Lime
-  '#795548', // Brown
-];
+const trailTypeColorMap: Record<string, string> = {
+  'Full Size': '#9C27B0', // Purple
+  'ATV': '#E91E63', // Pink
+  'Motorcycle': '#00BCD4', // Cyan
+  'UTV': '#3F51B5', // Indigo
+  'Other': '#795548', // Brown
+};
 
 // Helper to format mileage
 const formatMileage = (mileage: number) =>
@@ -51,8 +53,8 @@ const formatMileage = (mileage: number) =>
     maximumFractionDigits: 1,
   });
 
-// Helper to create pie chart data
-const createPieData = (items: Array<{ level?: string; type?: string; mileage: number }>, colors: string[]) => {
+// Helper to create pie chart data with consistent colors
+const createPieData = (items: Array<{ level?: string; type?: string; mileage: number }>, colorMap: Record<string, string>) => {
   const total = items.reduce((sum, item) => sum + item.mileage, 0);
   return items.map((item, index) => {
     const percentage = total > 0 ? (item.mileage / total * 100).toFixed(1) : 0;
@@ -61,7 +63,7 @@ const createPieData = (items: Array<{ level?: string; type?: string; mileage: nu
       id: index,
       value: item.mileage,
       label: `${label} (${percentage}%)`,
-      color: colors[index % colors.length],
+      color: colorMap[label] || '#9E9E9E',
     };
   });
 };
@@ -79,7 +81,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
 
   const mvumRoadPieData = createPieData(
     mvumRoadMaintenanceLevels.filter((item) => item.mileage > 0),
-    maintenanceLevelColors
+    maintenanceLevelColorMap
   );
 
   // Calculate trail type data
@@ -93,7 +95,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
 
   const trailTypePieData = createPieData(
     trailTypeData.filter((item) => item.mileage > 0),
-    trailTypeColors
+    trailTypeColorMap
   );
 
   // Calculate maintenance level data for closed roads
@@ -109,7 +111,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
 
   const closedRoadPieData = createPieData(
     closedRoadMaintenanceLevels.filter((item) => item.mileage > 0),
-    maintenanceLevelColors
+    maintenanceLevelColorMap
   );
 
   return (
@@ -121,8 +123,8 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
       <Grid container spacing={3}>
         {/* MVUM Roads */}
         <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
-          <Card sx={{ minHeight: 620 }}>
-            <CardContent>
+          <Card sx={{ height: CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
+            <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
                 MVUM Roads
               </Typography>
@@ -158,7 +160,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
               </StatsTable>
 
               {mvumRoadPieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto' }}>
                   <PieChart
                     series={[
                       {
@@ -177,8 +179,8 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
 
         {/* Closed Roads */}
         <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
-          <Card sx={{ minHeight: 620 }}>
-            <CardContent>
+          <Card sx={{ height: CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
+            <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
                 Closed Roads
               </Typography>
@@ -217,7 +219,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
               </StatsTable>
 
               {closedRoadPieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto' }}>
                   <PieChart
                     series={[
                       {
@@ -236,8 +238,8 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
 
         {/* Motorized Trails */}
         <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
-          <Card sx={{ minHeight: 620 }}>
-            <CardContent>
+          <Card sx={{ height: CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
+            <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
                 Motorized Trails
               </Typography>
@@ -273,7 +275,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
               </StatsTable>
 
               {trailTypePieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto' }}>
                   <PieChart
                     series={[
                       {
