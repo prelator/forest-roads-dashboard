@@ -80,7 +80,7 @@ const DashboardPage = () => {
     },
     {
       field: 'state',
-      headerName: 'State',
+      headerName: 'States',
       flex: 1,
       minWidth: 120,
     },
@@ -230,7 +230,7 @@ const DashboardPage = () => {
                 {aggregateStats.totalClosedRoads.toLocaleString()}
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-                Roads currently closed or restricted
+                Roads currently closed or restricted to admin use
               </Typography>
             </CardContent>
           </Card>
