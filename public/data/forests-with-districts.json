@@ -310,7 +310,8 @@
         "ML5": 1.2,
         "NONE": 0.63
       }
-    }
+    },
+    "STATE": "Montana"
   },
   {
     "OBJECTID": 209496,
@@ -571,7 +572,8 @@
         "ML5": 0.02,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Montana"
   },
   {
     "OBJECTID": 209497,
@@ -884,7 +886,8 @@
         "ML5": 2.06,
         "NONE": 6.56
       }
-    }
+    },
+    "STATE": "Idaho, Montana, Washington"
   },
   {
     "OBJECTID": 209498,
@@ -1197,7 +1200,8 @@
         "ML5": 0,
         "NONE": 11.31
       }
-    }
+    },
+    "STATE": "Montana"
   },
   {
     "OBJECTID": 209499,
@@ -1614,7 +1618,8 @@
         "ML5": 2.18,
         "NONE": 4.38
       }
-    }
+    },
+    "STATE": "Montana, South Dakota"
   },
   {
     "OBJECTID": 209500,
@@ -1927,7 +1932,8 @@
         "ML5": 0.07,
         "NONE": 5.53
       }
-    }
+    },
+    "STATE": "Montana, Idaho"
   },
   {
     "OBJECTID": 209501,
@@ -2292,7 +2298,8 @@
         "ML5": 0.2,
         "NONE": 8.07
       }
-    }
+    },
+    "STATE": "Montana"
   },
   {
     "OBJECTID": 209502,
@@ -2605,7 +2612,8 @@
         "ML5": 0.18,
         "NONE": 0.04
       }
-    }
+    },
+    "STATE": "Montana"
   },
   {
     "OBJECTID": 209503,
@@ -2970,7 +2978,8 @@
         "ML5": 0,
         "NONE": 14.04
       }
-    }
+    },
+    "STATE": "Idaho"
   },
   {
     "OBJECTID": 209504,
@@ -3231,7 +3240,8 @@
         "ML5": 0,
         "NONE": 1.14
       }
-    }
+    },
+    "STATE": "North Dakota, South Dakota"
   },
   {
     "OBJECTID": 209505,
@@ -3440,7 +3450,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Wyoming"
   },
   {
     "OBJECTID": 209506,
@@ -3701,7 +3712,8 @@
         "ML5": 0,
         "NONE": 0.05
       }
-    }
+    },
+    "STATE": "South Dakota, Wyoming"
   },
   {
     "OBJECTID": 209507,
@@ -4014,7 +4026,8 @@
         "ML5": 0.44,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Colorado"
   },
   {
     "OBJECTID": 209508,
@@ -4379,7 +4392,8 @@
         "ML5": 0,
         "NONE": 2.1
       }
-    }
+    },
+    "STATE": "Wyoming, Colorado"
   },
   {
     "OBJECTID": 209509,
@@ -4692,7 +4706,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Nebraska"
   },
   {
     "OBJECTID": 209510,
@@ -4901,7 +4916,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Colorado"
   },
   {
     "OBJECTID": 209511,
@@ -5214,7 +5230,8 @@
         "ML5": 0.86,
         "NONE": 0.79
       }
-    }
+    },
+    "STATE": "Colorado"
   },
   {
     "OBJECTID": 209512,
@@ -5683,7 +5700,8 @@
         "ML5": 0,
         "NONE": 2.61
       }
-    }
+    },
+    "STATE": "Colorado"
   },
   {
     "OBJECTID": 209513,
@@ -5892,7 +5910,8 @@
         "ML5": 0.67,
         "NONE": 0.08
       }
-    }
+    },
+    "STATE": "Colorado"
   },
   {
     "OBJECTID": 209514,
@@ -6205,7 +6224,8 @@
         "ML5": 0.1,
         "NONE": 0.23
       }
-    }
+    },
+    "STATE": "Wyoming"
   },
   {
     "OBJECTID": 209515,
@@ -6622,7 +6642,8 @@
         "ML5": 1.54,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Colorado"
   },
   {
     "OBJECTID": 209516,
@@ -6935,7 +6956,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Arizona, New Mexico"
   },
   {
     "OBJECTID": 209517,
@@ -7300,7 +7322,8 @@
         "ML5": 0,
         "NONE": 17.21
       }
-    }
+    },
+    "STATE": "New Mexico"
   },
   {
     "OBJECTID": 209518,
@@ -7665,7 +7688,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "New Mexico"
   },
   {
     "OBJECTID": 209519,
@@ -7874,7 +7898,8 @@
         "ML5": 0.06,
         "NONE": 25.83
       }
-    }
+    },
+    "STATE": "Arizona"
   },
   {
     "OBJECTID": 209520,
@@ -8187,7 +8212,8 @@
         "ML5": 1.58,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Arizona, New Mexico"
   },
   {
     "OBJECTID": 209521,
@@ -8552,7 +8578,8 @@
         "ML5": 2.35,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "New Mexico"
   },
   {
     "OBJECTID": 209522,
@@ -8761,7 +8788,8 @@
         "ML5": 0,
         "NONE": 6.11
       }
-    }
+    },
+    "STATE": "Arizona"
   },
   {
     "OBJECTID": 209523,
@@ -8970,7 +8998,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "New Mexico"
   },
   {
     "OBJECTID": 209524,
@@ -9179,7 +9208,8 @@
         "ML5": 0.17,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Arizona"
   },
   {
     "OBJECTID": 209525,
@@ -9492,7 +9522,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "New Mexico"
   },
   {
     "OBJECTID": 209526,
@@ -9857,7 +9888,8 @@
         "ML5": 0,
         "NONE": 0.05
       }
-    }
+    },
+    "STATE": "Arizona"
   },
   {
     "OBJECTID": 209527,
@@ -10118,7 +10150,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Utah, Wyoming"
   },
   {
     "OBJECTID": 209528,
@@ -10431,7 +10464,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Idaho"
   },
   {
     "OBJECTID": 209529,
@@ -10796,7 +10830,8 @@
         "ML5": 0,
         "NONE": 0.85
       }
-    }
+    },
+    "STATE": "Wyoming"
   },
   {
     "OBJECTID": 209530,
@@ -11057,7 +11092,8 @@
         "ML5": 0,
         "NONE": 0.66
       }
-    }
+    },
+    "STATE": "Utah"
   },
   {
     "OBJECTID": 209531,
@@ -11318,7 +11354,8 @@
         "ML5": 0,
         "NONE": 0.29
       }
-    }
+    },
+    "STATE": "Utah"
   },
   {
     "OBJECTID": 209532,
@@ -11631,7 +11668,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Utah, Colorado"
   },
   {
     "OBJECTID": 209533,
@@ -11944,7 +11982,8 @@
         "ML5": 0,
         "NONE": 1.15
       }
-    }
+    },
+    "STATE": "Idaho"
   },
   {
     "OBJECTID": 209534,
@@ -12309,7 +12348,8 @@
         "ML5": 0.27,
         "NONE": 0.04
       }
-    }
+    },
+    "STATE": "Idaho"
   },
   {
     "OBJECTID": 209535,
@@ -12570,7 +12610,8 @@
         "ML5": 1.41,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Idaho"
   },
   {
     "OBJECTID": 209536,
@@ -12987,7 +13028,8 @@
         "ML5": 0.15,
         "NONE": 0.01
       }
-    }
+    },
+    "STATE": "Idaho, Wyoming, Utah"
   },
   {
     "OBJECTID": 209537,
@@ -13404,7 +13446,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Nevada, California"
   },
   {
     "OBJECTID": 209538,
@@ -13821,7 +13864,8 @@
         "ML5": 2.58,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Utah, Idaho, Wyoming"
   },
   {
     "OBJECTID": 209539,
@@ -13978,7 +14022,8 @@
         "ML5": 26.2,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209540,
@@ -14187,7 +14232,8 @@
         "ML5": 2.88,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209541,
@@ -14448,7 +14494,8 @@
         "ML5": 0.02,
         "NONE": 6.8
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209542,
@@ -14709,7 +14756,8 @@
         "ML5": 1.03,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California, Nevada"
   },
   {
     "OBJECTID": 209543,
@@ -15074,7 +15122,8 @@
         "ML5": 0.2,
         "NONE": 111.9
       }
-    }
+    },
+    "STATE": "California, Oregon"
   },
   {
     "OBJECTID": 209544,
@@ -15283,7 +15332,8 @@
         "ML5": 4.36,
         "NONE": 5.65
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209545,
@@ -15596,7 +15646,8 @@
         "ML5": 5.9,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209546,
@@ -15805,7 +15856,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209547,
@@ -16066,7 +16118,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209548,
@@ -16327,7 +16380,8 @@
         "ML5": 0.3,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209549,
@@ -16536,7 +16590,8 @@
         "ML5": 0.89,
         "NONE": 0.79
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209550,
@@ -16745,7 +16800,8 @@
         "ML5": 7.87,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209551,
@@ -16954,7 +17010,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209552,
@@ -17371,7 +17428,8 @@
         "ML5": 0,
         "NONE": 0.84
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209553,
@@ -17528,7 +17586,8 @@
         "ML5": 0,
         "NONE": 2.98
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209554,
@@ -17789,7 +17848,8 @@
         "ML5": 0.82,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209555,
@@ -18050,7 +18110,8 @@
         "ML5": 2.16,
         "NONE": 0.16
       }
-    }
+    },
+    "STATE": "California"
   },
   {
     "OBJECTID": 209556,
@@ -18102,7 +18163,8 @@
         "ML5": 0,
         "NONE": 0.52
       }
-    }
+    },
+    "STATE": "California, Nevada"
   },
   {
     "OBJECTID": 209557,
@@ -18311,7 +18373,8 @@
         "ML5": 0,
         "NONE": 1.75
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209558,
@@ -18728,7 +18791,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209559,
@@ -18937,7 +19001,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Washington"
   },
   {
     "OBJECTID": 209560,
@@ -19146,7 +19211,8 @@
         "ML5": 0,
         "NONE": 0.8
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209561,
@@ -19407,7 +19473,8 @@
         "ML5": 4.47,
         "NONE": 0.49
       }
-    }
+    },
+    "STATE": "Washington"
   },
   {
     "OBJECTID": 209562,
@@ -19668,7 +19735,8 @@
         "ML5": 0,
         "NONE": 0.38
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209563,
@@ -19877,7 +19945,8 @@
         "ML5": 0,
         "NONE": 2.61
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209564,
@@ -20138,7 +20207,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Washington"
   },
   {
     "OBJECTID": 209565,
@@ -20451,7 +20521,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Oregon, California"
   },
   {
     "OBJECTID": 209566,
@@ -20608,7 +20679,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209567,
@@ -20869,7 +20941,8 @@
         "ML5": 0.49,
         "NONE": 1.72
       }
-    }
+    },
+    "STATE": "Oregon, Washington"
   },
   {
     "OBJECTID": 209568,
@@ -21130,7 +21203,8 @@
         "ML5": 0.45,
         "NONE": 0.23
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209569,
@@ -21443,7 +21517,8 @@
         "ML5": 0.48,
         "NONE": 3
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209570,
@@ -21808,7 +21883,8 @@
         "ML5": 0.3,
         "NONE": 2.01
       }
-    }
+    },
+    "STATE": "Washington"
   },
   {
     "OBJECTID": 209571,
@@ -22069,7 +22145,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Oregon"
   },
   {
     "OBJECTID": 209572,
@@ -22382,7 +22459,8 @@
         "ML5": 0.22,
         "NONE": 1.92
       }
-    }
+    },
+    "STATE": "Washington"
   },
   {
     "OBJECTID": 209573,
@@ -22434,7 +22512,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Oregon, Washington"
   },
   {
     "OBJECTID": 209574,
@@ -22799,7 +22878,8 @@
         "ML5": 0.78,
         "NONE": 0.45
       }
-    }
+    },
+    "STATE": "Alabama"
   },
   {
     "OBJECTID": 209575,
@@ -23060,7 +23140,8 @@
         "ML5": 3.53,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Kentucky"
   },
   {
     "OBJECTID": 209576,
@@ -23321,7 +23402,8 @@
         "ML5": 1.74,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Georgia"
   },
   {
     "OBJECTID": 209577,
@@ -23582,7 +23664,8 @@
         "ML5": 1.42,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Tennessee, North Carolina"
   },
   {
     "OBJECTID": 209578,
@@ -23895,7 +23978,8 @@
         "ML5": 1.22,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Florida"
   },
   {
     "OBJECTID": 209579,
@@ -24208,7 +24292,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Louisiana"
   },
   {
     "OBJECTID": 209580,
@@ -24625,7 +24710,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Mississippi"
   },
   {
     "OBJECTID": 209581,
@@ -25094,7 +25180,8 @@
         "ML5": 0,
         "NONE": 4.3
       }
-    }
+    },
+    "STATE": "Virginia, West Virginia, Kentucky"
   },
   {
     "OBJECTID": 209582,
@@ -25771,7 +25858,8 @@
         "ML5": 0.03,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Arkansas, Oklahoma"
   },
   {
     "OBJECTID": 209583,
@@ -26188,7 +26276,8 @@
         "ML5": 0.04,
         "NONE": 0.61
       }
-    }
+    },
+    "STATE": "Arkansas"
   },
   {
     "OBJECTID": 209584,
@@ -26657,7 +26746,8 @@
         "ML5": 4.61,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "North Carolina"
   },
   {
     "OBJECTID": 209585,
@@ -26918,7 +27008,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "South Carolina"
   },
   {
     "OBJECTID": 209586,
@@ -27231,7 +27322,8 @@
         "ML5": 0.16,
         "NONE": 1.94
       }
-    }
+    },
+    "STATE": "Texas"
   },
   {
     "OBJECTID": 209587,
@@ -27336,7 +27428,8 @@
         "ML5": 4.3,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Puerto Rico"
   },
   {
     "OBJECTID": 209588,
@@ -27388,7 +27481,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "South Carolina"
   },
   {
     "OBJECTID": 209589,
@@ -27440,7 +27534,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Kentucky, Tennessee"
   },
   {
     "OBJECTID": 209590,
@@ -27649,7 +27744,8 @@
         "ML5": 0.09,
         "NONE": 0.16
       }
-    }
+    },
+    "STATE": "Minnesota"
   },
   {
     "OBJECTID": 209591,
@@ -28066,7 +28162,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Michigan"
   },
   {
     "OBJECTID": 209592,
@@ -28431,7 +28528,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Missouri"
   },
   {
     "OBJECTID": 209593,
@@ -28796,7 +28894,8 @@
         "ML5": 0.56,
         "NONE": 0.41
       }
-    }
+    },
+    "STATE": "Michigan"
   },
   {
     "OBJECTID": 209594,
@@ -28953,7 +29052,8 @@
         "ML5": 0.63,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Illinois"
   },
   {
     "OBJECTID": 209595,
@@ -29266,7 +29366,8 @@
         "ML5": 1.21,
         "NONE": 5.44
       }
-    }
+    },
+    "STATE": "Minnesota"
   },
   {
     "OBJECTID": 209596,
@@ -29579,7 +29680,8 @@
         "ML5": 0.33,
         "NONE": 0.24
       }
-    }
+    },
+    "STATE": "Michigan"
   },
   {
     "OBJECTID": 209597,
@@ -29736,7 +29838,8 @@
         "ML5": 0,
         "NONE": 0.01
       }
-    }
+    },
+    "STATE": "Indiana"
   },
   {
     "OBJECTID": 209598,
@@ -30049,7 +30152,8 @@
         "ML5": 2.64,
         "NONE": 4.09
       }
-    }
+    },
+    "STATE": "Wisconsin"
   },
   {
     "OBJECTID": 209599,
@@ -30206,7 +30310,8 @@
         "ML5": 0.25,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Ohio"
   },
   {
     "OBJECTID": 209600,
@@ -30258,7 +30363,8 @@
         "ML5": 0,
         "NONE": 2
       }
-    }
+    },
+    "STATE": "Illinois"
   },
   {
     "OBJECTID": 209601,
@@ -30415,7 +30521,8 @@
         "ML5": 0.81,
         "NONE": 0.17
       }
-    }
+    },
+    "STATE": "Pennsylvania"
   },
   {
     "OBJECTID": 209602,
@@ -30676,7 +30783,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Vermont, New York"
   },
   {
     "OBJECTID": 209603,
@@ -31041,7 +31149,8 @@
         "ML5": 0.01,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "West Virginia"
   },
   {
     "OBJECTID": 209604,
@@ -31302,7 +31411,8 @@
         "ML5": 0.57,
         "NONE": 6.06
       }
-    }
+    },
+    "STATE": "New Hampshire, Maine"
   },
   {
     "OBJECTID": 209605,
@@ -31511,7 +31621,8 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Alaska"
   },
   {
     "OBJECTID": 209606,
@@ -32084,6 +32195,7 @@
         "ML5": 0,
         "NONE": 0
       }
-    }
+    },
+    "STATE": "Alaska"
   }
 ]

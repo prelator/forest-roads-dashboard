@@ -43,6 +43,7 @@ const DashboardPage = () => {
       id: forest.OBJECTID,
       forestName: forest.FORESTNAME,
       forestNameEncoded: encodeURIComponent(forest.FORESTNAME),
+      state: forest.STATE || '',
       mvumRoads: forest.MVUM_ROADS?.TOTAL_MILEAGE || 0,
       motorizedTrails: forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0,
       closedRoads: forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0,
@@ -55,7 +56,7 @@ const DashboardPage = () => {
     {
       field: 'forestName',
       headerName: 'Forest Name',
-      flex: 2,
+      flex: 1.5,
       minWidth: 200,
       renderCell: (params) => (
         <Link
@@ -68,6 +69,12 @@ const DashboardPage = () => {
           {params.value}
         </Link>
       ),
+    },
+    {
+      field: 'state',
+      headerName: 'State',
+      flex: 1,
+      minWidth: 120,
     },
     {
       field: 'mvumRoads',
@@ -228,7 +235,7 @@ const DashboardPage = () => {
           <Typography variant="h6" gutterBottom fontWeight="bold">
             All National Forests
           </Typography>
-          <Box sx={{ width: '100%', overflow: 'auto' }}>
+          <Box sx={{ width: '100%', height: 700, overflow: 'auto' }}>
             <DataGrid
               rows={rows}
               columns={columns}
@@ -236,12 +243,16 @@ const DashboardPage = () => {
                 sorting: {
                   sortModel: [{ field: 'forestName', sort: 'asc' }],
                 },
+                pagination: {
+                  paginationModel: { pageSize: 50, page: 0 },
+                },
               }}
-              autoHeight
-              hideFooter
+              pageSizeOptions={[50]}
               disableRowSelectionOnClick
+              disableVirtualization={false}
               rowHeight={60}
               sx={{
+                height: '100%',
                 '& .MuiDataGrid-cell': {
                   display: 'flex',
                   alignItems: 'center',

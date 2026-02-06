@@ -67,6 +67,7 @@ export interface NationalForest {
   FORESTORGCODE: number;
   FORESTNAME: string;
   GIS_ACRES: number;
+  STATE?: string;
   RANGER_DISTRICTS: RangerDistrict[];
   MVUM_ROADS: MvumRoads;
   MVUM_TRAILS: MvumTrails;
