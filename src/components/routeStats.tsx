@@ -1,4 +1,5 @@
-import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
+import { Box, Card, CardContent, Grid, Tooltip, Typography } from '@mui/material';
+import InfoIcon from '@mui/icons-material/Info';
 import { PieChart } from '@mui/x-charts/PieChart';
 import type { RouteStats } from '../types/forest.types';
 
@@ -42,7 +43,7 @@ const trailTypeColorMap: Record<string, string> = {
   'Full Size': '#9C27B0', // Purple
   'ATV': '#E91E63', // Pink
   'Motorcycle': '#00BCD4', // Cyan
-  'UTV': '#3F51B5', // Indigo
+  'UTV or other special designation': '#3F51B5', // Indigo
   'Other': '#795548', // Brown
 };
 
@@ -89,7 +90,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
     { type: 'Full Size', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0 },
     { type: 'ATV', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.ATV || 0 },
     { type: 'Motorcycle', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.MOTORCYCLE || 0 },
-    { type: 'UTV', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.SPECIAL || 0 },
+    { type: 'UTV or other special designation', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.SPECIAL || 0 },
     { type: 'Other', mileage: stats.MVUM_TRAILS?.TRAIL_TYPE?.OTHER || 0 },
   ];
 
@@ -267,7 +268,13 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                 <tbody>
                   {trailTypeData.map((item) => (
                     <tr key={item.type}>
-                      <td>{item.type}</td>
+                      {item.type === "UTV or other special designation" ? (
+                        <Tooltip title={`Most forests use 'special' to designate trails for UTVs greater than 50" but less than 80" in width. Others use it for full size trails > 80".`} arrow>
+                          <td>{item.type} <InfoIcon fontSize="small" sx={{ verticalAlign: 'middle', ml: 0.5 }} /></td>
+                        </Tooltip>
+                      ) : (
+                        <td>{item.type}</td>
+                      )}
                       <td>{formatMileage(item.mileage)}</td>
                     </tr>
                   ))}
