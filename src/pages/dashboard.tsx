@@ -145,9 +145,9 @@ const DashboardPage = () => {
     },
     {
       field: 'totalMileage',
-      headerName: 'Total Public Motorized Mileage',
+      headerName: 'Public Motorized Mileage',
       flex: 1.5,
-      minWidth: isSmallScreen ? 80 : 220,
+      minWidth: isSmallScreen ? 110 : 220,
       sortable: true,
       renderCell: (params) => (
         <Box sx={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', gap: 1 }}>
@@ -305,6 +305,7 @@ const DashboardPage = () => {
               disableRowSelectionOnClick
               disableVirtualization={false}
               rowHeight={60}
+              columnHeaderHeight={80}
               sx={{
                 height: '100%',
                 '& .MuiDataGrid-cell': {

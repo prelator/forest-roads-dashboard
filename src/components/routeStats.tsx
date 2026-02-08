@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, Grid, Tooltip, Typography } from '@mui/material';
+import { Box, Card, CardContent, Grid, Tooltip, Typography, useMediaQuery, useTheme } from '@mui/material';
 import InfoIcon from '@mui/icons-material/Info';
 import { PieChart } from '@mui/x-charts/PieChart';
 import type { RouteStats } from '../types/forest.types';
@@ -70,6 +70,9 @@ const createPieData = (items: Array<{ level?: string; type?: string; mileage: nu
 };
 
 const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+
   // Calculate maintenance level data for MVUM roads
   const mvumRoadMaintenanceLevels = [
     { level: 'ML1', mileage: stats.MVUM_ROADS?.MAINTENANCE_LEVELS?.ML1 || 0 },
@@ -124,7 +127,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
       <Grid container spacing={3}>
         {/* MVUM Roads */}
         <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
-          <Card sx={{ height: CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
+          <Card sx={{ height: isMobile ? 'auto' : CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
             <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
                 MVUM Roads
@@ -175,7 +178,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
               </StatsTable>
 
               {mvumRoadPieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto' }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto', px: isMobile ? 2 : 0 }}>
                   <PieChart
                     series={[
                       {
@@ -183,8 +186,16 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                         highlightScope: { fade: 'global', highlight: 'item' },
                       },
                     ]}
-                    width={300}
-                    height={200}
+                    width={isMobile ? 350 : 300}
+                    height={isMobile ? 300 : 200}
+                    slotProps={{
+                      legend: isMobile ? {
+                        direction: 'row',
+                        position: { vertical: 'bottom', horizontal: 'middle' },
+                        padding: 0,
+                        itemGap: 10,
+                      } as any : undefined,
+                    }}
                   />
                 </Box>
               )}
@@ -194,7 +205,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
 
         {/* Closed Roads */}
         <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
-          <Card sx={{ height: CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
+          <Card sx={{ height: isMobile ? 'auto' : CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
             <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
                 Closed Roads
@@ -234,7 +245,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
               </StatsTable>
 
               {closedRoadPieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto' }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto', px: isMobile ? 2 : 0 }}>
                   <PieChart
                     series={[
                       {
@@ -242,8 +253,16 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                         highlightScope: { fade: 'global', highlight: 'item' },
                       },
                     ]}
-                    width={300}
-                    height={200}
+                    width={isMobile ? 350 : 300}
+                    height={isMobile ? 300 : 200}
+                    slotProps={{
+                      legend: isMobile ? {
+                        direction: 'row',
+                        position: { vertical: 'bottom', horizontal: 'middle' },
+                        padding: 0,
+                        itemGap: 10,
+                      } as any : undefined,
+                    }}
                   />
                 </Box>
               )}
@@ -253,7 +272,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
 
         {/* Motorized Trails */}
         <Grid size={{ xs: 12, md: 12, lg: 6, xl: 4 }}>
-          <Card sx={{ height: CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
+          <Card sx={{ height: isMobile ? 'auto' : CARD_MIN_HEIGHT, display: 'flex', flexDirection: 'column' }}>
             <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
               <Typography variant="h6" gutterBottom fontWeight="bold" color="primary">
                 Motorized Trails
@@ -296,7 +315,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
               </StatsTable>
 
               {trailTypePieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto' }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto', px: isMobile ? 2 : 0 }}>
                   <PieChart
                     series={[
                       {
@@ -304,8 +323,16 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                         highlightScope: { fade: 'global', highlight: 'item' },
                       },
                     ]}
-                    width={300}
-                    height={200}
+                    width={isMobile ? 350 : 300}
+                    height={isMobile ? 300 : 200}
+                    slotProps={{
+                      legend: isMobile ? {
+                        direction: 'row',
+                        position: { vertical: 'bottom', horizontal: 'middle' },
+                        padding: 0,
+                        itemGap: 10,
+                      } as any : undefined,
+                    }}
                   />
                 </Box>
               )}
