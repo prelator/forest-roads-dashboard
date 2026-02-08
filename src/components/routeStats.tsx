@@ -138,6 +138,20 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                   <strong>Seasonal Restrictions:</strong>{' '}
                   {formatMileage(stats.MVUM_ROADS?.TOTAL_SEASONAL_MILEAGE || 0)} miles
                 </Typography>
+                <Typography variant="body1">
+                  <strong>Roads Open to All Vehicles:</strong>{' '}
+                  {(stats.MVUM_ROADS?.ALL_VEHICLES_MILEAGE || 0) === 0 && 
+                   (stats.MVUM_ROADS?.HIGHWAY_VEHICLES_ONLY_MILEAGE || 0) === 0
+                    ? 'Not available'
+                    : `${formatMileage(stats.MVUM_ROADS?.ALL_VEHICLES_MILEAGE || 0)} miles`}
+                </Typography>
+                <Typography variant="body1">
+                  <strong>Roads Open to Highway Vehicles Only:</strong>{' '}
+                  {(stats.MVUM_ROADS?.ALL_VEHICLES_MILEAGE || 0) === 0 && 
+                   (stats.MVUM_ROADS?.HIGHWAY_VEHICLES_ONLY_MILEAGE || 0) === 0
+                    ? 'Not available'
+                    : `${formatMileage(stats.MVUM_ROADS?.HIGHWAY_VEHICLES_ONLY_MILEAGE || 0)} miles`}
+                </Typography>
               </Box>
 
               <Typography variant="subtitle2" gutterBottom fontWeight="bold">

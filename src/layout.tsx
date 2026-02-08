@@ -2,7 +2,6 @@ import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import MapIcon from '@mui/icons-material/Map';
 import { 
   Outlet,
   Link as RouterLink,
@@ -27,9 +26,8 @@ useMediaQuery,
 const drawerWidth = 240;
 
 const navigationItems = [
-{ text: 'Home', icon: <HomeIcon />, path: '/' },
-{ text: 'Dashboard', icon: <DashboardIcon />, path: '/dashboard' },
-{ text: 'Map', icon: <MapIcon />, path: '/map' },
+  { text: 'Home', icon: <HomeIcon />, path: '/' },
+  { text: 'Dashboard', icon: <DashboardIcon />, path: '/dashboard' },
 ];
 
 const Layout = () => {
@@ -77,6 +75,7 @@ const Layout = () => {
               <MenuIcon />
             </IconButton>
           )}
+          <img src="/fs-logo.svg" alt="FS Logo" style={{ width: 32, height: 32, marginRight: 8 }} />
           <Typography variant="h6" noWrap component="div">
             Forest Roads Dashboard
           </Typography>

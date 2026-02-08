@@ -13,10 +13,11 @@ const HomePage = () => {
           justifyContent: 'center',
           minHeight: '80vh',
           textAlign: 'center',
-          gap: 4,
+          gap: 2,
           mb: -5,
         }}
       >
+        <img src="/fs-logo.svg" alt="Forest Service Logo" style={{ width: '160px' }} />
         <Box>
           <Typography variant="h2" component="h1" gutterBottom fontWeight="bold">
             Welcome to the Forest Roads Dashboard
@@ -72,6 +73,9 @@ const HomePage = () => {
         </Typography>
         <Typography variant="body1" color="text.primary" component="p">
           This dashboard serves as a tool to showcase the potential for increased recreational access and to support data-driven advocacy efforts. It compares the mileage of open roads and motorized trails to the mileage of closed roads across individual forests and ranger districts, highlighting closed high clearance roads that could be converted to motorized trails. This demonstrates the potential for expanding access and enhancing recreational opportunities on National Forest lands.
+        </Typography>
+         <Typography variant="body1" color="text.primary" component="p">
+          This website is not affiliated with the US Forest Service. Use of the Forest Service logo is solely referential for the purpose of communicating the focus of this project on National Forest lands and is not intended to imply endorsement or affiliation with the US Forest Service.
         </Typography>
       </Stack>
       <Stack spacing={2} mt={2}>

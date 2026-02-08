@@ -32,7 +32,6 @@ const router = createBrowserRouter([
       {path: "/dashboard", Component: DashboardPage},
       {path: "/dashboard/:forestId", Component: ForestPage},
       {path: "/dashboard/:forestId/:districtId", Component: DistrictPage},
-      {path: "/map", Component: () => <h1>Map</h1>},
     ]
   },
 ]);

@@ -20,6 +20,8 @@ export interface MvumRoads {
   TOTAL_MILEAGE: number;
   TOTAL_SEASONAL_MILEAGE: number;
   MAINTENANCE_LEVELS: MaintenanceLevels;
+  ALL_VEHICLES_MILEAGE: number;
+  HIGHWAY_VEHICLES_ONLY_MILEAGE: number;
 }
 
 export interface TrailType {

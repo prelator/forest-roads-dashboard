@@ -32,7 +32,9 @@
             "ML4": 27.65,
             "ML5": 0.46,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 108,
@@ -84,7 +86,9 @@
             "ML4": 29.36,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 117,
@@ -136,7 +140,9 @@
             "ML4": 33.51,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 174,
@@ -188,7 +194,9 @@
             "ML4": 51.19,
             "ML5": 11.02,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 27,
@@ -240,7 +248,9 @@
             "ML4": 0.95,
             "ML5": 2.17,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 33,
@@ -282,7 +292,9 @@
         "ML4": 142.66,
         "ML5": 13.66,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 459,
@@ -346,7 +358,9 @@
             "ML4": 0.53,
             "ML5": 1.54,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 222.591
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 148,
@@ -398,7 +412,9 @@
             "ML4": 2.51,
             "ML5": 2.97,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 502.488
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 129,
@@ -450,7 +466,9 @@
             "ML4": 1.83,
             "ML5": 1.71,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 338.369
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 162,
@@ -502,7 +520,9 @@
             "ML4": 23.85,
             "ML5": 0.53,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 91.963,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 346.575
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 377,
@@ -544,7 +564,9 @@
         "ML4": 28.72,
         "ML5": 6.73,
         "NONE": 1.87
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 91.963,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1411.935
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 820,
@@ -608,7 +630,9 @@
             "ML4": 40.85,
             "ML5": 61.5,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1133.921,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 268,
@@ -660,7 +684,9 @@
             "ML4": 63.25,
             "ML5": 0.96,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1066.52,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.019
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 589,
@@ -712,7 +738,9 @@
             "ML4": 9.66,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 433.641,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 94,
@@ -764,7 +792,9 @@
             "ML4": 24.4,
             "ML5": 0.35,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 761.652,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 64,
@@ -816,7 +846,9 @@
             "ML4": 73.22,
             "ML5": 14.64,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 715.215,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 34,
@@ -858,7 +890,9 @@
         "ML4": 211.39,
         "ML5": 77.45,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 4110.949,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.019
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 1049,
@@ -922,7 +956,9 @@
             "ML4": 13.79,
             "ML5": 0.21,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.194,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 390.505
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 68,
@@ -974,7 +1010,9 @@
             "ML4": 43.91,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.21,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 96.518
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 24,
@@ -1026,7 +1064,9 @@
             "ML4": 67.49,
             "ML5": 15.65,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 225.664
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 38,
@@ -1078,7 +1118,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 217.515
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 20,
@@ -1130,7 +1172,9 @@
             "ML4": 49.45,
             "ML5": 12.84,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.3,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 490.727
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 58,
@@ -1172,7 +1216,9 @@
         "ML4": 174.64,
         "ML5": 28.71,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0.704,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1420.929
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 208,
@@ -1236,7 +1282,9 @@
             "ML4": 0.26,
             "ML5": 0.15,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 15,
@@ -1288,7 +1336,9 @@
             "ML4": 19.97,
             "ML5": 1.51,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 129,
@@ -1340,7 +1390,9 @@
             "ML4": 4.81,
             "ML5": 17.76,
             "NONE": 1.55
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 279,
@@ -1392,7 +1444,9 @@
             "ML4": 20.19,
             "ML5": 5.7,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 75,
@@ -1444,7 +1498,9 @@
             "ML4": 0.89,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.061
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 84,
@@ -1496,7 +1552,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 87,
@@ -1548,7 +1606,9 @@
             "ML4": 0.18,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 615,
@@ -1590,7 +1650,9 @@
         "ML4": 0.89,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.061
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 1284,
@@ -1654,7 +1716,9 @@
             "ML4": 4.55,
             "ML5": 34.09,
             "NONE": 0.06
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 469.425
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 17,
@@ -1706,7 +1770,9 @@
             "ML4": 8.8,
             "ML5": 0,
             "NONE": 0.38
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 700.287
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -1758,7 +1824,9 @@
             "ML4": 28.92,
             "ML5": 15.53,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 505.239
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -1810,7 +1878,9 @@
             "ML4": 75.86,
             "ML5": 19.5,
             "NONE": 0.18
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.18,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1395.648
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -1862,7 +1932,9 @@
             "ML4": 1.52,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.05,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 397.576
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 27,
@@ -1904,7 +1976,9 @@
         "ML4": 119.65,
         "ML5": 69.12,
         "NONE": 0.62
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0.23,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3468.175
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 88,
@@ -1968,7 +2042,9 @@
             "ML4": 28.95,
             "ML5": 7.55,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 100.267
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 122,
@@ -2020,7 +2096,9 @@
             "ML4": 5.08,
             "ML5": 5.73,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 44.455,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 362.592
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 739,
@@ -2072,7 +2150,9 @@
             "ML4": 61.73,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 127.688,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 253.297
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 341,
@@ -2124,7 +2204,9 @@
             "ML4": 60.71,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 130.997,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 344.375
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 92,
@@ -2176,7 +2258,9 @@
             "ML4": 33.9,
             "ML5": 1.34,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 44.591,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 334.338
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 108,
@@ -2228,7 +2312,9 @@
             "ML4": 12.43,
             "ML5": 3.31,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 275.435
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 59,
@@ -2270,7 +2356,9 @@
         "ML4": 202.8,
         "ML5": 17.93,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 347.731,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1670.304
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 1462,
@@ -2334,7 +2422,9 @@
             "ML4": 22.14,
             "ML5": 2.88,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 544.85
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 74,
@@ -2386,7 +2476,9 @@
             "ML4": 24.42,
             "ML5": 0.19,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 636.162
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 15,
@@ -2438,7 +2530,9 @@
             "ML4": 6.03,
             "ML5": 0.29,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 885.034
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 172,
@@ -2490,7 +2584,9 @@
             "ML4": 3.72,
             "ML5": 7.62,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 336.56
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 20,
@@ -2542,7 +2638,9 @@
             "ML4": 50.96,
             "ML5": 8.9,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 912.786
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 108,
@@ -2584,7 +2682,9 @@
         "ML4": 107.26,
         "ML5": 19.88,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3315.393
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 389,
@@ -2648,7 +2748,9 @@
             "ML4": 0,
             "ML5": 31.91,
             "NONE": 0.03
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 78,
@@ -2700,7 +2802,9 @@
             "ML4": 0,
             "ML5": 0.68,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 64,
@@ -2752,7 +2856,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 16.416,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 21,
@@ -2804,7 +2910,9 @@
             "ML4": 6.3,
             "ML5": 3.25,
             "NONE": 0.16
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 489.815,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 286,
@@ -2856,7 +2964,9 @@
             "ML4": 80.2,
             "ML5": 39.91,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 489.477,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 656,
@@ -2908,7 +3018,9 @@
             "ML4": 107.23,
             "ML5": 35.95,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1122.385,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.35
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 543,
@@ -2950,7 +3062,9 @@
         "ML4": 193.73,
         "ML5": 79.11,
         "NONE": 0.16
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2118.093,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.35
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 1649,
@@ -3014,7 +3128,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 101.972
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -3066,7 +3182,9 @@
             "ML4": 15.37,
             "ML5": 0.18,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 380.205
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -3118,7 +3236,9 @@
             "ML4": 9.43,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -3170,7 +3290,9 @@
             "ML4": 34.41,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -3212,7 +3334,9 @@
         "ML4": 15.37,
         "ML5": 0.18,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 482.177
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -3276,7 +3400,9 @@
             "ML4": 0,
             "ML5": 0.81,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 173.973,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -3328,7 +3454,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 193.714,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 29,
@@ -3380,7 +3508,9 @@
             "ML4": 0.25,
             "ML5": 0.82,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 313.652,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 41,
@@ -3422,7 +3552,9 @@
         "ML4": 6.05,
         "ML5": 1.76,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 929.07,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 93,
@@ -3486,7 +3618,9 @@
             "ML4": 40.03,
             "ML5": 0.07,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 123.195,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 779.004
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 227,
@@ -3538,7 +3672,9 @@
             "ML4": 32.14,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 111.72,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 658.95
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 135,
@@ -3590,7 +3726,9 @@
             "ML4": 22.37,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 248.75,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 17.26
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 30,
@@ -3642,7 +3780,9 @@
             "ML4": 38.08,
             "ML5": 1.01,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 23.18,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1102.307
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 52,
@@ -3684,7 +3824,9 @@
         "ML4": 132.62,
         "ML5": 1.08,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 506.845,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2557.521
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 444,
@@ -3748,7 +3890,9 @@
             "ML4": 83.53,
             "ML5": 4.68,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 370.942,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 47.043
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 83,
@@ -3800,7 +3944,9 @@
             "ML4": 45.55,
             "ML5": 1.06,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 258.119,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 11.207
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 24,
@@ -3852,7 +3998,9 @@
             "ML4": 77.53,
             "ML5": 2.96,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 329.304,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 4.63
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 67,
@@ -3904,7 +4052,9 @@
             "ML4": 22.96,
             "ML5": 4.06,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1219.623,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 15.505
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 153,
@@ -3956,7 +4106,9 @@
             "ML4": 35.99,
             "ML5": 0.34,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 194.397,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.139
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 34,
@@ -3998,7 +4150,9 @@
         "ML4": 265.56,
         "ML5": 13.1,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2372.386,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 79.524
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 361,
@@ -4062,7 +4216,9 @@
             "ML4": 32.53,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 158.97,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 11.77
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 5,
@@ -4114,7 +4270,9 @@
             "ML4": 120.14,
             "ML5": 0.49,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1036.006,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 18,
@@ -4166,7 +4324,9 @@
             "ML4": 78,
             "ML5": 1.52,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 329.22,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 7.54
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 40,
@@ -4218,7 +4378,9 @@
             "ML4": 92.09,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 418.717,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 42,
@@ -4270,7 +4432,9 @@
             "ML4": 128.28,
             "ML5": 1.13,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 740.001,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -4322,7 +4486,9 @@
             "ML4": 0.6,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1098.241,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 47.66
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 92,
@@ -4364,7 +4530,9 @@
         "ML4": 451.64,
         "ML5": 3.14,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 3781.155,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.97
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 201,
@@ -4428,7 +4596,9 @@
             "ML4": 9.02,
             "ML5": 0,
             "NONE": 28.89
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 121.177,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 118.148
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -4480,7 +4650,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 8.14
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 126.381,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 35.503
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 9,
@@ -4532,7 +4704,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 10.3
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 93.659,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -4584,7 +4758,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 8.08
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 103.778,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 82.396
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -4636,7 +4812,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -4678,7 +4856,9 @@
         "ML4": 9.02,
         "ML5": 0,
         "NONE": 55.4
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 524.919,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 237.991
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 90,
@@ -4742,7 +4922,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 215.013,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 91.882
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 20,
@@ -4794,7 +4976,9 @@
             "ML4": 0.72,
             "ML5": 0.67,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 650.672,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 74.025
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 54,
@@ -4846,7 +5030,9 @@
             "ML4": 0,
             "ML5": 0.3,
             "NONE": 1.16
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 517.972,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 12.855
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 7,
@@ -4888,7 +5074,9 @@
         "ML4": 0.72,
         "ML5": 0.97,
         "NONE": 1.16
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1384.578,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 178.762
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 81,
@@ -4952,7 +5140,9 @@
             "ML4": 2.92,
             "ML5": 4.62,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 189.636,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 31.901
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 10,
@@ -5004,7 +5194,9 @@
             "ML4": 27.93,
             "ML5": 0,
             "NONE": 33.23
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1201.487,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 497.145
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 6,
@@ -5056,7 +5248,9 @@
             "ML4": 3.08,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 171.85
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -5108,7 +5302,9 @@
             "ML4": 8.22,
             "ML5": 0,
             "NONE": 0.25
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 194.778,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 18.353
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -5160,7 +5356,9 @@
             "ML4": 13.35,
             "ML5": 5.04,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 324.024,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 46.93
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 30,
@@ -5202,7 +5400,9 @@
         "ML4": 55.5,
         "ML5": 9.66,
         "NONE": 33.8
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1910.245,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 766.179
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 52,
@@ -5266,7 +5466,9 @@
             "ML4": 8.78,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 147.125,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -5318,7 +5520,9 @@
             "ML4": 1.91,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 374.124,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2.857
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 22,
@@ -5370,7 +5574,9 @@
             "ML4": 4.08,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 229.498,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 55.731
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 43,
@@ -5422,7 +5628,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 871.58,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -5474,7 +5682,9 @@
             "ML4": 0.47,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 374.006,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -5526,7 +5736,9 @@
             "ML4": 7.04,
             "ML5": 26.17,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 175.668,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 106.152
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 61,
@@ -5578,7 +5790,9 @@
             "ML4": 0,
             "ML5": 0.18,
             "NONE": 4.87
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 395.715,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 94.015
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 17,
@@ -5630,7 +5844,9 @@
             "ML4": 0.32,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 61.376,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 60.294
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 59,
@@ -5672,7 +5888,9 @@
         "ML4": 22.61,
         "ML5": 26.35,
         "NONE": 4.87
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2629.091,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 319.049
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 208,
@@ -5736,7 +5954,9 @@
             "ML4": 42.47,
             "ML5": 18.93,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 705.073,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 26.755
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 60,
@@ -5788,7 +6008,9 @@
             "ML4": 14.58,
             "ML5": 0.37,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 379.914,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3.396
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 42,
@@ -5840,7 +6062,9 @@
             "ML4": 24.97,
             "ML5": 0.98,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 279.27,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 32.54
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 61,
@@ -5882,7 +6106,9 @@
         "ML4": 82.01,
         "ML5": 20.28,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1364.257,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 62.691
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 163,
@@ -5946,7 +6172,9 @@
             "ML4": 1.97,
             "ML5": 0.49,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 180.945
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -5998,7 +6226,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 106.68
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6050,7 +6280,9 @@
             "ML4": 0.8,
             "ML5": 0.2,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 227.58
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 9,
@@ -6102,7 +6334,9 @@
             "ML4": 2.84,
             "ML5": 1.64,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 7.37,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 62.656
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6154,7 +6388,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 305.219
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 6,
@@ -6196,7 +6432,9 @@
         "ML4": 5.61,
         "ML5": 2.33,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 7.37,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 883.08
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 15,
@@ -6260,7 +6498,9 @@
             "ML4": 0.24,
             "ML5": 3.09,
             "NONE": 1.14
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 37.109,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 13.737
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6312,7 +6552,9 @@
             "ML4": 19.04,
             "ML5": 0,
             "NONE": 17.43
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 185.439,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 33.396
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -6364,7 +6606,9 @@
             "ML4": 2.05,
             "ML5": 5.7,
             "NONE": 25.49
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 118.66,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 86.687
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -6416,7 +6660,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 63.14
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 209.833,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 54.55
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6468,7 +6714,9 @@
             "ML4": 0.2,
             "ML5": 3.13,
             "NONE": 19.03
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 186.937,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 68.867
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6520,7 +6768,9 @@
             "ML4": 12.88,
             "ML5": 0,
             "NONE": 33.36
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 257.371,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 48.05
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -6572,7 +6822,9 @@
             "ML4": 7.73,
             "ML5": 4.71,
             "NONE": 12.05
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 114.154,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 58.63
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6614,7 +6866,9 @@
         "ML4": 42.14,
         "ML5": 16.64,
         "NONE": 176.45
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1124.012,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 366.037
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 3,
@@ -6678,7 +6932,9 @@
             "ML4": 2.22,
             "ML5": 12.72,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6730,7 +6986,9 @@
             "ML4": 22.39,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6782,7 +7040,9 @@
             "ML4": 0.2,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6834,7 +7094,9 @@
             "ML4": 26.69,
             "ML5": 3.77,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6886,7 +7148,9 @@
             "ML4": 5.9,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -6928,7 +7192,9 @@
         "ML4": 57.39,
         "ML5": 16.49,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -6992,7 +7258,9 @@
             "ML4": 4.8,
             "ML5": 2.15,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 262.675,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 5.67
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7044,7 +7312,9 @@
             "ML4": 1.7,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 458.133,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7096,7 +7366,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 139.094,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7148,7 +7420,9 @@
             "ML4": 11.36,
             "ML5": 0.86,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 268.675,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.66
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 16,
@@ -7200,7 +7474,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 473.846,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7252,7 +7528,9 @@
             "ML4": 32.06,
             "ML5": 1.78,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 191.3,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 7,
@@ -7294,7 +7572,9 @@
         "ML4": 49.92,
         "ML5": 4.79,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2053.879,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.526
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 23,
@@ -7358,7 +7638,9 @@
             "ML4": 8.25,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 8.962,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 21.913
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 44,
@@ -7410,7 +7692,9 @@
             "ML4": 3.28,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.272,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 31.139
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 15,
@@ -7462,7 +7746,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 213.572,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7514,7 +7800,9 @@
             "ML4": 0.38,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 547.174,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 4.487
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7566,7 +7854,9 @@
             "ML4": 0.24,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 870.526,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7618,7 +7908,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 207.784,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 8,
@@ -7660,7 +7952,9 @@
         "ML4": 12.15,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1848.638,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 57.539
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 120,
@@ -7724,7 +8018,9 @@
             "ML4": 8.39,
             "ML5": 2.43,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 425.943,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 91.849
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -7776,7 +8072,9 @@
             "ML4": 9.7,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 909.209,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 219.305
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -7828,7 +8126,9 @@
             "ML4": 22.24,
             "ML5": 0.31,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1228.302,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 296.109
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 62,
@@ -7870,7 +8170,9 @@
         "ML4": 40.33,
         "ML5": 2.74,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2563.453,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 607.263
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 72,
@@ -7934,7 +8236,9 @@
             "ML4": 5.97,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 130.807,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 55.745
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -7986,7 +8290,9 @@
             "ML4": 4.01,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 275.059,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 85.479
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -8038,7 +8344,9 @@
             "ML4": 3.2,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 464.185,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 71.358
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 16,
@@ -8090,7 +8398,9 @@
             "ML4": 1.63,
             "ML5": 3.93,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 484.171,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 86.003
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -8142,7 +8452,9 @@
             "ML4": 0.77,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 208.183,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 11.144
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 10,
@@ -8184,7 +8496,9 @@
         "ML4": 15.58,
         "ML5": 3.93,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1563.136,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 309.729
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 42,
@@ -8248,7 +8562,9 @@
             "ML4": 0.07,
             "ML5": 0.15,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 502.469,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.148
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -8300,7 +8616,9 @@
             "ML4": 50.02,
             "ML5": 0.21,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 894.757,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 5.099
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -8352,7 +8670,9 @@
             "ML4": 0,
             "ML5": 0.83,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 380.573,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.827
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 12,
@@ -8404,7 +8724,9 @@
             "ML4": 0.51,
             "ML5": 2.42,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 186.986,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2.819
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -8456,7 +8778,9 @@
             "ML4": 73.7,
             "ML5": 18.25,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1010.06,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 18.343
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 9,
@@ -8508,7 +8832,9 @@
             "ML4": 0.57,
             "ML5": 0.42,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 321.262,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.253
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 36,
@@ -8550,7 +8876,9 @@
         "ML4": 124.87,
         "ML5": 22.27,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 3296.107,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 28.489
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 88,
@@ -8614,7 +8942,9 @@
             "ML4": 12.32,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1128.485,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 208.912
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 34,
@@ -8666,7 +8996,9 @@
             "ML4": 5.07,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1248.271,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 220.415
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 52,
@@ -8718,7 +9050,9 @@
             "ML4": 4.3,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 503.196,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 74.456
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 8,
@@ -8760,7 +9094,9 @@
         "ML4": 21.68,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2879.988,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 503.783
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 95,
@@ -8824,7 +9160,9 @@
             "ML4": 1.99,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 383.509,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 4.108
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -8876,7 +9214,9 @@
             "ML4": 12.63,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 446.299,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 10.296
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 65,
@@ -8928,7 +9268,9 @@
             "ML4": 3.6,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 405.755,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3.6
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -8970,7 +9312,9 @@
         "ML4": 18.22,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1235.563,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 18.014
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 70,
@@ -9034,7 +9378,9 @@
             "ML4": 0,
             "ML5": 0.35,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 931.35,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.708
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 53,
@@ -9086,7 +9432,9 @@
             "ML4": 1.51,
             "ML5": 10.64,
             "NONE": 16.48
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 666.687,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 58.905
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 79,
@@ -9138,7 +9486,9 @@
             "ML4": 1.32,
             "ML5": 4.13,
             "NONE": 0.3
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 460.397,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 9.161
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 12,
@@ -9180,7 +9530,9 @@
         "ML4": 2.83,
         "ML5": 15.12,
         "NONE": 20.87
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2065.404,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 74.891
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 146,
@@ -9244,7 +9596,9 @@
             "ML4": 1.34,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 570.968,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2.751
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 18,
@@ -9296,7 +9650,9 @@
             "ML4": 2.6,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 420.326,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2.076
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 14,
@@ -9348,7 +9704,9 @@
             "ML4": 8.9,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 246.151,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 51.882
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 6,
@@ -9400,7 +9758,9 @@
             "ML4": 9.38,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 473.891,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 33.204
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -9452,7 +9812,9 @@
             "ML4": 2.16,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 309.449,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 5.624
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 13,
@@ -9494,7 +9856,9 @@
         "ML4": 24.38,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2032.017,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 95.538
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 54,
@@ -9558,7 +9922,9 @@
             "ML4": 16,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -9610,7 +9976,9 @@
             "ML4": 3.69,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -9662,7 +10030,9 @@
             "ML4": 6.36,
             "ML5": 1.96,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -9714,7 +10084,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.397
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -9766,7 +10138,9 @@
             "ML4": 13.59,
             "ML5": 0.82,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -9818,7 +10192,9 @@
             "ML4": 51.98,
             "ML5": 10.12,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -9860,7 +10236,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.397
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -9924,7 +10302,9 @@
             "ML4": 40.9,
             "ML5": 49.07,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 86.761,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 79.622
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 18,
@@ -9976,7 +10356,9 @@
             "ML4": 64.65,
             "ML5": 10.9,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 109.386,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 64.867
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 84,
@@ -10028,7 +10410,9 @@
             "ML4": 15.51,
             "ML5": 8.02,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 52.747,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 30.108
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 28,
@@ -10080,7 +10464,9 @@
             "ML4": 15.9,
             "ML5": 15.99,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 95.425,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 31.227
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 39,
@@ -10122,7 +10508,9 @@
         "ML4": 136.96,
         "ML5": 83.98,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 344.32,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 205.825
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 169,
@@ -10186,7 +10574,9 @@
             "ML4": 0.24,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 443.615,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.33
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 116,
@@ -10238,7 +10628,9 @@
             "ML4": 0.15,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 846.294,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.39
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 112,
@@ -10290,7 +10682,9 @@
             "ML4": 9.66,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 568.145,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 7.5
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 57,
@@ -10342,7 +10736,9 @@
             "ML4": 6.73,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 368.795,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.01
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 28,
@@ -10394,7 +10790,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 522.164,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 5.04
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 59,
@@ -10436,7 +10834,9 @@
         "ML4": 16.78,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2754.731,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 13.27
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 372,
@@ -10500,7 +10900,9 @@
             "ML4": 21.25,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 231.306,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -10552,7 +10954,9 @@
             "ML4": 76.37,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 251.878,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 10,
@@ -10604,7 +11008,9 @@
             "ML4": 49.43,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 267.967,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 33,
@@ -10656,7 +11062,9 @@
             "ML4": 16.73,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 132.254,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 14.078
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 35,
@@ -10708,7 +11116,9 @@
             "ML4": 0.44,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 99.022,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.321
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -10760,7 +11170,9 @@
             "ML4": 47.23,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 87.277,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 20.605
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -10802,7 +11214,9 @@
         "ML4": 211.44,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1069.984,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 35.004
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 85,
@@ -10866,7 +11280,9 @@
             "ML4": 20.96,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 452.221,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 16.528
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 5,
@@ -10918,7 +11334,9 @@
             "ML4": 18.93,
             "ML5": 0.21,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 641.892,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 47.181
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 193,
@@ -10970,7 +11388,9 @@
             "ML4": 8.65,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 576.362,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.297
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 37,
@@ -11022,7 +11442,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 431.32,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.578
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 45,
@@ -11064,7 +11486,9 @@
         "ML4": 48.54,
         "ML5": 0.21,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2103.906,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.584
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 280,
@@ -11128,7 +11552,9 @@
             "ML4": 7.43,
             "ML5": 2.94,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 510.045,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.366
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 237,
@@ -11180,7 +11606,9 @@
             "ML4": 4.4,
             "ML5": 3.86,
             "NONE": 0.57
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 625.036,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 19.429
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 142,
@@ -11232,7 +11660,9 @@
             "ML4": 1.26,
             "ML5": 0.6,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 336.047,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 51.758
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 112,
@@ -11284,7 +11714,9 @@
             "ML4": 0.44,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 605.179,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.22
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 302,
@@ -11326,7 +11758,9 @@
         "ML4": 13.53,
         "ML5": 7.4,
         "NONE": 0.57
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2076.526,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 78.773
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 793,
@@ -11390,7 +11824,9 @@
             "ML4": 0.69,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 441.541,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 38,
@@ -11442,7 +11878,9 @@
             "ML4": 2,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 429.834,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 36,
@@ -11494,7 +11932,9 @@
             "ML4": 1.01,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 191.356,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 19,
@@ -11546,7 +11986,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 292.654,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 17,
@@ -11598,7 +12040,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 484.306,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 81,
@@ -11640,7 +12084,9 @@
         "ML4": 3.7,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1839.691,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 191,
@@ -11704,7 +12150,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 206.023,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 34,
@@ -11756,7 +12204,9 @@
             "ML4": 10.78,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 478.364,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 34,
@@ -11808,7 +12258,9 @@
             "ML4": 3.3,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 295.572,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.42
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 43,
@@ -11860,7 +12312,9 @@
             "ML4": 23.59,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 53.899,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 21.445
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 38,
@@ -11912,7 +12366,9 @@
             "ML4": 0.44,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 634.267,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 25,
@@ -11954,7 +12410,9 @@
         "ML4": 38.11,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1668.126,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 21.865
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 174,
@@ -12018,7 +12476,9 @@
             "ML4": 20.91,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 807.793,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 38,
@@ -12070,7 +12530,9 @@
             "ML4": 1.25,
             "ML5": 1.02,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 699.2,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 107,
@@ -12122,7 +12584,9 @@
             "ML4": 1.09,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 412.311,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 99,
@@ -12174,7 +12638,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 131.78,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 14,
@@ -12226,7 +12692,9 @@
             "ML4": 17.77,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 427.851,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.95
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 24,
@@ -12278,7 +12746,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 219.915,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 52,
@@ -12320,7 +12790,9 @@
         "ML4": 41.03,
         "ML5": 1.02,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2708.541,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.95
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 336,
@@ -12384,7 +12856,9 @@
             "ML4": 0.67,
             "ML5": 1.15,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 935.781,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.821
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 118,
@@ -12436,7 +12910,9 @@
             "ML4": 1.99,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 105.599,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.266
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 58,
@@ -12488,7 +12964,9 @@
             "ML4": 3.37,
             "ML5": 19.9,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 303.409,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 23.274
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 55,
@@ -12540,7 +13018,9 @@
             "ML4": 10.97,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 258.618,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.98
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 120,
@@ -12582,7 +13062,9 @@
         "ML4": 17,
         "ML5": 21.05,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1603.407,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 26.341
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 351,
@@ -12646,7 +13128,9 @@
             "ML4": 2.29,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 395.793,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 33,
@@ -12698,7 +13182,9 @@
             "ML4": 94.03,
             "ML5": 11.49,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 635.11,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 14.954
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 31,
@@ -12750,7 +13236,9 @@
             "ML4": 4.9,
             "ML5": 7.11,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 413.658,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 129,
@@ -12802,7 +13290,9 @@
             "ML4": 4.23,
             "ML5": 2.24,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 155.286,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 5.797
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 96,
@@ -12854,7 +13344,9 @@
             "ML4": 27.19,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 273.485,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 122,
@@ -12906,7 +13398,9 @@
             "ML4": 23.25,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 119.369,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 11.144
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 40,
@@ -12958,7 +13452,9 @@
             "ML4": 18.05,
             "ML5": 4.24,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 236.47,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 4.15
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 112,
@@ -13000,7 +13496,9 @@
         "ML4": 173.95,
         "ML5": 25.08,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2237.848,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 36.045
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 563,
@@ -13064,7 +13562,9 @@
             "ML4": 9.95,
             "ML5": 4.78,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 323.602,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 51.428
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 70,
@@ -13116,7 +13616,9 @@
             "ML4": 6.51,
             "ML5": 0.13,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 824.338,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 138.034
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 376,
@@ -13168,7 +13670,9 @@
             "ML4": 0.36,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 622.135,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.943
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 33,
@@ -13220,7 +13724,9 @@
             "ML4": 16.99,
             "ML5": 0.97,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 275.473,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 151,
@@ -13272,7 +13778,9 @@
             "ML4": 1.16,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 534.239,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2.553
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 674,
@@ -13324,7 +13832,9 @@
             "ML4": 1.39,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 647.49,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 14.87
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 179,
@@ -13376,7 +13886,9 @@
             "ML4": 25.32,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 440.963,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 24,
@@ -13418,7 +13930,9 @@
         "ML4": 66.56,
         "ML5": 19.46,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 4692.228,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 432.376
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 2452,
@@ -13482,7 +13996,9 @@
             "ML4": 5.91,
             "ML5": 10.8,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 60.118,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 28.383
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 18,
@@ -13534,7 +14050,9 @@
             "ML4": 11.45,
             "ML5": 3.46,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 49.053,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 33.047
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 38,
@@ -13586,7 +14104,9 @@
             "ML4": 50.48,
             "ML5": 32.55,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 386.595,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 268.204
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 49,
@@ -13638,7 +14158,9 @@
             "ML4": 17.74,
             "ML5": 1.92,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 336.683,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 68.396
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 28,
@@ -13690,7 +14212,9 @@
             "ML4": 2.15,
             "ML5": 4.09,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 106.738,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 14.467
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 17,
@@ -13742,7 +14266,9 @@
             "ML4": 5.21,
             "ML5": 10.82,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 206.047,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 22.942
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 25,
@@ -13794,7 +14320,9 @@
             "ML4": 42.71,
             "ML5": 56.63,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 292.287,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 177.773
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 50,
@@ -13836,7 +14364,9 @@
         "ML4": 135.82,
         "ML5": 120.26,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1437.52,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 613.372
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 225,
@@ -13900,7 +14430,9 @@
             "ML4": 28.85,
             "ML5": 0.14,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -13952,7 +14484,9 @@
             "ML4": 0.83,
             "ML5": 1.13,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -13994,7 +14528,9 @@
         "ML4": 42.84,
         "ML5": 5.95,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -14058,7 +14594,9 @@
             "ML4": 25.02,
             "ML5": 3.95,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.37,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 85.586
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -14110,7 +14648,9 @@
             "ML4": 10.85,
             "ML5": 4.9,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 9.31,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 56.98
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -14162,7 +14702,9 @@
             "ML4": 14.42,
             "ML5": 8.98,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 25.75,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 61.465
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 26,
@@ -14204,7 +14746,9 @@
         "ML4": 50.29,
         "ML5": 17.82,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 35.43,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 204.377
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 50,
@@ -14268,7 +14812,9 @@
             "ML4": 35.12,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 233.203,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 190.824
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -14320,7 +14866,9 @@
             "ML4": 28.49,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 205.1,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 151.659
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 66,
@@ -14372,7 +14920,9 @@
             "ML4": 12.9,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 192.076,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 107.748
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 13,
@@ -14424,7 +14974,9 @@
             "ML4": 26.8,
             "ML5": 23.11,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 367.422,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 270.949
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 34,
@@ -14466,7 +15018,9 @@
         "ML4": 103.3,
         "ML5": 23.11,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 997.919,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 721.199
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 136,
@@ -14530,7 +15084,9 @@
             "ML4": 6.88,
             "ML5": 2.12,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 828.417,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 21.139
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 48,
@@ -14582,7 +15138,9 @@
             "ML4": 16.58,
             "ML5": 13,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 304.985,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 42.843
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 34,
@@ -14634,7 +15192,9 @@
             "ML4": 10.1,
             "ML5": 1.99,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 493.817,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 40.102
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 161,
@@ -14686,7 +15246,9 @@
             "ML4": 3.71,
             "ML5": 1.55,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 166.246,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 10.707
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 72,
@@ -14728,7 +15290,9 @@
         "ML4": 37.28,
         "ML5": 18.66,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1828.571,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 114.792
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 323,
@@ -14792,7 +15356,9 @@
             "ML4": 3.37,
             "ML5": 2.36,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 762.892,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 130.016
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -14844,7 +15410,9 @@
             "ML4": 21.88,
             "ML5": 9.5,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 498.5,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 176.176
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -14896,7 +15464,9 @@
             "ML4": 0.22,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 408.99,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 61.61
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -14948,7 +15518,9 @@
             "ML4": 16.1,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 320.045,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 114.69
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 11,
@@ -15000,7 +15572,9 @@
             "ML4": 32.66,
             "ML5": 29.48,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 642.694,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 268.112
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -15052,7 +15626,9 @@
             "ML4": 24,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 194.8,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 43.05
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -15094,7 +15670,9 @@
         "ML4": 98.23,
         "ML5": 41.34,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2850.861,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 794.414
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 12,
@@ -15158,7 +15736,9 @@
             "ML4": 28.18,
             "ML5": 6.74,
             "NONE": 2
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 730.081,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 234.766
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 80,
@@ -15210,7 +15790,9 @@
             "ML4": 78.74,
             "ML5": 4.92,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 756.823,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 227.974
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 104,
@@ -15262,7 +15844,9 @@
             "ML4": 37.47,
             "ML5": 5.81,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 866.219,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 215.661
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 76,
@@ -15304,7 +15888,9 @@
         "ML4": 144.39,
         "ML5": 17.47,
         "NONE": 3.81
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2354.93,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 678.401
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 260,
@@ -15368,7 +15954,9 @@
             "ML4": 2.7,
             "ML5": 7.8,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 63.71
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -15420,7 +16008,9 @@
             "ML4": 20,
             "ML5": 12.9,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 45.16,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 101.005
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 31,
@@ -15472,7 +16062,9 @@
             "ML4": 26.8,
             "ML5": 25.8,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1.3,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 71.32
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -15524,7 +16116,9 @@
             "ML4": 19.2,
             "ML5": 6.6,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 37.4
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -15576,7 +16170,9 @@
             "ML4": 34.3,
             "ML5": 2.3,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 91.159,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 85.431
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 79,
@@ -15618,7 +16214,9 @@
         "ML4": 103,
         "ML5": 55.4,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 137.619,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 358.866
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 114,
@@ -15682,7 +16280,9 @@
             "ML4": 30.23,
             "ML5": 2.92,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 869.199,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 185.346
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 107,
@@ -15734,7 +16334,9 @@
             "ML4": 2.17,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 290.771,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 63.725
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 73,
@@ -15786,7 +16388,9 @@
             "ML4": 12.06,
             "ML5": 0.47,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 226.157,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 67.387
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 16,
@@ -15828,7 +16432,9 @@
         "ML4": 44.79,
         "ML5": 3.39,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1386.741,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 318.613
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 198,
@@ -15892,7 +16498,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.112,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -15944,7 +16552,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -15996,7 +16606,9 @@
             "ML4": 0.56,
             "ML5": 0.2,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -16048,7 +16660,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.124,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -16090,7 +16704,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2.526,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -16154,7 +16770,9 @@
             "ML4": 18.31,
             "ML5": 18,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -16206,7 +16824,9 @@
             "ML4": 6.35,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -16258,7 +16878,9 @@
             "ML4": 3.62,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3.62
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -16310,7 +16932,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.084,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -16352,7 +16976,9 @@
         "ML4": 3.62,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0.084,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3.62
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -16416,7 +17042,9 @@
             "ML4": 0,
             "ML5": 47.3,
             "NONE": 2.4
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 941.876,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 158.422
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 64,
@@ -16468,7 +17096,9 @@
             "ML4": 0,
             "ML5": 47.04,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1024.636,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 184.152
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 187,
@@ -16520,7 +17150,9 @@
             "ML4": 108.76,
             "ML5": 17.61,
             "NONE": 0.72
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1064.083,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 191.856
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 77,
@@ -16562,7 +17194,9 @@
         "ML4": 111.41,
         "ML5": 111.94,
         "NONE": 3.12
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 3074.883,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 541.22
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 328,
@@ -16626,7 +17260,9 @@
             "ML4": 9.54,
             "ML5": 12.78,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 108.011,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 293.914
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 11,
@@ -16678,7 +17314,9 @@
             "ML4": 7.54,
             "ML5": 11.6,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 19.97,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 233.812
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -16730,7 +17368,9 @@
             "ML4": 4.76,
             "ML5": 1.88,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 44.835,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 113.452
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -16772,7 +17412,9 @@
         "ML4": 21.84,
         "ML5": 26.26,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 172.816,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 648.988
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 25,
@@ -16836,7 +17478,9 @@
             "ML4": 36.09,
             "ML5": 16.2,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 326.311,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 81.48
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -16888,7 +17532,9 @@
             "ML4": 37.8,
             "ML5": 20.7,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 299.626,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 143.085
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -16940,7 +17586,9 @@
             "ML4": 66.36,
             "ML5": 43.73,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 172.744,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 404.144
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 93,
@@ -16982,7 +17630,9 @@
         "ML4": 140.25,
         "ML5": 80.63,
         "NONE": 1.95
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 800.633,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 628.709
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 99,
@@ -17046,7 +17696,9 @@
             "ML4": 33.13,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 435.395,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 166.901
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -17098,7 +17750,9 @@
             "ML4": 38.45,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 451.896,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 208.059
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 19,
@@ -17150,7 +17804,9 @@
             "ML4": 29.13,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 235.333,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 108.235
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -17202,7 +17858,9 @@
             "ML4": 19.33,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 365.97,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 121.698
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 17,
@@ -17254,7 +17912,9 @@
             "ML4": 27.42,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 375.621,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 85.946
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 15,
@@ -17306,7 +17966,9 @@
             "ML4": 43.91,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 628.968,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 98.055
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -17358,7 +18020,9 @@
             "ML4": 98.23,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1140.184,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 201.768
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -17400,7 +18064,9 @@
         "ML4": 295.61,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 3803.75,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1059.398
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 53,
@@ -17464,7 +18130,9 @@
             "ML4": 77.76,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1020.353,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 128.77
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 126,
@@ -17516,7 +18184,9 @@
             "ML4": 64.39,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 742.449,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 199.56
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 123,
@@ -17558,7 +18228,9 @@
         "ML4": 142.15,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1762.802,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 328.33
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 249,
@@ -17622,7 +18294,9 @@
             "ML4": 2.47,
             "ML5": 25.08,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 499.161,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 198.271
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -17674,7 +18348,9 @@
             "ML4": 13.8,
             "ML5": 5.75,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 272.396,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 142.703
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -17726,7 +18402,9 @@
             "ML4": 0.42,
             "ML5": 3.68,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 168.303,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 148.416
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -17778,7 +18456,9 @@
             "ML4": 19.95,
             "ML5": 54.22,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 411.113,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 260.703
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -17820,7 +18500,9 @@
         "ML4": 36.63,
         "ML5": 88.73,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1350.973,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 750.093
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 13,
@@ -17884,7 +18566,9 @@
             "ML4": 17.99,
             "ML5": 38.96,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 427.88,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 246.507
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 125,
@@ -17936,7 +18620,9 @@
             "ML4": 15.45,
             "ML5": 51.75,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 325.234,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 130.826
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 51,
@@ -17988,7 +18674,9 @@
             "ML4": 19.15,
             "ML5": 17.82,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 356.41,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 75.367
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 29,
@@ -18040,7 +18728,9 @@
             "ML4": 5.66,
             "ML5": 9.61,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 314.31,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 26.759
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 51,
@@ -18082,7 +18772,9 @@
         "ML4": 58.25,
         "ML5": 118.13,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1427.49,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 480.592
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 256,
@@ -18135,7 +18827,9 @@
         "ML4": 16.94,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 72.229,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 62.136
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 13,
@@ -18199,7 +18893,9 @@
             "ML4": 52.11,
             "ML5": 34.02,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 2889.235,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 582.465
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 84,
@@ -18251,7 +18947,9 @@
             "ML4": 29.3,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 577.612,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 87.138
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 41,
@@ -18303,7 +19001,9 @@
             "ML4": 44.14,
             "ML5": 7.13,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 999.243,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 165.348
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -18345,7 +19045,9 @@
         "ML4": 125.56,
         "ML5": 41.15,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 4466.39,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 834.951
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 125,
@@ -18409,7 +19111,9 @@
             "ML4": 87.62,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 916.228,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 119.961
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 5,
@@ -18461,7 +19165,9 @@
             "ML4": 42.96,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 931.737,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 76.71
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -18513,7 +19219,9 @@
             "ML4": 70.61,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 445.148,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 98.032
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 35,
@@ -18565,7 +19273,9 @@
             "ML4": 47.71,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 970.99,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 65.08
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -18617,7 +19327,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1130.902,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3.15
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 13,
@@ -18669,7 +19381,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1264.659,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 34.1
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 81,
@@ -18721,7 +19435,9 @@
             "ML4": 4.8,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 271.26,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 26.72
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 35,
@@ -18763,7 +19479,9 @@
         "ML4": 253.7,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 5930.924,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 423.753
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 173,
@@ -18827,7 +19545,9 @@
             "ML4": 0.9,
             "ML5": 15.5,
             "NONE": 3.8
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 21.8,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 766.8
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 19,
@@ -18879,7 +19599,9 @@
             "ML4": 10.19,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.191,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 898.459
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -18931,7 +19653,9 @@
             "ML4": 28.91,
             "ML5": 1.2,
             "NONE": 9.12
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 21.08,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1392.604
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 56,
@@ -18973,7 +19697,9 @@
         "ML4": 40,
         "ML5": 16.7,
         "NONE": 12.92
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 43.071,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3057.863
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 77,
@@ -19037,7 +19763,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -19089,7 +19817,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -19141,7 +19871,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -19183,7 +19915,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -19247,7 +19981,9 @@
             "ML4": 29.16,
             "ML5": 5.7,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 396.602
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 17,
@@ -19299,7 +20035,9 @@
             "ML4": 33.34,
             "ML5": 9.8,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 2.207,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 403.573
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -19351,7 +20089,9 @@
             "ML4": 5.95,
             "ML5": 3.92,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 201.39
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -19403,7 +20143,9 @@
             "ML4": 4.21,
             "ML5": 8,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 185.517
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -19445,7 +20187,9 @@
         "ML4": 75.75,
         "ML5": 44,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2.207,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1568.14
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 64,
@@ -19509,7 +20253,9 @@
             "ML4": 11.98,
             "ML5": 15.82,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 2.54,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 498.852
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 48,
@@ -19561,7 +20307,9 @@
             "ML4": 34.65,
             "ML5": 28.46,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 997.956
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 10,
@@ -19613,7 +20361,9 @@
             "ML4": 30.04,
             "ML5": 10.3,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 442.11
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -19665,7 +20415,9 @@
             "ML4": 9.77,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 218.294
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -19707,7 +20459,9 @@
         "ML4": 86.44,
         "ML5": 54.58,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2.54,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2157.212
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 58,
@@ -19771,7 +20525,9 @@
             "ML4": 7.51,
             "ML5": 30.17,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 403.873,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 163.643
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -19823,7 +20579,9 @@
             "ML4": 21.21,
             "ML5": 24.86,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 824.003,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 164.343
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -19875,7 +20633,9 @@
             "ML4": 1.81,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 243.593,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.81
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 17,
@@ -19917,7 +20677,9 @@
         "ML4": 30.53,
         "ML5": 55.03,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1472.069,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 329.796
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 18,
@@ -19981,7 +20743,9 @@
             "ML4": 29.62,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.348,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 597.601
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -20033,7 +20797,9 @@
             "ML4": 14.36,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 301.929
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 8,
@@ -20085,7 +20851,9 @@
             "ML4": 27.13,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 226.006
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -20137,7 +20905,9 @@
             "ML4": 6,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 261.967
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -20179,7 +20949,9 @@
         "ML4": 77.11,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0.348,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1387.503
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 9,
@@ -20243,7 +21015,9 @@
             "ML4": 7.36,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 540.303,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 40.666
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 19,
@@ -20295,7 +21069,9 @@
             "ML4": 60.06,
             "ML5": 11.9,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 629.234,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 256.709
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 22,
@@ -20347,7 +21123,9 @@
             "ML4": 144.1,
             "ML5": 0,
             "NONE": 8.98
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1548.306,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1519.652
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 97,
@@ -20399,7 +21177,9 @@
             "ML4": 23.93,
             "ML5": 56.32,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 817.386,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 182.624
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 9,
@@ -20451,7 +21231,9 @@
             "ML4": 11.33,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 724.58,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 106.66
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -20493,7 +21275,9 @@
         "ML4": 246.78,
         "ML5": 68.22,
         "NONE": 109.08
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 4350.543,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2121.781
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 154,
@@ -20557,7 +21341,9 @@
             "ML4": 11.95,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 299.611,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 171.548
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -20609,7 +21395,9 @@
             "ML4": 15.7,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 519.258,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 460.89
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 38,
@@ -20651,7 +21439,9 @@
         "ML4": 27.65,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 818.869,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 632.438
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 38,
@@ -20715,7 +21505,9 @@
             "ML4": 0,
             "ML5": 8.92,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 390.172,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 30.3
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 24,
@@ -20767,7 +21559,9 @@
             "ML4": 19.41,
             "ML5": 7.73,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 242.474,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 48.918
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 20,
@@ -20819,7 +21613,9 @@
             "ML4": 41.31,
             "ML5": 48.69,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 776.554,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 125.609
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 60,
@@ -20871,7 +21667,9 @@
             "ML4": 24.88,
             "ML5": 22.98,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 305.81,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 247.736
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 282,
@@ -20913,7 +21711,9 @@
         "ML4": 85.6,
         "ML5": 88.32,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1716.197,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 452.563
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 386,
@@ -20977,7 +21777,9 @@
             "ML4": 20,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 353.803,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 35.763
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 96,
@@ -21029,7 +21831,9 @@
             "ML4": 41.25,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1291.745,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 135.633
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 955,
@@ -21081,7 +21885,9 @@
             "ML4": 299.81,
             "ML5": 87.42,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 746.811,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 455.44
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 666,
@@ -21133,7 +21939,9 @@
             "ML4": 57.04,
             "ML5": 0.45,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1047.333,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 139.652
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 848,
@@ -21175,7 +21983,9 @@
         "ML4": 418.09,
         "ML5": 87.87,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 3439.691,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 766.488
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 2565,
@@ -21239,7 +22049,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21291,7 +22103,9 @@
             "ML4": 0,
             "ML5": 18.29,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21343,7 +22157,9 @@
             "ML4": 0.33,
             "ML5": 51.7,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 144,
@@ -21395,7 +22211,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21447,7 +22265,9 @@
             "ML4": 0,
             "ML5": 22.01,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21489,7 +22309,9 @@
         "ML4": 6.68,
         "ML5": 131.51,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 144,
@@ -21553,7 +22375,9 @@
             "ML4": 0,
             "ML5": 0.7,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21605,7 +22429,9 @@
             "ML4": 0,
             "ML5": 1.98,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 7.86
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21657,7 +22483,9 @@
             "ML4": 58.72,
             "ML5": 1.85,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21709,7 +22537,9 @@
             "ML4": 19.65,
             "ML5": 7.97,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21761,7 +22591,9 @@
             "ML4": 25.45,
             "ML5": 10.59,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21813,7 +22645,9 @@
             "ML4": 24.95,
             "ML5": 27.52,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -21855,7 +22689,9 @@
         "ML4": 0,
         "ML5": 1.98,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 7.86
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -21919,7 +22755,9 @@
             "ML4": 29.93,
             "ML5": 43.18,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 691.582,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 134.587
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 66,
@@ -21971,7 +22809,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 566.903,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 90.254
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22023,7 +22863,9 @@
             "ML4": 8.35,
             "ML5": 16.94,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 521.899,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 93.315
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22075,7 +22917,9 @@
             "ML4": 44.89,
             "ML5": 85.95,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 1977.318,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 310.912
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 124,
@@ -22117,7 +22961,9 @@
         "ML4": 83.18,
         "ML5": 146.07,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 3757.702,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 629.068
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 190,
@@ -22181,7 +23027,9 @@
             "ML4": 2.75,
             "ML5": 0.11,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 190.102,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 141.004
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 11,
@@ -22233,7 +23081,9 @@
             "ML4": 0.61,
             "ML5": 7.73,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 180.526,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 286.081
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -22285,7 +23135,9 @@
             "ML4": 10.54,
             "ML5": 0,
             "NONE": 0.74
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 64.94,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 291.886
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22337,7 +23189,9 @@
             "ML4": 44.39,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 15,
@@ -22389,7 +23243,9 @@
             "ML4": 2.11,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 384.538,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 619.523
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 27,
@@ -22431,7 +23287,9 @@
         "ML4": 16.01,
         "ML5": 7.85,
         "NONE": 0.74
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 820.106,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1338.494
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 54,
@@ -22484,7 +23342,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 20.95
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 20.95
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -22548,7 +23408,9 @@
             "ML4": 3.4,
             "ML5": 11.31,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22600,7 +23462,9 @@
             "ML4": 13.57,
             "ML5": 4.53,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22652,7 +23516,9 @@
             "ML4": 39.89,
             "ML5": 1.91,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22704,7 +23570,9 @@
             "ML4": 51.23,
             "ML5": 5.01,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22756,7 +23624,9 @@
             "ML4": 0,
             "ML5": 1.74,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22808,7 +23678,9 @@
             "ML4": 0,
             "ML5": 0.42,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -22850,7 +23722,9 @@
         "ML4": 108.08,
         "ML5": 24.92,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -22914,7 +23788,9 @@
             "ML4": 19.48,
             "ML5": 29.85,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 127.509
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 453,
@@ -22966,7 +23842,9 @@
             "ML4": 41.77,
             "ML5": 21.14,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 198.312
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 11,
@@ -23018,7 +23896,9 @@
             "ML4": 11.33,
             "ML5": 0.6,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 143.232
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 8,
@@ -23070,7 +23950,9 @@
             "ML4": 0.16,
             "ML5": 0.15,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 98.013
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 8,
@@ -23112,7 +23994,9 @@
         "ML4": 72.74,
         "ML5": 51.73,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 567.066
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 480,
@@ -23176,7 +24060,9 @@
             "ML4": 48.22,
             "ML5": 0.45,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 30,
@@ -23228,7 +24114,9 @@
             "ML4": 8.53,
             "ML5": 4.71,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -23280,7 +24168,9 @@
             "ML4": 35.24,
             "ML5": 10.55,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 10,
@@ -23332,7 +24222,9 @@
             "ML4": 2.46,
             "ML5": 3.06,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 3,
@@ -23374,7 +24266,9 @@
         "ML4": 110.66,
         "ML5": 21.29,
         "NONE": 2.57
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1068.496
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 66,
@@ -23438,7 +24332,9 @@
             "ML4": 2.4,
             "ML5": 7.8,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 133.717
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -23490,7 +24386,9 @@
             "ML4": 8.9,
             "ML5": 5.59,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 123.325
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -23542,7 +24440,9 @@
             "ML4": 7.82,
             "ML5": 16.13,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 150.042
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -23594,7 +24494,9 @@
             "ML4": 18.33,
             "ML5": 8.78,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 85.453
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -23636,7 +24538,9 @@
         "ML4": 43.06,
         "ML5": 41.41,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0.3,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 708.919
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 3,
@@ -23700,7 +24604,9 @@
             "ML4": 32.82,
             "ML5": 20.69,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 26.19,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 660.831
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -23752,7 +24658,9 @@
             "ML4": 19.31,
             "ML5": 30.33,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 540.425
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 37,
@@ -23804,7 +24712,9 @@
             "ML4": 0,
             "ML5": 6.57,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 339.324,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 391.717
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -23856,7 +24766,9 @@
             "ML4": 44.66,
             "ML5": 10.08,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 604.973
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 25,
@@ -23908,7 +24820,9 @@
             "ML4": 61.1,
             "ML5": 29.84,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 20.581,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 809.443
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 59,
@@ -23950,7 +24864,9 @@
         "ML4": 157.9,
         "ML5": 97.51,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 386.095,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3007.388
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 121,
@@ -24014,7 +24930,9 @@
             "ML4": 23.37,
             "ML5": 13.48,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 437.923
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -24066,7 +24984,9 @@
             "ML4": 28.06,
             "ML5": 8.26,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.728,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 269.851
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -24118,7 +25038,9 @@
             "ML4": 26.25,
             "ML5": 18.14,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.063,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 266.236
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -24170,7 +25092,9 @@
             "ML4": 55.05,
             "ML5": 0.18,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 435.085
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -24222,7 +25146,9 @@
             "ML4": 4.19,
             "ML5": 10.26,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 112.717
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -24264,7 +25190,9 @@
         "ML4": 148.92,
         "ML5": 50.32,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0.791,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1682.945
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 7,
@@ -24328,7 +25256,9 @@
             "ML4": 27.59,
             "ML5": 1.85,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 194.99
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -24380,7 +25310,9 @@
             "ML4": 1.27,
             "ML5": 0.06,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 574.991
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 6,
@@ -24432,7 +25364,9 @@
             "ML4": 11.17,
             "ML5": 1.01,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 247.51
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -24484,7 +25418,9 @@
             "ML4": 68.46,
             "ML5": 2.24,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 292.728
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -24536,7 +25472,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 32.793
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 38,
@@ -24588,7 +25526,9 @@
             "ML4": 8.05,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 132.367
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -24640,7 +25580,9 @@
             "ML4": 4.2,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 57.171
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 8,
@@ -24682,7 +25624,9 @@
         "ML4": 120.74,
         "ML5": 5.15,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1532.55
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 54,
@@ -24746,7 +25690,9 @@
             "ML4": 10.96,
             "ML5": 3.35,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 8.534,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 412.65
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -24798,7 +25744,9 @@
             "ML4": 20.67,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 130.617
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -24850,7 +25798,9 @@
             "ML4": 12.08,
             "ML5": 4.59,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 11.5,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 132.342
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 29,
@@ -24902,7 +25852,9 @@
             "ML4": 19.25,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 137.659
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -24954,7 +25906,9 @@
             "ML4": 3.87,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 308.625
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25006,7 +25960,9 @@
             "ML4": 9.73,
             "ML5": 1.02,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.71,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 83.796
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25058,7 +26014,9 @@
             "ML4": 4.54,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 88.424
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25110,7 +26068,9 @@
             "ML4": 10.51,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 166.423
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 15,
@@ -25152,7 +26112,9 @@
         "ML4": 112.05,
         "ML5": 9.18,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 20.744,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1625.165
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 53,
@@ -25216,7 +26178,9 @@
             "ML4": 0.55,
             "ML5": 0.16,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 108.139,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 33.732
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -25268,7 +26232,9 @@
             "ML4": 1.75,
             "ML5": 2.78,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 170.862,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 30.86
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -25320,7 +26286,9 @@
             "ML4": 17.13,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 228.033,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.191
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25372,7 +26340,9 @@
             "ML4": 0.4,
             "ML5": 1.37,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 333.658,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 5.178
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 13,
@@ -25424,7 +26394,9 @@
             "ML4": 14.46,
             "ML5": 4.15,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 154.309,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 56.513
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -25476,7 +26448,9 @@
             "ML4": 1.62,
             "ML5": 0.91,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 90.518,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 206.963
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25528,7 +26502,9 @@
             "ML4": 0.1,
             "ML5": 0.17,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25580,7 +26556,9 @@
             "ML4": 0.2,
             "ML5": 7.81,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 115.224,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 49.01
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 9,
@@ -25632,7 +26610,9 @@
             "ML4": 7.09,
             "ML5": 0.39,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 122.362,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 71.211
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25684,7 +26664,9 @@
             "ML4": 8.57,
             "ML5": 0.87,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 332.139,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 7.378
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 7,
@@ -25736,7 +26718,9 @@
             "ML4": 4,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 213.776,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 146.484
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25788,7 +26772,9 @@
             "ML4": 0.27,
             "ML5": 0.41,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 201.655,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 115.578
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25830,7 +26816,9 @@
         "ML4": 56.04,
         "ML5": 18.84,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2070.674,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 789.098
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 55,
@@ -25894,7 +26882,9 @@
             "ML4": 2.61,
             "ML5": 7.5,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 107.147,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 211.453
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25946,7 +26936,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 62.231,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 97.804
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -25998,7 +26990,9 @@
             "ML4": 0.7,
             "ML5": 2.7,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 244.674,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 366.187
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 45,
@@ -26050,7 +27044,9 @@
             "ML4": 2.17,
             "ML5": 0.9,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 118.85,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 324.433
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -26102,7 +27098,9 @@
             "ML4": 31.53,
             "ML5": 3.05,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 212.23,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 174.242
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 23,
@@ -26154,7 +27152,9 @@
             "ML4": 0,
             "ML5": 5.66,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 155.721,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 85.544
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 12,
@@ -26206,7 +27206,9 @@
             "ML4": 1.6,
             "ML5": 0.3,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 9.5
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -26248,7 +27250,9 @@
         "ML4": 38.61,
         "ML5": 20.11,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 900.853,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1269.461
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 80,
@@ -26312,7 +27316,9 @@
             "ML4": 6.67,
             "ML5": 0.19,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 72.493
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -26364,7 +27370,9 @@
             "ML4": 29.64,
             "ML5": 7.12,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 4.885,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 136.572
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 26,
@@ -26416,7 +27424,9 @@
             "ML4": 26.02,
             "ML5": 15.77,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 79.141
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 2,
@@ -26468,7 +27478,9 @@
             "ML4": 33.25,
             "ML5": 5.32,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 132.773
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -26520,7 +27532,9 @@
             "ML4": 5.62,
             "ML5": 3.07,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 29.412
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 16,
@@ -26572,7 +27586,9 @@
             "ML4": 36.64,
             "ML5": 19.63,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 108.815
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 30,
@@ -26624,7 +27640,9 @@
             "ML4": 83.58,
             "ML5": 6.68,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 141.09
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -26676,7 +27694,9 @@
             "ML4": 24.16,
             "ML5": 4.4,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 84.433
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -26718,7 +27738,9 @@
         "ML4": 261.96,
         "ML5": 70.65,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 5.745,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 910.868
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 78,
@@ -26782,7 +27804,9 @@
             "ML4": 3.44,
             "ML5": 0.34,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 124.154
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -26834,7 +27858,9 @@
             "ML4": 35.31,
             "ML5": 1.52,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 232.983
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 5,
@@ -26886,7 +27912,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -26938,7 +27966,9 @@
             "ML4": 49.31,
             "ML5": 1.41,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 411.845
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 11,
@@ -26980,7 +28010,9 @@
         "ML4": 124.7,
         "ML5": 3.73,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1030.186
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 27,
@@ -27044,7 +28076,9 @@
             "ML4": 14.72,
             "ML5": 13.14,
             "NONE": 7.4
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 157.172
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27096,7 +28130,9 @@
             "ML4": 46.07,
             "ML5": 3.52,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 251.232
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27148,7 +28184,9 @@
             "ML4": 8.3,
             "ML5": 11.24,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 134.563
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 8,
@@ -27200,7 +28238,9 @@
             "ML4": 7.24,
             "ML5": 3.1,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 241.734
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27252,7 +28292,9 @@
             "ML4": 5.88,
             "ML5": 0.5,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 29.9
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27294,7 +28336,9 @@
         "ML4": 82.21,
         "ML5": 31.51,
         "NONE": 7.55
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 814.751
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 8,
@@ -27358,7 +28402,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27400,7 +28446,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -27453,7 +28501,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -27506,7 +28556,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 439.29
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 421.225
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 335,
@@ -27570,7 +28622,9 @@
             "ML4": 88.45,
             "ML5": 15.96,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 400.192,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 51.272
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27622,7 +28676,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27674,7 +28730,9 @@
             "ML4": 79.77,
             "ML5": 0.38,
             "NONE": 0.32
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 596.825,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 134.83
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27716,7 +28774,9 @@
         "ML4": 227.53,
         "ML5": 21.72,
         "NONE": 0.67
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1251.928,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 271.789
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 2,
@@ -27780,7 +28840,9 @@
             "ML4": 5.24,
             "ML5": 1.95,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 314.457,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 11.34
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 56,
@@ -27832,7 +28894,9 @@
             "ML4": 2.01,
             "ML5": 3.09,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 309.28,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 12.157
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27884,7 +28948,9 @@
             "ML4": 4.93,
             "ML5": 7.01,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 254.244,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 22.39
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 6,
@@ -27936,7 +29002,9 @@
             "ML4": 3.02,
             "ML5": 4.76,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 168.539,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 45.36
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -27988,7 +29056,9 @@
             "ML4": 1.83,
             "ML5": 4.43,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 510.845,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 38.191
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 63,
@@ -28040,7 +29110,9 @@
             "ML4": 5.89,
             "ML5": 1.51,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 319.369,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 18.444
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 28,
@@ -28092,7 +29164,9 @@
             "ML4": 6.86,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 167.561,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2.738
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -28134,7 +29208,9 @@
         "ML4": 29.78,
         "ML5": 22.75,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2044.295,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 150.62
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 153,
@@ -28198,7 +29274,9 @@
             "ML4": 2.97,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 86.277
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -28250,7 +29328,9 @@
             "ML4": 13.87,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 264.29
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -28302,7 +29382,9 @@
             "ML4": 49.48,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 207.977
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -28354,7 +29436,9 @@
             "ML4": 44.86,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 247.689
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 18,
@@ -28406,7 +29490,9 @@
             "ML4": 36.63,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 186.13
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 69,
@@ -28458,7 +29544,9 @@
             "ML4": 53.47,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 248.82
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -28500,7 +29588,9 @@
         "ML4": 312.01,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1975.748
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 87,
@@ -28564,7 +29654,9 @@
             "ML4": 29.21,
             "ML5": 0.14,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 41.604,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 24.9
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 293,
@@ -28616,7 +29708,9 @@
             "ML4": 49.5,
             "ML5": 2.3,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 88.435,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 53.785
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 563,
@@ -28668,7 +29762,9 @@
             "ML4": 49.75,
             "ML5": 2.26,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 106.746,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 78.103
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 480,
@@ -28720,7 +29816,9 @@
             "ML4": 45.72,
             "ML5": 1.32,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 224.476,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 56.083
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 719,
@@ -28772,7 +29870,9 @@
             "ML4": 24.59,
             "ML5": 0.07,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 89.2,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 42.076
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 464,
@@ -28824,7 +29924,9 @@
             "ML4": 44.23,
             "ML5": 6.16,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 154.697,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 65.92
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 687,
@@ -28866,7 +29968,9 @@
         "ML4": 243,
         "ML5": 12.25,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 705.158,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 320.867
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 3207,
@@ -28930,7 +30034,9 @@
             "ML4": 1.47,
             "ML5": 4.53,
             "NONE": 0.3
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 114.416
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -28982,7 +30088,9 @@
             "ML4": 9.59,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 263.962
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29024,7 +30132,9 @@
         "ML4": 11.06,
         "ML5": 4.53,
         "NONE": 6.48
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 384.557
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -29088,7 +30198,9 @@
             "ML4": 47.25,
             "ML5": 1.46,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 228.416,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 70.099
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 114,
@@ -29140,7 +30252,9 @@
             "ML4": 67.02,
             "ML5": 0.22,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 239.924,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 45.87
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 65,
@@ -29192,7 +30306,9 @@
             "ML4": 24.34,
             "ML5": 1.41,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 161.926,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 49.364
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 83,
@@ -29244,7 +30360,9 @@
             "ML4": 40.71,
             "ML5": 0.13,
             "NONE": 0.12
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 171.564,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 41.79
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 220,
@@ -29296,7 +30414,9 @@
             "ML4": 94.44,
             "ML5": 0.22,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 366.157,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 131.822
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 104,
@@ -29338,7 +30458,9 @@
         "ML4": 273.76,
         "ML5": 3.44,
         "NONE": 0.12
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1167.986,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 338.945
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 587,
@@ -29402,7 +30524,9 @@
             "ML4": 40.33,
             "ML5": 3.55,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 329.109,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 41.356
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29454,7 +30578,9 @@
             "ML4": 52.23,
             "ML5": 2.83,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 423.374,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 74.689
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29506,7 +30632,9 @@
             "ML4": 40.17,
             "ML5": 11.66,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 370.475,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 77.966
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29558,7 +30686,9 @@
             "ML4": 77.43,
             "ML5": 6.08,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 517.818,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 100.498
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29610,7 +30740,9 @@
             "ML4": 35.85,
             "ML5": 7.58,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 156.458,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 67.413
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29652,7 +30784,9 @@
         "ML4": 246.01,
         "ML5": 31.69,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1797.235,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 361.921
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -29716,7 +30850,9 @@
             "ML4": 2.41,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 10.797
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29768,7 +30904,9 @@
             "ML4": 7.72,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 23.912
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -29810,7 +30948,9 @@
         "ML4": 10.13,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 34.709
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -29874,7 +31014,9 @@
             "ML4": 4.05,
             "ML5": 0.04,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 61.72
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 29,
@@ -29926,7 +31068,9 @@
             "ML4": 4.3,
             "ML5": 0.62,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.85,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 136.653
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 27,
@@ -29978,7 +31122,9 @@
             "ML4": 16.9,
             "ML5": 1.88,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0.092,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 434.805
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -30030,7 +31176,9 @@
             "ML4": 12.4,
             "ML5": 1.04,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 600.662
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 12,
@@ -30082,7 +31230,9 @@
             "ML4": 0.23,
             "ML5": 1.39,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 21.486,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 45.611
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 18,
@@ -30124,7 +31274,9 @@
         "ML4": 38.98,
         "ML5": 4.96,
         "NONE": 0.45
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 22.428,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1282.378
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 103,
@@ -30188,7 +31340,9 @@
             "ML4": 0.3,
             "ML5": 3.62,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 12.031
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 39,
@@ -30240,7 +31394,9 @@
             "ML4": 12.05,
             "ML5": 8.91,
             "NONE": 1.7
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 28.951
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 22,
@@ -30282,7 +31438,9 @@
         "ML4": 12.35,
         "ML5": 12.54,
         "NONE": 1.7
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 40.982
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 61,
@@ -30335,7 +31493,9 @@
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -30399,7 +31559,9 @@
             "ML4": 72.5,
             "ML5": 0.22,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 2.53,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 238.499
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 36,
@@ -30451,7 +31613,9 @@
             "ML4": 27.78,
             "ML5": 28.11,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 233.619
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -30493,7 +31657,9 @@
         "ML4": 100.28,
         "ML5": 28.33,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 2.53,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 472.117
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 40,
@@ -30557,7 +31723,9 @@
             "ML4": 8.04,
             "ML5": 0.28,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 35.641
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -30609,7 +31777,9 @@
             "ML4": 21.31,
             "ML5": 0.7,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 72.169
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -30661,7 +31831,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.346
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -30713,7 +31885,9 @@
             "ML4": 2.97,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 32.605
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -30755,7 +31929,9 @@
         "ML4": 32.33,
         "ML5": 1.32,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 142.104
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 1,
@@ -30819,7 +31995,9 @@
             "ML4": 25.52,
             "ML5": 1.72,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 94.376
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -30871,7 +32049,9 @@
             "ML4": 24.57,
             "ML5": 4.27,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 70.89
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -30923,7 +32103,9 @@
             "ML4": 82.43,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 230.354
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -30975,7 +32157,9 @@
             "ML4": 57.25,
             "ML5": 23.81,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 155.034
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31027,7 +32211,9 @@
             "ML4": 21.68,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 83.785
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31079,7 +32265,9 @@
             "ML4": 2.56,
             "ML5": 1.41,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 81.758
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31121,7 +32309,9 @@
         "ML4": 214,
         "ML5": 31.21,
         "NONE": 0
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 716.197
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -31185,7 +32375,9 @@
             "ML4": 8.16,
             "ML5": 2.59,
             "NONE": 0.01
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 58.297
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31237,7 +32429,9 @@
             "ML4": 9.19,
             "ML5": 2.95,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 59.282
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31289,7 +32483,9 @@
             "ML4": 3.86,
             "ML5": 0.59,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 39.129
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31341,7 +32537,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31383,7 +32581,9 @@
         "ML4": 21.21,
         "ML5": 6.13,
         "NONE": 0.01
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 156.708
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -31447,7 +32647,9 @@
             "ML4": 2.24,
             "ML5": 0.24,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 12.498
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -31499,7 +32701,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 23.445
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 1,
@@ -31551,7 +32755,9 @@
             "ML4": 7.25,
             "ML5": 3.27,
             "NONE": 3.17
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 30.542
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 4,
@@ -31593,7 +32799,9 @@
         "ML4": 9.49,
         "ML5": 3.51,
         "NONE": 3.17
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.485
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 6,
@@ -31657,7 +32865,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -31709,7 +32919,9 @@
             "ML4": 0.11,
             "ML5": 0.11,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 329.949,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.713
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 5,
@@ -31761,7 +32973,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 208.887,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 16,
@@ -31813,7 +33027,9 @@
             "ML4": 1.27,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 80.308,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3.186
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 49,
@@ -31865,7 +33081,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 151.278,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 15,
@@ -31917,7 +33135,9 @@
             "ML4": 2.53,
             "ML5": 1.44,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 27.633,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 5.198
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 13,
@@ -31969,7 +33189,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 0,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 0,
@@ -32021,7 +33243,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 41.802,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 26,
@@ -32073,7 +33297,9 @@
             "ML4": 2.15,
             "ML5": 0,
             "NONE": 0
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 94.5,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 7.458
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 14,
@@ -32125,7 +33351,9 @@
             "ML4": 0,
             "ML5": 0,
             "NONE": 32.06
-          }
+          },
+          "ALL_VEHICLES_MILEAGE": 622.648,
+          "HIGHWAY_VEHICLES_ONLY_MILEAGE": 132.376
         },
         "MVUM_TRAILS": {
           "NUM_TRAILS": 145,
@@ -32167,7 +33395,9 @@
         "ML4": 6.06,
         "ML5": 1.54,
         "NONE": 32.06
-      }
+      },
+      "ALL_VEHICLES_MILEAGE": 1557.005,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 149.931
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 299,
