@@ -14,7 +14,6 @@ const HomePage = () => {
           minHeight: '80vh',
           textAlign: 'center',
           gap: 2,
-          mb: -5,
         }}
       >
         <img src="/fs-logo.svg" alt="Forest Service Logo" style={{ width: '160px' }} />
