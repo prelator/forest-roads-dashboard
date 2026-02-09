@@ -28,6 +28,39 @@ const StatsTable = ({ children }: { children: React.ReactNode }) => (
   </Box>
 );
 
+// Shared styled pie chart component
+const StyledPieChart = ({ data, isMobile }: { data: any[]; isMobile: boolean }) => (
+  <Box sx={{ 
+    display: 'flex', 
+    justifyContent: 'center', 
+    mt: 'auto', 
+    px: 0,
+    '& .MuiChartsLegend-root': isMobile ? {
+      margin: '30px !important',
+      justifyContent: 'center',
+    } : {},
+  }}>
+    <PieChart
+      series={[
+        {
+          data,
+          highlightScope: { fade: 'global', highlight: 'item' },
+        },
+      ]}
+      width={300}
+      height={200}
+      slotProps={{
+        legend: isMobile ? {
+          direction: 'row',
+          position: { vertical: 'bottom', horizontal: 'middle' },
+          padding: 0,
+          itemGap: 10,
+        } as any : undefined,
+      }}
+    />
+  </Box>
+);
+
 // Color schemes
 const maintenanceLevelColorMap: Record<string, string> = {
   'ML1': '#2196F3', // Blue
@@ -177,28 +210,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                 </tbody>
               </StatsTable>
 
-              {mvumRoadPieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto', px: isMobile ? 2 : 0 }}>
-                  <PieChart
-                    series={[
-                      {
-                        data: mvumRoadPieData,
-                        highlightScope: { fade: 'global', highlight: 'item' },
-                      },
-                    ]}
-                    width={isMobile ? 350 : 300}
-                    height={isMobile ? 300 : 200}
-                    slotProps={{
-                      legend: isMobile ? {
-                        direction: 'row',
-                        position: { vertical: 'bottom', horizontal: 'middle' },
-                        padding: 0,
-                        itemGap: 10,
-                      } as any : undefined,
-                    }}
-                  />
-                </Box>
-              )}
+              {mvumRoadPieData.length > 0 && <StyledPieChart data={mvumRoadPieData} isMobile={isMobile} />}
             </CardContent>
           </Card>
         </Grid>
@@ -244,28 +256,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                 </tbody>
               </StatsTable>
 
-              {closedRoadPieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto', px: isMobile ? 2 : 0 }}>
-                  <PieChart
-                    series={[
-                      {
-                        data: closedRoadPieData,
-                        highlightScope: { fade: 'global', highlight: 'item' },
-                      },
-                    ]}
-                    width={isMobile ? 350 : 300}
-                    height={isMobile ? 300 : 200}
-                    slotProps={{
-                      legend: isMobile ? {
-                        direction: 'row',
-                        position: { vertical: 'bottom', horizontal: 'middle' },
-                        padding: 0,
-                        itemGap: 10,
-                      } as any : undefined,
-                    }}
-                  />
-                </Box>
-              )}
+              {closedRoadPieData.length > 0 && <StyledPieChart data={closedRoadPieData} isMobile={isMobile} />}
             </CardContent>
           </Card>
         </Grid>
@@ -314,28 +305,7 @@ const RouteStatistics = ({ stats }: RouteStatisticsProps) => {
                 </tbody>
               </StatsTable>
 
-              {trailTypePieData.length > 0 && (
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: 'auto', px: isMobile ? 2 : 0 }}>
-                  <PieChart
-                    series={[
-                      {
-                        data: trailTypePieData,
-                        highlightScope: { fade: 'global', highlight: 'item' },
-                      },
-                    ]}
-                    width={isMobile ? 350 : 300}
-                    height={isMobile ? 300 : 200}
-                    slotProps={{
-                      legend: isMobile ? {
-                        direction: 'row',
-                        position: { vertical: 'bottom', horizontal: 'middle' },
-                        padding: 0,
-                        itemGap: 10,
-                      } as any : undefined,
-                    }}
-                  />
-                </Box>
-              )}
+              {trailTypePieData.length > 0 && <StyledPieChart data={trailTypePieData} isMobile={isMobile} />}
             </CardContent>
           </Card>
         </Grid>
