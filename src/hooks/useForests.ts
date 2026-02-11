@@ -8,7 +8,7 @@ const calculateScorecard = (forest: NationalForestWithoutScorecard): NationalFor
   const closedRoadsMileage = forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0;
 
   const totalOpenMileage = mvumRoadsMileage + fullSizeTrailsMileage;
-  const totalMileage = mvumRoadsMileage + closedRoadsMileage;
+  const totalMileage = mvumRoadsMileage + fullSizeTrailsMileage + closedRoadsMileage;
 
   const openRoadsPercentage = totalMileage > 0 ? (totalOpenMileage / totalMileage) * 100 : 0;
 
