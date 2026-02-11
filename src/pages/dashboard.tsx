@@ -12,6 +12,7 @@ import {
   Typography,
   useMediaQuery,
   useTheme,
+  Stack,
 } from '@mui/material';
 import { DataGrid, type GridColDef } from '@mui/x-data-grid';
 import { BarChart } from '@mui/x-charts/BarChart';
@@ -66,6 +67,7 @@ const DashboardPage = () => {
       mvumRoads: forest.MVUM_ROADS?.TOTAL_MILEAGE || 0,
       motorizedTrails: forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0,
       closedRoads: forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0,
+      grade: forest.SCORECARD?.GRADE || 'F',
       totalMileage: (forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0),
     }));
   }, [forests]);
@@ -144,6 +146,42 @@ const DashboardPage = () => {
       valueFormatter: (value: number) => value.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 }),
     },
     {
+      field: 'grade',
+      headerName: 'Access Grade',
+      flex: 0.5,
+      minWidth: 82,
+      align: 'center',
+      headerAlign: 'center',
+      renderCell: (params) => {
+        const getGradeColor = (grade: string) => {
+          switch (grade) {
+            case 'A':
+              return '#4caf50';
+            case 'B':
+              return '#ffeb3b';
+            case 'C':
+              return '#ff9800';
+            case 'D':
+            case 'F':
+              return '#f44336';
+            default:
+              return '#757575';
+          }
+        };
+        return (
+          <Typography
+            sx={{
+              fontWeight: 'bold',
+              fontSize: '1.2rem',
+              color: getGradeColor(params.value),
+            }}
+          >
+            {params.value}
+          </Typography>
+        );
+      },
+    },
+    {
       field: 'totalMileage',
       headerName: 'Public Motorized Mileage',
       flex: 1.5,
@@ -206,14 +244,17 @@ const DashboardPage = () => {
 
   return (
     <Container maxWidth={false} sx={{ px: 0, boxSizing: 'border-box', overflowX: 'hidden' }}>
-      <Box sx={{ mb: 4 }}>
+      <Stack spacing={2} sx={{ mb: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom fontWeight="bold">
           National Forest Roads Dashboard
         </Typography>
-        <Typography variant="body1" color="text.secondary">
+        <Typography variant="h6" component="h2" color="text.secondary">
           Overview of motorized routes across all U.S. National Forests
         </Typography>
-      </Box>
+        <Typography variant="body2" color="text.secondary">
+          Letter grades are based on the mileage percentage of routes open to full-size vehicles compared to closed roads and are assigned as follows: A = 80-100% open, B = 70-79% open, C = 60-69% open, D = 50-59% open, F = 0-49% open.
+        </Typography>
+      </Stack>
 
       {/* Aggregate Statistics Cards */}
       <Grid container spacing={3} sx={{ mb: 4 }}>

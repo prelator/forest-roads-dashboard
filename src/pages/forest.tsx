@@ -9,6 +9,7 @@ import {
   Container,
   Link,
   Typography,
+  Stack
 } from '@mui/material';
 import { DataGrid, type GridColDef } from '@mui/x-data-grid';
 import { useForests } from '../hooks/useForests';
@@ -133,6 +134,22 @@ const ForestPage = () => {
   const closedRoadsMileageSuitableForConversion =
     forest.CLOSED_ROADS?.MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION || 0;
 
+  const getGradeColor = (grade: string) => {
+    switch (grade) {
+      case 'A':
+        return '#4caf50'; // green
+      case 'B':
+        return '#ffeb3b'; // yellow
+      case 'C':
+        return '#ff9800'; // orange
+      case 'D':
+      case 'F':
+        return '#f44336'; // red
+      default:
+        return '#757575'; // gray
+    }
+  };
+
   return (
     <Container maxWidth={false} sx={{ px: 0, boxSizing: 'border-box', overflowX: 'hidden' }}>
       {/* Breadcrumbs */}
@@ -151,83 +168,124 @@ const ForestPage = () => {
           {forest.FORESTNAME}
         </Typography>
         {forest.STATE && (
-          <Typography variant="h6" color="text.secondary">
+          <Typography variant="h6" component="h2" color="text.secondary">
             {forest.STATE}
           </Typography>
         )}
       </Box>
 
       {/* Info Box */}
-      <Card sx={{ mb: 4 }}>
-        <CardContent>
-          <Typography variant="h6" gutterBottom fontWeight="bold">
-            Forest Information
-          </Typography>
-          <Box component="ul" sx={{ pl: 3, '& li': { mb: 1 } }}>
-            <li>
-              <Typography variant="body1">
-                <strong>Forest Acreage:</strong>{' '}
-                {forest.GIS_ACRES.toLocaleString(undefined, {
-                  minimumFractionDigits: 0,
-                  maximumFractionDigits: 0,
-                })}{' '}
-                acres
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>MVUM Roads:</strong> {forest.MVUM_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
-                {(forest.MVUM_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles)
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Motorized Trails:</strong> {forest.MVUM_TRAILS?.NUM_TRAILS?.toLocaleString() || 0} trails (
-                {(forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles)
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Total Mileage Open to Full Size Vehicles:</strong>{' '}
-                {((forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Closed Roads:</strong> {forest.CLOSED_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
-                {(forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles)
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Closed High Clearance Roads Available for Trail Conversion:</strong>{' '}
-                {closedRoadsMileageSuitableForConversion.toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles
-              </Typography>
-            </li>
-          </Box>
-        </CardContent>
-      </Card>
+      <Box sx={{ display: 'flex', gap: 2, mb: 4, flexWrap: 'wrap' }}>
+        <Card sx={{ flex: '1 1 300px', minWidth: 0 }}>
+          <CardContent>
+            <Typography variant="h6" gutterBottom fontWeight="bold">
+              Forest Information
+            </Typography>
+            <Box component="ul" sx={{ pl: 3, '& li': { mb: 1 } }}>
+              <li>
+                <Typography variant="body1">
+                  <strong>Forest Acreage:</strong>{' '}
+                  {forest.GIS_ACRES.toLocaleString(undefined, {
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0,
+                  })}{' '}
+                  acres
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>MVUM Roads:</strong> {forest.MVUM_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
+                  {(forest.MVUM_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Motorized Trails:</strong> {forest.MVUM_TRAILS?.NUM_TRAILS?.toLocaleString() || 0} trails (
+                  {(forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Total Mileage Open to Full Size Vehicles:</strong>{' '}
+                  {((forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Closed Roads:</strong> {forest.CLOSED_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
+                  {(forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Closed High Clearance Roads Available for Trail Conversion:</strong>{' '}
+                  {closedRoadsMileageSuitableForConversion.toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles
+                </Typography>
+              </li>
+            </Box>
+          </CardContent>
+        </Card>
 
+        <Card sx={{ flex: '0 1 300px', minWidth: 0 }}>
+          <CardContent>
+            <Typography variant="h6" gutterBottom fontWeight="bold" sx={{ textAlign: 'center' }}>
+              Motorized Access Grade
+            </Typography>
+            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', py: 2 }}>
+              <Typography
+                variant="h1"
+                sx={{
+                  fontSize: '6rem',
+                  fontWeight: 'bold',
+                  color: getGradeColor(forest.SCORECARD.GRADE),
+                  lineHeight: 1,
+                  mb: 2,
+                }}
+              >
+                {forest.SCORECARD.GRADE}
+              </Typography>
+              <Typography variant="h6" gutterBottom>
+                {forest.SCORECARD.OPEN_ROADS_PERCENTAGE.toLocaleString(undefined, {
+                  minimumFractionDigits: 1,
+                  maximumFractionDigits: 1,
+                })}
+                % total roads open
+              </Typography>
+              <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+                (includes open roads and full size trails)
+              </Typography>
+            </Box>
+          </CardContent>
+        </Card>
+      </Box>
+      <Stack spacing={2}>
+        <Typography variant="body2" color="text.secondary">
+          Roads available for trail conversion include all closed roads listed as high clearance roads not maintained for passenger vehicles.
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Letter grades are based on the mileage percentage of routes open to full-size vehicles compared to closed roads and are assigned as follows: A = 80-100% open, B = 70-79% open, C = 60-69% open, D = 50-59% open, F = 0-49% open.
+        </Typography>
+      </Stack>
       {/* Ranger Districts DataGrid */}
       <Card sx={{ overflow: 'hidden' }}>
         <CardContent>

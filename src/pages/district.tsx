@@ -9,6 +9,7 @@ import {
   Container,
   Link,
   Typography,
+  Stack,
 } from '@mui/material';
 import { useForests } from '../hooks/useForests';
 import RouteStatistics from '../components/routeStats';
@@ -86,7 +87,7 @@ const DistrictPage = () => {
         <Typography variant="h4" component="h1" gutterBottom fontWeight="bold">
           {district.DISTRICTNAME}
         </Typography>
-        <Typography variant="h6" color="text.secondary">
+        <Typography variant="h6" component="h2" color="text.secondary">
           {forest.FORESTNAME}
         </Typography>
       </Box>
@@ -151,6 +152,12 @@ const DistrictPage = () => {
           </Box>
         </CardContent>
       </Card>
+
+      <Stack spacing={2}>
+        <Typography variant="body2" color="text.secondary">
+          Roads available for trail conversion include all closed roads listed as high clearance roads not maintained for passenger vehicles.
+        </Typography>
+      </Stack>
 
       {/* Route Statistics */}
       <Box sx={{ mt: 4 }}>

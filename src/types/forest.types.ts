@@ -47,6 +47,11 @@ export interface ClosedRoads {
   MAINTENANCE_LEVELS: ClosedRoadMaintenanceLevels;
 }
 
+export interface Scorecard {
+  OPEN_ROADS_PERCENTAGE: number;
+  GRADE: 'A' | 'B' | 'C' | 'D' | 'F';
+}
+
 export interface RangerDistrict {
   RANGERDISTRICTID: number;
   REGION: number;
@@ -74,9 +79,12 @@ export interface NationalForest {
   MVUM_ROADS: MvumRoads;
   MVUM_TRAILS: MvumTrails;
   CLOSED_ROADS: ClosedRoads;
+  SCORECARD: Scorecard;
 }
 
 export type ForestsData = NationalForest[];
+
+export type NationalForestWithoutScorecard = Omit<NationalForest, 'SCORECARD'>;
 
 export interface RouteStats {
   MVUM_ROADS: MvumRoads;
