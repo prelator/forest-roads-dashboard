@@ -2,7 +2,21 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import type { ForestsData, NationalForest, NationalForestWithoutScorecard } from '../types/forest.types';
 
-const calculateScorecard = (forest: NationalForestWithoutScorecard): NationalForest => {
+const calculateGrade = (openRoadsPercentage: number): 'A' | 'B' | 'C' | 'D' | 'F' => {
+  if (openRoadsPercentage >= 80) {
+    return 'A';
+  } else if (openRoadsPercentage >= 70) {
+    return 'B';
+  } else if (openRoadsPercentage >= 60) {
+    return 'C';
+  } else if (openRoadsPercentage >= 50) {
+    return 'D';
+  } else {
+    return 'F';
+  }
+};
+
+const calculateScorecard = (forest: any): NationalForest => {
   const mvumRoadsMileage = forest.MVUM_ROADS?.TOTAL_MILEAGE || 0;
   const fullSizeTrailsMileage = forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0;
   const closedRoadsMileage = forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0;
@@ -12,24 +26,32 @@ const calculateScorecard = (forest: NationalForestWithoutScorecard): NationalFor
 
   const openRoadsPercentage = totalMileage > 0 ? (totalOpenMileage / totalMileage) * 100 : 0;
 
-  let grade: 'A' | 'B' | 'C' | 'D' | 'F';
-  if (openRoadsPercentage >= 80) {
-    grade = 'A';
-  } else if (openRoadsPercentage >= 70) {
-    grade = 'B';
-  } else if (openRoadsPercentage >= 60) {
-    grade = 'C';
-  } else if (openRoadsPercentage >= 50) {
-    grade = 'D';
-  } else {
-    grade = 'F';
-  }
+  // Calculate scorecard for each ranger district
+  const rangerDistricts = forest.RANGER_DISTRICTS?.map((district: any) => {
+    const districtMvumRoadsMileage = district.MVUM_ROADS?.TOTAL_MILEAGE || 0;
+    const districtFullSizeTrailsMileage = district.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0;
+    const districtClosedRoadsMileage = district.CLOSED_ROADS?.TOTAL_MILEAGE || 0;
+
+    const districtTotalOpenMileage = districtMvumRoadsMileage + districtFullSizeTrailsMileage;
+    const districtTotalMileage = districtMvumRoadsMileage + districtFullSizeTrailsMileage + districtClosedRoadsMileage;
+
+    const districtOpenRoadsPercentage = districtTotalMileage > 0 ? (districtTotalOpenMileage / districtTotalMileage) * 100 : 0;
+
+    return {
+      ...district,
+      SCORECARD: {
+        OPEN_ROADS_PERCENTAGE: districtOpenRoadsPercentage,
+        GRADE: calculateGrade(districtOpenRoadsPercentage),
+      },
+    };
+  }) || [];
 
   return {
     ...forest,
+    RANGER_DISTRICTS: rangerDistricts,
     SCORECARD: {
       OPEN_ROADS_PERCENTAGE: openRoadsPercentage,
-      GRADE: grade,
+      GRADE: calculateGrade(openRoadsPercentage),
     },
   };
 };

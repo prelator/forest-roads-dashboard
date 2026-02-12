@@ -14,6 +14,7 @@ import {
 import { DataGrid, type GridColDef } from '@mui/x-data-grid';
 import { useForests } from '../hooks/useForests';
 import RouteStatistics from '../components/routeStats';
+import GradeCard from '../components/gradeCard';
 
 const ForestPage = () => {
   const { forestId } = useParams<{ forestId: string }>();
@@ -36,6 +37,7 @@ const ForestPage = () => {
       mvumRoads: district.MVUM_ROADS?.TOTAL_MILEAGE || 0,
       motorizedTrails: district.MVUM_TRAILS?.TOTAL_MILEAGE || 0,
       closedRoads: district.CLOSED_ROADS?.TOTAL_MILEAGE || 0,
+      grade: district.SCORECARD?.GRADE || 'F',
     }));
   }, [forest]);
 
@@ -99,6 +101,42 @@ const ForestPage = () => {
       valueFormatter: (value: number) =>
         value.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 }),
     },
+    {
+      field: 'grade',
+      headerName: 'Access Grade',
+      flex: 0.5,
+      minWidth: 82,
+      align: 'center',
+      headerAlign: 'center',
+      renderCell: (params) => {
+        const getGradeColor = (grade: string) => {
+          switch (grade) {
+            case 'A':
+              return '#4caf50';
+            case 'B':
+              return '#ffeb3b';
+            case 'C':
+              return '#ff9800';
+            case 'D':
+            case 'F':
+              return '#f44336';
+            default:
+              return '#757575';
+          }
+        };
+        return (
+          <Typography
+            sx={{
+              fontWeight: 'bold',
+              fontSize: '1.2rem',
+              color: getGradeColor(params.value),
+            }}
+          >
+            {params.value}
+          </Typography>
+        );
+      },
+    },
   ];
 
   if (isLoading) {
@@ -133,22 +171,6 @@ const ForestPage = () => {
 
   const closedRoadsMileageSuitableForConversion =
     forest.CLOSED_ROADS?.MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION || 0;
-
-  const getGradeColor = (grade: string) => {
-    switch (grade) {
-      case 'A':
-        return '#4caf50'; // green
-      case 'B':
-        return '#ffeb3b'; // yellow
-      case 'C':
-        return '#ff9800'; // orange
-      case 'D':
-      case 'F':
-        return '#f44336'; // red
-      default:
-        return '#757575'; // gray
-    }
-  };
 
   return (
     <Container maxWidth={false} sx={{ px: 0, boxSizing: 'border-box', overflowX: 'hidden' }}>
@@ -224,6 +246,16 @@ const ForestPage = () => {
               </li>
               <li>
                 <Typography variant="body1">
+                  <strong>Non-Full Size Trails:</strong>{' '}
+                  {((forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0) - (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
                   <strong>Closed Roads:</strong> {forest.CLOSED_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
                   {(forest.CLOSED_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
                     minimumFractionDigits: 1,
@@ -246,37 +278,7 @@ const ForestPage = () => {
           </CardContent>
         </Card>
 
-        <Card sx={{ flex: '0 1 300px', minWidth: 0 }}>
-          <CardContent>
-            <Typography variant="h6" gutterBottom fontWeight="bold" sx={{ textAlign: 'center' }}>
-              Motorized Access Grade
-            </Typography>
-            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', py: 2 }}>
-              <Typography
-                variant="h1"
-                sx={{
-                  fontSize: '6rem',
-                  fontWeight: 'bold',
-                  color: getGradeColor(forest.SCORECARD.GRADE),
-                  lineHeight: 1,
-                  mb: 2,
-                }}
-              >
-                {forest.SCORECARD.GRADE}
-              </Typography>
-              <Typography variant="h6" gutterBottom>
-                {forest.SCORECARD.OPEN_ROADS_PERCENTAGE.toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}
-                % total roads open
-              </Typography>
-              <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
-                (includes open roads and full size trails)
-              </Typography>
-            </Box>
-          </CardContent>
-        </Card>
+        <GradeCard grade={forest.SCORECARD.GRADE} percentage={forest.SCORECARD.OPEN_ROADS_PERCENTAGE} />
       </Box>
       <Stack spacing={2}>
         <Typography variant="body2" color="text.secondary">

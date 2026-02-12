@@ -64,6 +64,7 @@ export interface RangerDistrict {
   MVUM_ROADS: MvumRoads;
   MVUM_TRAILS: MvumTrails;
   CLOSED_ROADS: ClosedRoads;
+  SCORECARD: Scorecard;
 }
 
 export interface NationalForest {

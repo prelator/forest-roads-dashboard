@@ -13,6 +13,7 @@ import {
 } from '@mui/material';
 import { useForests } from '../hooks/useForests';
 import RouteStatistics from '../components/routeStats';
+import GradeCard from '../components/gradeCard';
 
 const DistrictPage = () => {
   const { forestId, districtId } = useParams<{ forestId: string; districtId: string }>();
@@ -93,65 +94,79 @@ const DistrictPage = () => {
       </Box>
 
       {/* Info Box */}
-      <Card sx={{ mb: 4 }}>
-        <CardContent>
-          <Typography variant="h6" gutterBottom fontWeight="bold">
-            Ranger District Information
-          </Typography>
-          <Box component="ul" sx={{ pl: 3, '& li': { mb: 1 } }}>
-            <li>
-              <Typography variant="body1">
-                <strong>MVUM Roads:</strong> {district.MVUM_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
-                {(district.MVUM_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles)
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Motorized Trails:</strong> {district.MVUM_TRAILS?.NUM_TRAILS?.toLocaleString() || 0} trails (
-                {(district.MVUM_TRAILS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles)
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Total Mileage Open to Full Size Vehicles:</strong>{' '}
-                {((district.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (district.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Closed Roads:</strong> {district.CLOSED_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
-                {(district.CLOSED_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles)
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="body1">
-                <strong>Closed High Clearance Roads Available for Trail Conversion:</strong>{' '}
-                {closedRoadsMileageSuitableForConversion.toLocaleString(undefined, {
-                  minimumFractionDigits: 1,
-                  maximumFractionDigits: 1,
-                })}{' '}
-                miles
-              </Typography>
-            </li>
-          </Box>
-        </CardContent>
-      </Card>
+      <Box sx={{ display: 'flex', gap: 2, mb: 4, flexWrap: 'wrap' }}>
+        <Card sx={{ flex: '1 1 300px', minWidth: 0 }}>
+          <CardContent>
+            <Typography variant="h6" gutterBottom fontWeight="bold">
+              Ranger District Information
+            </Typography>
+            <Box component="ul" sx={{ pl: 3, '& li': { mb: 1 } }}>
+              <li>
+                <Typography variant="body1">
+                  <strong>MVUM Roads:</strong> {district.MVUM_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
+                  {(district.MVUM_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Motorized Trails:</strong> {district.MVUM_TRAILS?.NUM_TRAILS?.toLocaleString() || 0} trails (
+                  {(district.MVUM_TRAILS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Total Mileage Open to Full Size Vehicles:</strong>{' '}
+                  {((district.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (district.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Non-Full Size Trails:</strong>{' '}
+                  {((district.MVUM_TRAILS?.TOTAL_MILEAGE || 0) - (district.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Closed Roads:</strong> {district.CLOSED_ROADS?.NUM_ROADS?.toLocaleString() || 0} roads (
+                  {(district.CLOSED_ROADS?.TOTAL_MILEAGE || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Closed High Clearance Roads Available for Trail Conversion:</strong>{' '}
+                  {closedRoadsMileageSuitableForConversion.toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  miles
+                </Typography>
+              </li>
+            </Box>
+          </CardContent>
+        </Card>
+
+        <GradeCard grade={district.SCORECARD.GRADE} percentage={district.SCORECARD.OPEN_ROADS_PERCENTAGE} />
+      </Box>
 
       <Stack spacing={2}>
         <Typography variant="body2" color="text.secondary">
