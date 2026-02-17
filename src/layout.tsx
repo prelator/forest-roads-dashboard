@@ -75,7 +75,7 @@ const Layout = () => {
               <MenuIcon />
             </IconButton>
           )}
-          <img src="/fs-logo.svg" alt="FS Logo" style={{ width: 32, height: 32, marginRight: 8 }} />
+          <img src="/One_Voice.jpeg" alt="One Voice Logo" style={{ height: 32, marginRight: 8 }} />
           <Typography variant="h6" noWrap component="div">
             Forest Roads Dashboard
           </Typography>

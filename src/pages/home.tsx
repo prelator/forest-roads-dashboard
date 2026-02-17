@@ -17,7 +17,7 @@ const HomePage = () => {
           mb: 4,
         }}
       >
-        <img src="/fs-logo.svg" alt="Forest Service Logo" style={{ width: '160px' }} />
+        <img src="/One_Voice.jpeg" alt="One Voice Logo" style={{ width: '300px' }} />
         <Box>
           <Typography variant="h2" component="h1" gutterBottom fontWeight="bold">
             Welcome to the Forest Roads Dashboard
@@ -74,9 +74,12 @@ const HomePage = () => {
         <Typography variant="body1" color="text.primary" component="p">
           This dashboard serves as a tool to showcase the potential for increased recreational access and to support data-driven advocacy efforts. It compares the mileage of open roads and motorized trails to the mileage of closed roads across individual forests and ranger districts, highlighting closed high clearance roads that could be converted to motorized trails. This demonstrates the potential for expanding access and enhancing recreational opportunities on National Forest lands.
         </Typography>
-         <Typography variant="body1" color="text.primary" component="p">
-          This website is not affiliated with the US Forest Service. Use of the Forest Service logo is solely referential for the purpose of communicating the focus of this project on National Forest lands and is not intended to imply endorsement or affiliation with the US Forest Service.
-        </Typography>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
+          <img src="/land-access-logo.png" alt="Land Access Consulting Logo" style={{ height: '80px' }} />
+          <Typography variant="body1" color="text.primary" component="p" sx={{ flex: 1, minWidth: '300px' }}>
+            This project was created in consultation with Land Access Consulting LLC, a law firm specializing in public land access and travel management planning issues. We are grateful for their expertise and guidance in developing this dashboard and ensuring that it effectively supports our advocacy goals.
+          </Typography>
+        </Box>
       </Stack>
       <Stack spacing={2} mt={2}>
         <Typography variant="h5" color="text.primary" component="h2">
