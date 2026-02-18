@@ -14518,15 +14518,15 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 158,
-      "TOTAL_MILEAGE": 348.26,
+      "NUM_ROADS": 52,
+      "TOTAL_MILEAGE": 110.71,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 264.16,
-        "ML3": 35.31,
-        "ML4": 42.84,
-        "ML5": 5.95,
+        "ML2": 75.09,
+        "ML3": 4.67,
+        "ML4": 29.68,
+        "ML5": 1.27,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
