@@ -193,7 +193,7 @@ const DashboardPage = () => {
             {params.row.totalMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })}
           </Typography>
           {!isSmallScreen && (
-            <Box sx={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center' }}>
+            <Box sx={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', paddingTop: '22px' }}>
               <BarChart
                 series={[
                   {
@@ -204,7 +204,7 @@ const DashboardPage = () => {
                 layout="horizontal"
                 height={60}
                 yAxis={[{ scaleType: 'band', data: [''], disableTicks: true, disableLine: true }]}
-                xAxis={[{ disableTicks: true, disableLine: true }]}
+                xAxis={[{ disableTicks: true, disableLine: true, max: 8000 }]}
                 margin={{ top: 5, bottom: 5, left: 5, right: 5 }}
                 sx={{
                   '& .MuiChartsAxis-tickLabel': {
