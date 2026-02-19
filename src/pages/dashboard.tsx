@@ -265,7 +265,10 @@ const DashboardPage = () => {
                 Total MVUM Roads
               </Typography>
               <Typography variant="h3" component="div" fontWeight="bold">
-                {aggregateStats.totalMvumRoads.toLocaleString()} <Typography component="span" variant="h5" color="text.secondary">({aggregateStats.totalMvumRoadsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mi)</Typography>
+                {aggregateStats.totalMvumRoads.toLocaleString()}
+              </Typography>
+              <Typography variant="h5" color="text.secondary" sx={{ mb: 1 }}>
+                {aggregateStats.totalMvumRoadsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} miles
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
                 Open forest roads across all forests
@@ -281,7 +284,10 @@ const DashboardPage = () => {
                 Total Motorized Trails
               </Typography>
               <Typography variant="h3" component="div" fontWeight="bold">
-                {aggregateStats.totalMotorizedTrails.toLocaleString()} <Typography component="span" variant="h5" color="text.secondary">({aggregateStats.totalMotorizedTrailsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mi)</Typography>
+                {aggregateStats.totalMotorizedTrails.toLocaleString()}
+              </Typography>
+              <Typography variant="h5" color="text.secondary" sx={{ mb: 1 }}>
+                {aggregateStats.totalMotorizedTrailsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} miles
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
                 Designated motorized trails
@@ -297,7 +303,10 @@ const DashboardPage = () => {
                 Total Closed Roads
               </Typography>
               <Typography variant="h3" component="div" fontWeight="bold">
-                {aggregateStats.totalClosedRoads.toLocaleString()} <Typography component="span" variant="h5" color="text.secondary">({aggregateStats.totalClosedRoadsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mi)</Typography>
+                {aggregateStats.totalClosedRoads.toLocaleString()}
+              </Typography>
+              <Typography variant="h5" color="text.secondary" sx={{ mb: 1 }}>
+                {aggregateStats.totalClosedRoadsMileage.toLocaleString(undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} miles
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
                 Roads currently closed or restricted to admin use

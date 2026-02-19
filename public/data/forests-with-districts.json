@@ -554,28 +554,28 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1073,
-      "TOTAL_MILEAGE": 1766.87,
-      "TOTAL_SEASONAL_MILEAGE": 891.54,
+      "NUM_ROADS": 1071,
+      "TOTAL_MILEAGE": 1764.96,
+      "TOTAL_SEASONAL_MILEAGE": 891.55,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 949.61,
-        "ML3": 779.94,
+        "ML2": 949.6,
+        "ML3": 779.9,
         "ML4": 28.72,
-        "ML5": 6.73,
-        "NONE": 1.87
+        "ML5": 6.75,
+        "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 91.963,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1411.935
+      "ALL_VEHICLES_MILEAGE": 91.96,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1410.02
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 820,
-      "TOTAL_MILEAGE": 1174.92,
-      "TOTAL_SEASONAL_MILEAGE": 978.62,
+      "NUM_TRAILS": 816,
+      "TOTAL_MILEAGE": 1174.18,
+      "TOTAL_SEASONAL_MILEAGE": 978.61,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 844.85,
-        "MOTORCYCLE": 311.84,
+        "ATV": 844.11,
+        "MOTORCYCLE": 311.83,
         "SPECIAL": 18.24,
         "OTHER": 0
       }
@@ -908,14 +908,14 @@
     },
     "CLOSED_ROADS": {
       "NUM_ROADS": 3189,
-      "TOTAL_MILEAGE": 4285.11,
+      "TOTAL_MILEAGE": 4285.12,
       "ADMIN_MILEAGE": 20.72,
       "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 4255.17,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 3334.61,
-        "ML2": 920.56,
-        "ML3": 20.53,
+        "ML2": 920.55,
+        "ML3": 20.54,
         "ML4": 0.79,
         "ML5": 2.06,
         "NONE": 6.56
@@ -1640,45 +1640,45 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 3,
-      "TOTAL_MILEAGE": 6.06,
+      "NUM_ROADS": 858,
+      "TOTAL_MILEAGE": 1203.62,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 2.44,
-        "ML3": 2.73,
-        "ML4": 0.89,
-        "ML5": 0,
-        "NONE": 0
+        "ML2": 652.89,
+        "ML3": 477.73,
+        "ML4": 46.3,
+        "ML5": 25.12,
+        "NONE": 1.55
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.061
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.06
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 1284,
-      "TOTAL_MILEAGE": 3338.9,
+      "TOTAL_MILEAGE": 3338.89,
       "TOTAL_SEASONAL_MILEAGE": 2037.59,
       "TRAIL_TYPE": {
         "FULL_SIZE": 1580.01,
         "ATV": 1010.68,
-        "MOTORCYCLE": 746.2,
+        "MOTORCYCLE": 746.19,
         "SPECIAL": 2.02,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1821,
-      "TOTAL_MILEAGE": 1567.44,
-      "ADMIN_MILEAGE": 905.57,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1509.42,
+      "NUM_ROADS": 1819,
+      "TOTAL_MILEAGE": 1566.48,
+      "ADMIN_MILEAGE": 904.77,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1508.46,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 211.73,
-        "ML2": 1297.69,
-        "ML3": 49.22,
-        "ML4": 2.24,
+        "ML2": 1296.73,
+        "ML3": 49.23,
+        "ML4": 2.25,
         "ML5": 2.18,
-        "NONE": 4.38
+        "NONE": 4.39
       }
     },
     "STATE": "Montana, South Dakota"
@@ -1967,42 +1967,42 @@
     ],
     "MVUM_ROADS": {
       "NUM_ROADS": 1876,
-      "TOTAL_MILEAGE": 3468.4,
+      "TOTAL_MILEAGE": 3468.42,
       "TOTAL_SEASONAL_MILEAGE": 711.31,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1800.47,
+        "ML2": 1800.48,
         "ML3": 1478.54,
         "ML4": 119.65,
         "ML5": 69.12,
         "NONE": 0.62
       },
       "ALL_VEHICLES_MILEAGE": 0.23,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3468.175
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3468.18
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 88,
-      "TOTAL_MILEAGE": 191.02,
-      "TOTAL_SEASONAL_MILEAGE": 0.02,
+      "NUM_TRAILS": 67,
+      "TOTAL_MILEAGE": 123.03,
+      "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 2.05,
-        "MOTORCYCLE": 127.48,
-        "SPECIAL": 61.49,
+        "ATV": 1.98,
+        "MOTORCYCLE": 92.58,
+        "SPECIAL": 28.47,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 3707,
-      "TOTAL_MILEAGE": 4509.62,
+      "NUM_ROADS": 3706,
+      "TOTAL_MILEAGE": 4509.42,
       "ADMIN_MILEAGE": 6,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 4482.2,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 4482,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 4012.25,
+        "ML1": 4012.05,
         "ML2": 469.95,
         "ML3": 20.34,
-        "ML4": 1.48,
+        "ML4": 1.47,
         "ML5": 0.07,
         "NONE": 5.53
       }
@@ -2361,14 +2361,14 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1670.304
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 1462,
-      "TOTAL_MILEAGE": 3523.42,
+      "NUM_TRAILS": 1461,
+      "TOTAL_MILEAGE": 3522.62,
       "TOTAL_SEASONAL_MILEAGE": 2115.74,
       "TRAIL_TYPE": {
         "FULL_SIZE": 696.27,
-        "ATV": 1556.77,
-        "MOTORCYCLE": 1142.66,
-        "SPECIAL": 127.73,
+        "ATV": 1555.97,
+        "MOTORCYCLE": 1142.65,
+        "SPECIAL": 127.72,
         "OTHER": 0
       }
     },
@@ -3052,29 +3052,29 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1031,
-      "TOTAL_MILEAGE": 2186.37,
-      "TOTAL_SEASONAL_MILEAGE": 655.03,
+      "NUM_ROADS": 1671,
+      "TOTAL_MILEAGE": 3594.16,
+      "TOTAL_SEASONAL_MILEAGE": 655.04,
       "MAINTENANCE_LEVELS": {
         "ML1": 8.22,
-        "ML2": 1103.05,
-        "ML3": 802.1,
+        "ML2": 1837.1,
+        "ML3": 1443.22,
         "ML4": 193.73,
-        "ML5": 79.11,
-        "NONE": 0.16
+        "ML5": 111.7,
+        "NONE": 0.19
       },
-      "ALL_VEHICLES_MILEAGE": 2118.093,
+      "ALL_VEHICLES_MILEAGE": 2118.09,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.35
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 1649,
-      "TOTAL_MILEAGE": 2752.97,
-      "TOTAL_SEASONAL_MILEAGE": 826.88,
+      "NUM_TRAILS": 1648,
+      "TOTAL_MILEAGE": 2752.94,
+      "TOTAL_SEASONAL_MILEAGE": 826.86,
       "TRAIL_TYPE": {
         "FULL_SIZE": 4.76,
-        "ATV": 420.1,
+        "ATV": 420.11,
         "MOTORCYCLE": 734.24,
-        "SPECIAL": 1593.86,
+        "SPECIAL": 1593.84,
         "OTHER": 0
       }
     },
@@ -3324,19 +3324,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 426,
-      "TOTAL_MILEAGE": 482.18,
+      "NUM_ROADS": 2455,
+      "TOTAL_MILEAGE": 2229.93,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 414.78,
-        "ML3": 51.85,
-        "ML4": 15.37,
+        "ML2": 1647.16,
+        "ML3": 523.37,
+        "ML4": 59.21,
         "ML5": 0.18,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 482.177
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 482.18
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -3542,18 +3542,18 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 684,
-      "TOTAL_MILEAGE": 942.44,
-      "TOTAL_SEASONAL_MILEAGE": 690.23,
+      "NUM_ROADS": 483,
+      "TOTAL_MILEAGE": 694.7,
+      "TOTAL_SEASONAL_MILEAGE": 474.25,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 684.18,
-        "ML3": 250.44,
-        "ML4": 6.05,
-        "ML5": 1.76,
+        "ML2": 510.6,
+        "ML3": 182.21,
+        "ML4": 0.25,
+        "ML5": 1.63,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 929.07,
+      "ALL_VEHICLES_MILEAGE": 681.34,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
@@ -4156,13 +4156,13 @@
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 361,
-      "TOTAL_MILEAGE": 1091.96,
+      "TOTAL_MILEAGE": 1091.94,
       "TOTAL_SEASONAL_MILEAGE": 441.29,
       "TRAIL_TYPE": {
         "FULL_SIZE": 76.22,
         "ATV": 475.64,
         "MOTORCYCLE": 480.93,
-        "SPECIAL": 59.17,
+        "SPECIAL": 59.16,
         "OTHER": 0
       }
     },
@@ -4521,17 +4521,17 @@
     ],
     "MVUM_ROADS": {
       "NUM_ROADS": 2732,
-      "TOTAL_MILEAGE": 3863.68,
+      "TOTAL_MILEAGE": 3863.69,
       "TOTAL_SEASONAL_MILEAGE": 629.08,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 2546.46,
+        "ML2": 2546.47,
         "ML3": 862.44,
         "ML4": 451.64,
         "ML5": 3.14,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 3781.155,
+      "ALL_VEHICLES_MILEAGE": 3781.16,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.97
     },
     "MVUM_TRAILS": {
@@ -4846,41 +4846,41 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 369,
-      "TOTAL_MILEAGE": 762.91,
-      "TOTAL_SEASONAL_MILEAGE": 29.98,
+      "NUM_ROADS": 394,
+      "TOTAL_MILEAGE": 763.32,
+      "TOTAL_SEASONAL_MILEAGE": 29.97,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 629.25,
-        "ML3": 69.24,
+        "ML2": 629.57,
+        "ML3": 69.34,
         "ML4": 9.02,
         "ML5": 0,
-        "NONE": 55.4
+        "NONE": 55.41
       },
-      "ALL_VEHICLES_MILEAGE": 524.919,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 237.991
+      "ALL_VEHICLES_MILEAGE": 445,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 236.05
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 90,
-      "TOTAL_MILEAGE": 253.88,
+      "NUM_TRAILS": 11,
+      "TOTAL_MILEAGE": 17.97,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
-        "FULL_SIZE": 180.34,
-        "ATV": 46.61,
-        "MOTORCYCLE": 25.13,
+        "FULL_SIZE": 0,
+        "ATV": 14.81,
+        "MOTORCYCLE": 1.36,
         "SPECIAL": 1.8,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 107,
-      "TOTAL_MILEAGE": 102.78,
-      "ADMIN_MILEAGE": 97.81,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 98.98,
+      "NUM_ROADS": 97,
+      "TOTAL_MILEAGE": 91.23,
+      "ADMIN_MILEAGE": 86.26,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 87.44,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 6.22,
-        "ML2": 92.76,
+        "ML2": 81.21,
         "ML3": 3.45,
         "ML4": 0.35,
         "ML5": 0,
@@ -5064,19 +5064,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 702,
-      "TOTAL_MILEAGE": 1622.78,
-      "TOTAL_SEASONAL_MILEAGE": 1566.44,
+      "NUM_ROADS": 701,
+      "TOTAL_MILEAGE": 1621.86,
+      "TOTAL_SEASONAL_MILEAGE": 1565.52,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 998.71,
-        "ML3": 621.22,
+        "ML3": 620.29,
         "ML4": 0.72,
         "ML5": 0.97,
         "NONE": 1.16
       },
-      "ALL_VEHICLES_MILEAGE": 1384.578,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 178.762
+      "ALL_VEHICLES_MILEAGE": 1383.66,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 178.76
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 81,
@@ -5091,15 +5091,15 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 591,
-      "TOTAL_MILEAGE": 657.08,
-      "ADMIN_MILEAGE": 66.24,
+      "NUM_ROADS": 590,
+      "TOTAL_MILEAGE": 656.65,
+      "ADMIN_MILEAGE": 65.8,
       "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 656.16,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 591.23,
         "ML2": 64.93,
-        "ML3": 0.92,
+        "ML3": 0.49,
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
@@ -5390,28 +5390,28 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2312,
-      "TOTAL_MILEAGE": 2676.43,
+      "NUM_ROADS": 2311,
+      "TOTAL_MILEAGE": 2676.11,
       "TOTAL_SEASONAL_MILEAGE": 897.69,
       "MAINTENANCE_LEVELS": {
         "ML1": 7.8,
-        "ML2": 1951.26,
+        "ML2": 1951.27,
         "ML3": 618.41,
         "ML4": 55.5,
         "ML5": 9.66,
-        "NONE": 33.8
+        "NONE": 33.48
       },
-      "ALL_VEHICLES_MILEAGE": 1910.245,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 766.179
+      "ALL_VEHICLES_MILEAGE": 1909.93,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 766.18
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 52,
-      "TOTAL_MILEAGE": 121.85,
+      "NUM_TRAILS": 46,
+      "TOTAL_MILEAGE": 104.4,
       "TOTAL_SEASONAL_MILEAGE": 74.69,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 84.3,
-        "MOTORCYCLE": 35.3,
+        "ATV": 71.67,
+        "MOTORCYCLE": 30.48,
         "SPECIAL": 2.25,
         "OTHER": 0
       }
@@ -5893,13 +5893,13 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 319.049
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 208,
-      "TOTAL_MILEAGE": 673.21,
-      "TOTAL_SEASONAL_MILEAGE": 174.32,
+      "NUM_TRAILS": 207,
+      "TOTAL_MILEAGE": 673.06,
+      "TOTAL_SEASONAL_MILEAGE": 174.31,
       "TRAIL_TYPE": {
         "FULL_SIZE": 58.6,
-        "ATV": 333.47,
-        "MOTORCYCLE": 279.73,
+        "ATV": 333.46,
+        "MOTORCYCLE": 279.58,
         "SPECIAL": 1.42,
         "OTHER": 0
       }
@@ -6450,13 +6450,13 @@
     },
     "CLOSED_ROADS": {
       "NUM_ROADS": 305,
-      "TOTAL_MILEAGE": 239.2,
+      "TOTAL_MILEAGE": 239.21,
       "ADMIN_MILEAGE": 54.79,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 237.47,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 237.48,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 184.9,
-        "ML2": 52.58,
+        "ML2": 52.57,
         "ML3": 0.6,
         "ML4": 0.8,
         "ML5": 0.1,
@@ -6856,19 +6856,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 757,
-      "TOTAL_MILEAGE": 1492.71,
-      "TOTAL_SEASONAL_MILEAGE": 1359.79,
+      "NUM_ROADS": 749,
+      "TOTAL_MILEAGE": 1476.07,
+      "TOTAL_SEASONAL_MILEAGE": 1348.24,
       "MAINTENANCE_LEVELS": {
         "ML1": 2.4,
-        "ML2": 962.2,
-        "ML3": 292.88,
+        "ML2": 953.68,
+        "ML3": 289.59,
         "ML4": 42.14,
-        "ML5": 16.64,
-        "NONE": 176.45
+        "ML5": 16.63,
+        "NONE": 171.64
       },
-      "ALL_VEHICLES_MILEAGE": 1124.012,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 366.037
+      "ALL_VEHICLES_MILEAGE": 1109.5,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 363.92
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 3,
@@ -6883,14 +6883,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 597,
-      "TOTAL_MILEAGE": 584.54,
+      "NUM_ROADS": 596,
+      "TOTAL_MILEAGE": 584.23,
       "ADMIN_MILEAGE": 98.57,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 533.14,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 532.84,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 303.76,
-        "ML2": 229.37,
+        "ML1": 303.77,
+        "ML2": 229.07,
         "ML3": 49.67,
         "ML4": 0.2,
         "ML5": 1.54,
@@ -7562,19 +7562,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1036,
-      "TOTAL_MILEAGE": 2060.41,
-      "TOTAL_SEASONAL_MILEAGE": 1133.88,
+      "NUM_ROADS": 866,
+      "TOTAL_MILEAGE": 1800.05,
+      "TOTAL_SEASONAL_MILEAGE": 984.09,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1663.64,
-        "ML3": 342.05,
+        "ML2": 1405.95,
+        "ML3": 339.41,
         "ML4": 49.92,
         "ML5": 4.79,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2053.879,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.526
+      "ALL_VEHICLES_MILEAGE": 1793.72,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 6.33
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 23,
@@ -7589,18 +7589,18 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1141,
-      "TOTAL_MILEAGE": 1140.02,
-      "ADMIN_MILEAGE": 399.17,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1117.36,
+      "NUM_ROADS": 1000,
+      "TOTAL_MILEAGE": 1043.39,
+      "ADMIN_MILEAGE": 383.25,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1026.43,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 1042.77,
-        "ML2": 74.59,
+        "ML1": 958.61,
+        "ML2": 67.82,
         "ML3": 4.69,
         "ML4": 0.76,
         "ML5": 0,
-        "NONE": 17.21
+        "NONE": 11.51
       }
     },
     "STATE": "New Mexico"
@@ -7942,29 +7942,29 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1077,
-      "TOTAL_MILEAGE": 1906.18,
-      "TOTAL_SEASONAL_MILEAGE": 105.04,
+      "NUM_ROADS": 1076,
+      "TOTAL_MILEAGE": 1905.83,
+      "TOTAL_SEASONAL_MILEAGE": 105.03,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1627.6,
+        "ML2": 1627.25,
         "ML3": 266.43,
         "ML4": 12.15,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1848.638,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 57.539
+      "ALL_VEHICLES_MILEAGE": 1848.29,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 57.54
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 120,
-      "TOTAL_MILEAGE": 211.57,
-      "TOTAL_SEASONAL_MILEAGE": 18.03,
+      "NUM_TRAILS": 67,
+      "TOTAL_MILEAGE": 104.54,
+      "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 11.13,
         "ATV": 0.88,
-        "MOTORCYCLE": 84.19,
-        "SPECIAL": 115.36,
+        "MOTORCYCLE": 77.43,
+        "SPECIAL": 15.1,
         "OTHER": 0
       }
     },
@@ -8175,28 +8175,28 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 607.263
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 72,
-      "TOTAL_MILEAGE": 300.14,
+      "NUM_TRAILS": 64,
+      "TOTAL_MILEAGE": 230.71,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
         "ATV": 0,
-        "MOTORCYCLE": 202.87,
-        "SPECIAL": 97.27,
+        "MOTORCYCLE": 143.2,
+        "SPECIAL": 87.52,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 4209,
-      "TOTAL_MILEAGE": 2883.86,
+      "NUM_ROADS": 4208,
+      "TOTAL_MILEAGE": 2883.65,
       "ADMIN_MILEAGE": 3.83,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 2845.41,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 2845.2,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 548.1,
-        "ML2": 2297.31,
-        "ML3": 10.11,
-        "ML4": 2.45,
+        "ML2": 2297.11,
+        "ML3": 10.1,
+        "ML4": 2.46,
         "ML5": 0.06,
         "NONE": 25.83
       }
@@ -8486,27 +8486,27 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1408,
-      "TOTAL_MILEAGE": 1872.86,
-      "TOTAL_SEASONAL_MILEAGE": 42.76,
+      "NUM_ROADS": 1406,
+      "TOTAL_MILEAGE": 1872.13,
+      "TOTAL_SEASONAL_MILEAGE": 42.77,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1569.51,
-        "ML3": 283.85,
+        "ML2": 1569.41,
+        "ML3": 283.23,
         "ML4": 15.58,
         "ML5": 3.93,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1563.136,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 309.729
+      "ALL_VEHICLES_MILEAGE": 1562.41,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 309.73
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 42,
-      "TOTAL_MILEAGE": 48.66,
+      "NUM_TRAILS": 36,
+      "TOTAL_MILEAGE": 46.64,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
-        "FULL_SIZE": 13.12,
-        "ATV": 11.99,
+        "FULL_SIZE": 11.45,
+        "ATV": 11.64,
         "MOTORCYCLE": 22.75,
         "SPECIAL": 0.8,
         "OTHER": 0
@@ -8881,12 +8881,12 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 28.489
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 88,
-      "TOTAL_MILEAGE": 172.84,
+      "NUM_TRAILS": 87,
+      "TOTAL_MILEAGE": 172.69,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 56.62,
-        "ATV": 116.22,
+        "ATV": 116.07,
         "MOTORCYCLE": 0,
         "SPECIAL": 0,
         "OTHER": 0
@@ -9084,41 +9084,41 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2593,
-      "TOTAL_MILEAGE": 3383.77,
+      "NUM_ROADS": 2592,
+      "TOTAL_MILEAGE": 3383.74,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 2856.56,
-        "ML3": 505.53,
-        "ML4": 21.68,
+        "ML2": 2856.52,
+        "ML3": 505.54,
+        "ML4": 21.69,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2879.988,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 503.783
+      "ALL_VEHICLES_MILEAGE": 2879.95,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 503.78
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 95,
-      "TOTAL_MILEAGE": 559.95,
+      "NUM_TRAILS": 94,
+      "TOTAL_MILEAGE": 558.42,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
         "ATV": 0,
         "MOTORCYCLE": 0,
-        "SPECIAL": 559.95,
+        "SPECIAL": 558.42,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 5660,
-      "TOTAL_MILEAGE": 2766.67,
+      "NUM_ROADS": 5657,
+      "TOTAL_MILEAGE": 2758.84,
       "ADMIN_MILEAGE": 232.97,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 2759.84,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 2752,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 2467.96,
-        "ML2": 291.89,
+        "ML1": 2466.04,
+        "ML2": 285.96,
         "ML3": 0.72,
         "ML4": 0,
         "ML5": 0,
@@ -9302,19 +9302,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 615,
-      "TOTAL_MILEAGE": 1256.87,
+      "NUM_ROADS": 614,
+      "TOTAL_MILEAGE": 1256.86,
       "TOTAL_SEASONAL_MILEAGE": 16.11,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 925.38,
-        "ML3": 313.26,
+        "ML3": 313.25,
         "ML4": 18.22,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1235.563,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 18.014
+      "ALL_VEHICLES_MILEAGE": 1235.56,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 18
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 70,
@@ -9520,40 +9520,40 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1175,
-      "TOTAL_MILEAGE": 2140.29,
+      "NUM_ROADS": 1157,
+      "TOTAL_MILEAGE": 2133.21,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 16.02,
-        "ML2": 2044.01,
+        "ML2": 2041.02,
         "ML3": 41.44,
         "ML4": 2.83,
         "ML5": 15.12,
-        "NONE": 20.87
+        "NONE": 16.78
       },
-      "ALL_VEHICLES_MILEAGE": 2065.404,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 74.891
+      "ALL_VEHICLES_MILEAGE": 2058.43,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 74.77
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 146,
-      "TOTAL_MILEAGE": 437.01,
+      "NUM_TRAILS": 144,
+      "TOTAL_MILEAGE": 436.61,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 325.36,
+        "ATV": 324.97,
         "MOTORCYCLE": 111.64,
         "SPECIAL": 0,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 76,
-      "TOTAL_MILEAGE": 68.49,
+      "NUM_ROADS": 75,
+      "TOTAL_MILEAGE": 67.98,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 68.32,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 67.81,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 68.32,
+        "ML1": 67.81,
         "ML2": 0,
         "ML3": 0,
         "ML4": 0,
@@ -9846,19 +9846,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1455,
-      "TOTAL_MILEAGE": 2127.55,
-      "TOTAL_SEASONAL_MILEAGE": 119.86,
+      "NUM_ROADS": 1454,
+      "TOTAL_MILEAGE": 2116.32,
+      "TOTAL_SEASONAL_MILEAGE": 119.87,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1737.09,
-        "ML3": 366.09,
+        "ML2": 1737.1,
+        "ML3": 354.86,
         "ML4": 24.38,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2032.017,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 95.538
+      "ALL_VEHICLES_MILEAGE": 2020.79,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 95.54
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 54,
@@ -9873,15 +9873,15 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 7066,
-      "TOTAL_MILEAGE": 3987.75,
+      "NUM_ROADS": 7064,
+      "TOTAL_MILEAGE": 3985.96,
       "ADMIN_MILEAGE": 0,
       "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 3973.53,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 1196.47,
-        "ML2": 2777.06,
-        "ML3": 11.74,
+        "ML2": 2777.07,
+        "ML3": 9.94,
         "ML4": 2.48,
         "ML5": 0,
         "NONE": 0
@@ -10226,19 +10226,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2,
-      "TOTAL_MILEAGE": 4.42,
+      "NUM_ROADS": 503,
+      "TOTAL_MILEAGE": 1084.81,
       "TOTAL_SEASONAL_MILEAGE": 1.4,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 0,
-        "ML3": 4.42,
-        "ML4": 0,
-        "ML5": 0,
+        "ML2": 730.71,
+        "ML3": 249.6,
+        "ML4": 91.62,
+        "ML5": 12.9,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.397
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1.4
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -10254,13 +10254,13 @@
     },
     "CLOSED_ROADS": {
       "NUM_ROADS": 298,
-      "TOTAL_MILEAGE": 191.74,
+      "TOTAL_MILEAGE": 191.73,
       "ADMIN_MILEAGE": 137.34,
       "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 184.27,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 112.39,
-        "ML2": 71.88,
+        "ML2": 71.87,
         "ML3": 7.42,
         "ML4": 0,
         "ML5": 0,
@@ -10824,18 +10824,18 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1535,
-      "TOTAL_MILEAGE": 2778.13,
+      "NUM_ROADS": 1534,
+      "TOTAL_MILEAGE": 2772.4,
       "TOTAL_SEASONAL_MILEAGE": 710.79,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 2257.13,
-        "ML3": 504.22,
+        "ML3": 498.51,
         "ML4": 16.78,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2754.731,
+      "ALL_VEHICLES_MILEAGE": 2749.01,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 13.27
     },
     "MVUM_TRAILS": {
@@ -11204,19 +11204,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1014,
-      "TOTAL_MILEAGE": 1490.13,
-      "TOTAL_SEASONAL_MILEAGE": 472.65,
+      "NUM_ROADS": 1013,
+      "TOTAL_MILEAGE": 1489.86,
+      "TOTAL_SEASONAL_MILEAGE": 472.36,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 902.68,
-        "ML3": 376.01,
-        "ML4": 211.44,
+        "ML2": 902.42,
+        "ML3": 376.02,
+        "ML4": 211.45,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1069.984,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 35.004
+      "ALL_VEHICLES_MILEAGE": 1069.7,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 35
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 85,
@@ -11476,19 +11476,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1365,
-      "TOTAL_MILEAGE": 2171.89,
+      "NUM_ROADS": 1360,
+      "TOTAL_MILEAGE": 2169.78,
       "TOTAL_SEASONAL_MILEAGE": 91.73,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1712.81,
-        "ML3": 410.33,
+        "ML2": 1710.7,
+        "ML3": 410.32,
         "ML4": 48.54,
         "ML5": 0.21,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2103.906,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.584
+      "ALL_VEHICLES_MILEAGE": 2101.8,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 66.58
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 280,
@@ -11503,16 +11503,16 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1453,
-      "TOTAL_MILEAGE": 1084.57,
+      "NUM_ROADS": 1442,
+      "TOTAL_MILEAGE": 1083.72,
       "ADMIN_MILEAGE": 0.24,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1043.38,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1043.39,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 1005.05,
-        "ML2": 38.34,
+        "ML2": 38.35,
         "ML3": 39.67,
-        "ML4": 0.86,
+        "ML4": 0,
         "ML5": 0,
         "NONE": 0.66
       }
@@ -11748,19 +11748,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2306,
-      "TOTAL_MILEAGE": 2158.7,
+      "NUM_ROADS": 2305,
+      "TOTAL_MILEAGE": 2158.47,
       "TOTAL_SEASONAL_MILEAGE": 283.77,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1940.69,
+        "ML2": 1940.47,
         "ML3": 196.51,
         "ML4": 13.53,
         "ML5": 7.4,
         "NONE": 0.57
       },
-      "ALL_VEHICLES_MILEAGE": 2076.526,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 78.773
+      "ALL_VEHICLES_MILEAGE": 2076.31,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 78.77
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 793,
@@ -12075,17 +12075,17 @@
     ],
     "MVUM_ROADS": {
       "NUM_ROADS": 1287,
-      "TOTAL_MILEAGE": 1886.66,
+      "TOTAL_MILEAGE": 1886.64,
       "TOTAL_SEASONAL_MILEAGE": 231.02,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1592.3,
+        "ML2": 1592.31,
         "ML3": 290.65,
         "ML4": 3.7,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1839.691,
+      "ALL_VEHICLES_MILEAGE": 1839.69,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
@@ -12780,28 +12780,28 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1172,
-      "TOTAL_MILEAGE": 2709.49,
+      "NUM_ROADS": 1170,
+      "TOTAL_MILEAGE": 2699.8,
       "TOTAL_SEASONAL_MILEAGE": 237.56,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 2300.62,
-        "ML3": 366.82,
-        "ML4": 41.03,
+        "ML2": 2300.63,
+        "ML3": 357.13,
+        "ML4": 41.02,
         "ML5": 1.02,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2708.541,
+      "ALL_VEHICLES_MILEAGE": 2698.85,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0.95
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 336,
-      "TOTAL_MILEAGE": 913.92,
+      "NUM_TRAILS": 334,
+      "TOTAL_MILEAGE": 901.91,
       "TOTAL_SEASONAL_MILEAGE": 242.1,
       "TRAIL_TYPE": {
-        "FULL_SIZE": 113.85,
+        "FULL_SIZE": 112.75,
         "ATV": 264.61,
-        "MOTORCYCLE": 525.25,
+        "MOTORCYCLE": 514.36,
         "SPECIAL": 10.2,
         "OTHER": 0
       }
@@ -13486,19 +13486,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1629,
-      "TOTAL_MILEAGE": 2282.13,
-      "TOTAL_SEASONAL_MILEAGE": 207.93,
+      "NUM_ROADS": 1628,
+      "TOTAL_MILEAGE": 2273.45,
+      "TOTAL_SEASONAL_MILEAGE": 207.94,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 1500.56,
-        "ML3": 582.53,
-        "ML4": 173.95,
+        "ML3": 573.85,
+        "ML4": 173.94,
         "ML5": 25.08,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2237.848,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 36.045
+      "ALL_VEHICLES_MILEAGE": 2229.17,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 36.05
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 563,
@@ -13920,40 +13920,40 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2750,
-      "TOTAL_MILEAGE": 5126.06,
-      "TOTAL_SEASONAL_MILEAGE": 71.46,
+      "NUM_ROADS": 2266,
+      "TOTAL_MILEAGE": 3943.52,
+      "TOTAL_SEASONAL_MILEAGE": 69.04,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 4426.62,
-        "ML3": 613.43,
-        "ML4": 66.56,
-        "ML5": 19.46,
+        "ML2": 3371.57,
+        "ML3": 504.4,
+        "ML4": 61.68,
+        "ML5": 5.88,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 4692.228,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 432.376
+      "ALL_VEHICLES_MILEAGE": 3668.24,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 273.83
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 2452,
-      "TOTAL_MILEAGE": 1684.8,
-      "TOTAL_SEASONAL_MILEAGE": 86.66,
+      "NUM_TRAILS": 1507,
+      "TOTAL_MILEAGE": 1201.86,
+      "TOTAL_SEASONAL_MILEAGE": 40.9,
       "TRAIL_TYPE": {
-        "FULL_SIZE": 1529.92,
-        "ATV": 118.96,
+        "FULL_SIZE": 1059.24,
+        "ATV": 106.69,
         "MOTORCYCLE": 35.92,
         "SPECIAL": 0,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 588,
-      "TOTAL_MILEAGE": 495.47,
+      "NUM_ROADS": 543,
+      "TOTAL_MILEAGE": 456.01,
       "ADMIN_MILEAGE": 11.47,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 495.27,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 455.82,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 481.8,
+        "ML1": 442.34,
         "ML2": 13.47,
         "ML3": 0.2,
         "ML4": 0,
@@ -14354,19 +14354,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2204,
-      "TOTAL_MILEAGE": 2063.21,
+      "NUM_ROADS": 2203,
+      "TOTAL_MILEAGE": 2063.05,
       "TOTAL_SEASONAL_MILEAGE": 580.93,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 1406.04,
-        "ML3": 401.09,
-        "ML4": 135.82,
-        "ML5": 120.26,
+        "ML3": 401.11,
+        "ML4": 135.65,
+        "ML5": 120.27,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 1437.52,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 613.372
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 613.21
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 225,
@@ -14736,19 +14736,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 188,
-      "TOTAL_MILEAGE": 242.1,
+      "NUM_ROADS": 185,
+      "TOTAL_MILEAGE": 241.75,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 165.52,
+        "ML2": 165.18,
         "ML3": 8.46,
         "ML4": 50.29,
-        "ML5": 17.82,
+        "ML5": 17.83,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 35.43,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 204.377
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 204.03
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 50,
@@ -14763,17 +14763,17 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 173,
-      "TOTAL_MILEAGE": 156.55,
-      "ADMIN_MILEAGE": 124.62,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 146.89,
+      "NUM_ROADS": 169,
+      "TOTAL_MILEAGE": 155.93,
+      "ADMIN_MILEAGE": 124,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 146.26,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 34.2,
-        "ML2": 112.69,
+        "ML2": 112.06,
         "ML3": 2.84,
         "ML4": 3.94,
-        "ML5": 2.88,
+        "ML5": 2.89,
         "NONE": 0
       }
     },
@@ -15008,19 +15008,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1151,
-      "TOTAL_MILEAGE": 1719.12,
-      "TOTAL_SEASONAL_MILEAGE": 1089.22,
+      "NUM_ROADS": 1148,
+      "TOTAL_MILEAGE": 1718.98,
+      "TOTAL_SEASONAL_MILEAGE": 1089.09,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1178.61,
-        "ML3": 414.1,
-        "ML4": 103.3,
+        "ML2": 1178.48,
+        "ML3": 414.09,
+        "ML4": 103.31,
         "ML5": 23.11,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 997.919,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 721.199
+      "ALL_VEHICLES_MILEAGE": 997.8,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 721.18
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 136,
@@ -15035,15 +15035,15 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1490,
-      "TOTAL_MILEAGE": 1048.7,
+      "NUM_ROADS": 1487,
+      "TOTAL_MILEAGE": 1046.93,
       "ADMIN_MILEAGE": 123.01,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1032.57,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1030.79,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 694.91,
-        "ML2": 337.65,
-        "ML3": 8.67,
+        "ML1": 694.92,
+        "ML2": 335.88,
+        "ML3": 8.66,
         "ML4": 0.65,
         "ML5": 0.02,
         "NONE": 6.8
@@ -15280,42 +15280,42 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 3635,
-      "TOTAL_MILEAGE": 1943.36,
+      "NUM_ROADS": 3623,
+      "TOTAL_MILEAGE": 1908.26,
       "TOTAL_SEASONAL_MILEAGE": 0.47,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1824.3,
+        "ML2": 1789.2,
         "ML3": 63.12,
-        "ML4": 37.28,
+        "ML4": 37.27,
         "ML5": 18.66,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1828.571,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 114.792
+      "ALL_VEHICLES_MILEAGE": 1793.47,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 114.79
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 323,
-      "TOTAL_MILEAGE": 346.59,
-      "TOTAL_SEASONAL_MILEAGE": 3.05,
+      "NUM_TRAILS": 315,
+      "TOTAL_MILEAGE": 330.34,
+      "TOTAL_SEASONAL_MILEAGE": 2.79,
       "TRAIL_TYPE": {
-        "FULL_SIZE": 290.37,
-        "ATV": 23.09,
-        "MOTORCYCLE": 33.12,
+        "FULL_SIZE": 279.16,
+        "ATV": 21.73,
+        "MOTORCYCLE": 29.46,
         "SPECIAL": 0,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
       "NUM_ROADS": 157,
-      "TOTAL_MILEAGE": 56.37,
-      "ADMIN_MILEAGE": 56.15,
+      "TOTAL_MILEAGE": 56.38,
+      "ADMIN_MILEAGE": 56.16,
       "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 50.4,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 0.22,
-        "ML2": 50.19,
-        "ML3": 4.77,
+        "ML2": 50.18,
+        "ML3": 4.76,
         "ML4": 0.17,
         "ML5": 1.03,
         "NONE": 0
@@ -15660,19 +15660,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2318,
-      "TOTAL_MILEAGE": 3645.27,
+      "NUM_ROADS": 1987,
+      "TOTAL_MILEAGE": 3621.59,
       "TOTAL_SEASONAL_MILEAGE": 1141.45,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 2773.35,
+        "ML2": 2749.65,
         "ML3": 732.36,
         "ML4": 98.23,
         "ML5": 41.34,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2850.861,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 794.414
+      "ALL_VEHICLES_MILEAGE": 2827.92,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 793.65
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 12,
@@ -15687,18 +15687,18 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 774,
-      "TOTAL_MILEAGE": 960.43,
+      "NUM_ROADS": 770,
+      "TOTAL_MILEAGE": 861.89,
       "ADMIN_MILEAGE": 3.45,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 843.83,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 843.81,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 836.92,
+        "ML1": 836.89,
         "ML2": 6.92,
         "ML3": 4.5,
         "ML4": 0,
         "ML5": 0.2,
-        "NONE": 111.9
+        "NONE": 13.38
       }
     },
     "STATE": "California, Oregon"
@@ -15878,19 +15878,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2444,
-      "TOTAL_MILEAGE": 3033.33,
-      "TOTAL_SEASONAL_MILEAGE": 633.46,
+      "NUM_ROADS": 2439,
+      "TOTAL_MILEAGE": 3031.53,
+      "TOTAL_SEASONAL_MILEAGE": 633.47,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 2391.06,
-        "ML3": 476.6,
+        "ML3": 476.61,
         "ML4": 144.39,
         "ML5": 17.47,
-        "NONE": 3.81
+        "NONE": 2
       },
-      "ALL_VEHICLES_MILEAGE": 2354.93,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 678.401
+      "ALL_VEHICLES_MILEAGE": 2353.12,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 678.4
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 260,
@@ -15905,14 +15905,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 844,
-      "TOTAL_MILEAGE": 399.09,
+      "NUM_ROADS": 837,
+      "TOTAL_MILEAGE": 387.77,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 386.06,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 374.74,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 307.43,
-        "ML2": 78.63,
+        "ML1": 296.11,
+        "ML2": 78.62,
         "ML3": 1.86,
         "ML4": 1.16,
         "ML5": 4.36,
@@ -16422,27 +16422,27 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 987,
-      "TOTAL_MILEAGE": 1705.35,
+      "NUM_ROADS": 971,
+      "TOTAL_MILEAGE": 1702.58,
       "TOTAL_SEASONAL_MILEAGE": 52.93,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1400.32,
-        "ML3": 256.85,
-        "ML4": 44.79,
+        "ML2": 1399.71,
+        "ML3": 255.03,
+        "ML4": 44.46,
         "ML5": 3.39,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1386.741,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 318.613
+      "ALL_VEHICLES_MILEAGE": 1386.13,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 316.46
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 198,
-      "TOTAL_MILEAGE": 260.76,
+      "NUM_TRAILS": 196,
+      "TOTAL_MILEAGE": 260.46,
       "TOTAL_SEASONAL_MILEAGE": 7.36,
       "TRAIL_TYPE": {
         "FULL_SIZE": 72.3,
-        "ATV": 167.98,
+        "ATV": 167.68,
         "MOTORCYCLE": 20.48,
         "SPECIAL": 0,
         "OTHER": 0
@@ -16694,18 +16694,18 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 7,
-      "TOTAL_MILEAGE": 2.53,
+      "NUM_ROADS": 2147,
+      "TOTAL_MILEAGE": 2289.33,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 2.53,
-        "ML3": 0,
-        "ML4": 0,
-        "ML5": 0,
+        "ML2": 2002.67,
+        "ML3": 285.91,
+        "ML4": 0.56,
+        "ML5": 0.2,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2.526,
+      "ALL_VEHICLES_MILEAGE": 0.24,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
@@ -16721,14 +16721,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 354,
-      "TOTAL_MILEAGE": 197.64,
+      "NUM_ROADS": 352,
+      "TOTAL_MILEAGE": 197.2,
       "ADMIN_MILEAGE": 0.14,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 189.26,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 188.81,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 174.39,
-        "ML2": 14.87,
+        "ML2": 14.43,
         "ML3": 8.38,
         "ML4": 0,
         "ML5": 0,
@@ -16966,18 +16966,18 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2,
-      "TOTAL_MILEAGE": 3.7,
+      "NUM_ROADS": 426,
+      "TOTAL_MILEAGE": 711.13,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 0.08,
-        "ML3": 0,
-        "ML4": 3.62,
-        "ML5": 0,
+        "ML2": 394.65,
+        "ML3": 270.2,
+        "ML4": 28.28,
+        "ML5": 18,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 0.084,
+      "ALL_VEHICLES_MILEAGE": 0.08,
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 3.62
     },
     "MVUM_TRAILS": {
@@ -17184,19 +17184,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2081,
-      "TOTAL_MILEAGE": 3617.65,
+      "NUM_ROADS": 2053,
+      "TOTAL_MILEAGE": 3566.58,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 3047.06,
-        "ML3": 344.12,
-        "ML4": 111.41,
-        "ML5": 111.94,
+        "ML2": 3004.4,
+        "ML3": 338.36,
+        "ML4": 108.76,
+        "ML5": 111.95,
         "NONE": 3.12
       },
-      "ALL_VEHICLES_MILEAGE": 3074.883,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 541.22
+      "ALL_VEHICLES_MILEAGE": 3030.6,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 534.43
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 328,
@@ -17211,18 +17211,18 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 287,
-      "TOTAL_MILEAGE": 172.61,
+      "NUM_ROADS": 286,
+      "TOTAL_MILEAGE": 172.29,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 170,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 169.67,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 166.17,
+        "ML1": 165.84,
         "ML2": 3.83,
         "ML3": 0.93,
         "ML4": 0,
-        "ML5": 0.89,
-        "NONE": 0.79
+        "ML5": 0.88,
+        "NONE": 0.8
       }
     },
     "STATE": "California"
@@ -17402,44 +17402,44 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 471,
-      "TOTAL_MILEAGE": 823.81,
-      "TOTAL_SEASONAL_MILEAGE": 22.88,
+      "NUM_ROADS": 468,
+      "TOTAL_MILEAGE": 816,
+      "TOTAL_SEASONAL_MILEAGE": 15.07,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 555.77,
-        "ML3": 219.93,
+        "ML2": 553.01,
+        "ML3": 214.88,
         "ML4": 21.84,
         "ML5": 26.26,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 172.816,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 648.988
+      "ALL_VEHICLES_MILEAGE": 172.82,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 641.18
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 25,
-      "TOTAL_MILEAGE": 64.22,
+      "NUM_TRAILS": 17,
+      "TOTAL_MILEAGE": 44.96,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 45.4,
+        "ATV": 26.14,
         "MOTORCYCLE": 6.28,
         "SPECIAL": 12.54,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 224,
-      "TOTAL_MILEAGE": 286.76,
-      "ADMIN_MILEAGE": 250.27,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 273.32,
+      "NUM_ROADS": 223,
+      "TOTAL_MILEAGE": 285.45,
+      "ADMIN_MILEAGE": 248.97,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 272.01,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 82.49,
-        "ML2": 190.83,
+        "ML2": 189.52,
         "ML3": 2.12,
         "ML4": 3.45,
-        "ML5": 7.87,
+        "ML5": 7.86,
         "NONE": 0
       }
     },
@@ -17620,41 +17620,41 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1254,
-      "TOTAL_MILEAGE": 1438.04,
+      "NUM_ROADS": 1253,
+      "TOTAL_MILEAGE": 1436.09,
       "TOTAL_SEASONAL_MILEAGE": 150.27,
       "MAINTENANCE_LEVELS": {
         "ML1": 3.53,
-        "ML2": 928.19,
+        "ML2": 928.18,
         "ML3": 283.5,
         "ML4": 140.25,
         "ML5": 80.63,
-        "NONE": 1.95
+        "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 800.633,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 628.709
+      "ALL_VEHICLES_MILEAGE": 798.68,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 628.71
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 99,
-      "TOTAL_MILEAGE": 366.91,
-      "TOTAL_SEASONAL_MILEAGE": 66.48,
+      "NUM_TRAILS": 97,
+      "TOTAL_MILEAGE": 362.5,
+      "TOTAL_SEASONAL_MILEAGE": 62.07,
       "TRAIL_TYPE": {
-        "FULL_SIZE": 63.56,
-        "ATV": 2.81,
+        "FULL_SIZE": 59.35,
+        "ATV": 2.61,
         "MOTORCYCLE": 299.79,
         "SPECIAL": 0.75,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 419,
-      "TOTAL_MILEAGE": 231.26,
-      "ADMIN_MILEAGE": 59.19,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 227.76,
+      "NUM_ROADS": 418,
+      "TOTAL_MILEAGE": 230.81,
+      "ADMIN_MILEAGE": 58.74,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 227.32,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 170.62,
-        "ML2": 57.14,
+        "ML1": 170.63,
+        "ML2": 56.68,
         "ML3": 1.93,
         "ML4": 1.57,
         "ML5": 0,
@@ -18054,26 +18054,26 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 3244,
-      "TOTAL_MILEAGE": 4890.85,
-      "TOTAL_SEASONAL_MILEAGE": 550.02,
+      "NUM_ROADS": 3055,
+      "TOTAL_MILEAGE": 4651.74,
+      "TOTAL_SEASONAL_MILEAGE": 546.66,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 3819.19,
-        "ML3": 776.05,
-        "ML4": 295.61,
+        "ML2": 3642.49,
+        "ML3": 719.61,
+        "ML4": 289.6,
         "ML5": 0,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 3803.75,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1059.398
+      "ALL_VEHICLES_MILEAGE": 3633.37,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 990.66
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 53,
-      "TOTAL_MILEAGE": 46.65,
+      "NUM_TRAILS": 52,
+      "TOTAL_MILEAGE": 46.53,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
-        "FULL_SIZE": 41.21,
+        "FULL_SIZE": 41.09,
         "ATV": 5.44,
         "MOTORCYCLE": 0,
         "SPECIAL": 0,
@@ -18081,18 +18081,18 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 2292,
-      "TOTAL_MILEAGE": 1723.99,
+      "NUM_ROADS": 2232,
+      "TOTAL_MILEAGE": 1692.28,
       "ADMIN_MILEAGE": 466.76,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1712.87,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1684.49,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 1253.03,
-        "ML2": 459.84,
-        "ML3": 5.78,
+        "ML1": 1235.96,
+        "ML2": 448.54,
+        "ML3": 2.78,
         "ML4": 4.49,
         "ML5": 0,
-        "NONE": 0.84
+        "NONE": 0.52
       }
     },
     "STATE": "California"
@@ -18245,16 +18245,16 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1028,
-      "TOTAL_MILEAGE": 554.91,
+      "NUM_ROADS": 1026,
+      "TOTAL_MILEAGE": 554.34,
       "ADMIN_MILEAGE": 42.1,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 509.03,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 508.56,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 236.37,
-        "ML2": 272.66,
+        "ML2": 272.19,
         "ML3": 17.79,
-        "ML4": 25.12,
+        "ML4": 25.02,
         "ML5": 0,
         "NONE": 2.98
       }
@@ -18505,13 +18505,13 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 750.093
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 13,
-      "TOTAL_MILEAGE": 17.5,
-      "TOTAL_SEASONAL_MILEAGE": 17.5,
+      "NUM_TRAILS": 0,
+      "TOTAL_MILEAGE": 0,
+      "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 11.98,
-        "MOTORCYCLE": 5.51,
+        "ATV": 0,
+        "MOTORCYCLE": 0,
         "SPECIAL": 0,
         "OTHER": 0
       }
@@ -18762,19 +18762,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2108,
-      "TOTAL_MILEAGE": 1908.98,
-      "TOTAL_SEASONAL_MILEAGE": 1737.15,
+      "NUM_ROADS": 2102,
+      "TOTAL_MILEAGE": 1904.19,
+      "TOTAL_SEASONAL_MILEAGE": 1732.36,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1361.51,
-        "ML3": 371.09,
+        "ML2": 1360.01,
+        "ML3": 367.81,
         "ML4": 58.25,
-        "ML5": 118.13,
+        "ML5": 118.14,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1427.49,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 480.592
+      "ALL_VEHICLES_MILEAGE": 1423.83,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 479.46
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 256,
@@ -18789,14 +18789,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1598,
-      "TOTAL_MILEAGE": 995.47,
-      "ADMIN_MILEAGE": 570.36,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 985.44,
+      "NUM_ROADS": 1596,
+      "TOTAL_MILEAGE": 994.13,
+      "ADMIN_MILEAGE": 569.62,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 984.1,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 506.07,
-        "ML2": 479.37,
+        "ML1": 505.46,
+        "ML2": 478.64,
         "ML3": 6.68,
         "ML4": 1.02,
         "ML5": 2.16,
@@ -19035,19 +19035,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 4990,
-      "TOTAL_MILEAGE": 5301.34,
-      "TOTAL_SEASONAL_MILEAGE": 935.22,
+      "NUM_ROADS": 4989,
+      "TOTAL_MILEAGE": 5301.04,
+      "TOTAL_SEASONAL_MILEAGE": 934.91,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 4865.36,
+        "ML2": 4865.06,
         "ML3": 269.27,
-        "ML4": 125.56,
+        "ML4": 125.55,
         "ML5": 41.15,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 4466.39,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 834.951
+      "ALL_VEHICLES_MILEAGE": 4466.09,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 834.95
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 125,
@@ -19703,11 +19703,11 @@
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 77,
-      "TOTAL_MILEAGE": 246.35,
+      "TOTAL_MILEAGE": 246.36,
       "TOTAL_SEASONAL_MILEAGE": 39.46,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 31.83,
+        "ATV": 31.84,
         "MOTORCYCLE": 208.39,
         "SPECIAL": 6.14,
         "OTHER": 0
@@ -19906,12 +19906,12 @@
     ],
     "MVUM_ROADS": {
       "NUM_ROADS": 5143,
-      "TOTAL_MILEAGE": 5664.45,
+      "TOTAL_MILEAGE": 5664.44,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 5303.78,
-        "ML3": 360.67,
+        "ML3": 360.66,
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
@@ -19932,13 +19932,13 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 6722,
-      "TOTAL_MILEAGE": 3988.39,
-      "ADMIN_MILEAGE": 6.62,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 3987.59,
+      "NUM_ROADS": 6719,
+      "TOTAL_MILEAGE": 3987.83,
+      "ADMIN_MILEAGE": 6.61,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 3987.03,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 3939.53,
+        "ML1": 3938.96,
         "ML2": 48.06,
         "ML3": 0,
         "ML4": 0,
@@ -20177,29 +20177,29 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 925,
-      "TOTAL_MILEAGE": 1579.95,
-      "TOTAL_SEASONAL_MILEAGE": 166.04,
+      "NUM_ROADS": 588,
+      "TOTAL_MILEAGE": 1198.89,
+      "TOTAL_SEASONAL_MILEAGE": 97.44,
       "MAINTENANCE_LEVELS": {
         "ML1": 3.1,
-        "ML2": 594.6,
-        "ML3": 862.5,
-        "ML4": 75.75,
-        "ML5": 44,
+        "ML2": 440.21,
+        "ML3": 655.52,
+        "ML4": 72.66,
+        "ML5": 27.42,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2.207,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1568.14
+      "ALL_VEHICLES_MILEAGE": 2.21,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1187.08
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 64,
-      "TOTAL_MILEAGE": 229.59,
-      "TOTAL_SEASONAL_MILEAGE": 44.3,
+      "NUM_TRAILS": 19,
+      "TOTAL_MILEAGE": 129.7,
+      "TOTAL_SEASONAL_MILEAGE": 19,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 125.6,
-        "MOTORCYCLE": 75.1,
-        "SPECIAL": 28.89,
+        "ATV": 108.2,
+        "MOTORCYCLE": 21.5,
+        "SPECIAL": 0,
         "OTHER": 0
       }
     },
@@ -20476,14 +20476,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 964,
-      "TOTAL_MILEAGE": 684.85,
-      "ADMIN_MILEAGE": 230.34,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 646.19,
+      "NUM_ROADS": 962,
+      "TOTAL_MILEAGE": 681.24,
+      "ADMIN_MILEAGE": 226.73,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 642.58,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 453.6,
-        "ML2": 192.59,
+        "ML2": 188.98,
         "ML3": 36.92,
         "ML4": 1.37,
         "ML5": 0,
@@ -20667,19 +20667,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1697,
-      "TOTAL_MILEAGE": 1802.26,
+      "NUM_ROADS": 1696,
+      "TOTAL_MILEAGE": 1801.67,
       "TOTAL_SEASONAL_MILEAGE": 620.2,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1583.34,
+        "ML2": 1582.73,
         "ML3": 133.37,
         "ML4": 30.53,
         "ML5": 55.03,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1472.069,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 329.796
+      "ALL_VEHICLES_MILEAGE": 1471.47,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 329.8
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 18,
@@ -21265,43 +21265,43 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 5542,
-      "TOTAL_MILEAGE": 6481.72,
-      "TOTAL_SEASONAL_MILEAGE": 2179.06,
+      "NUM_ROADS": 5511,
+      "TOTAL_MILEAGE": 6375.52,
+      "TOTAL_SEASONAL_MILEAGE": 2177.38,
       "MAINTENANCE_LEVELS": {
         "ML1": 18.58,
-        "ML2": 4838.26,
-        "ML3": 1200.8,
+        "ML2": 4835.39,
+        "ML3": 1197.57,
         "ML4": 246.78,
         "ML5": 68.22,
-        "NONE": 109.08
+        "NONE": 8.98
       },
-      "ALL_VEHICLES_MILEAGE": 4350.543,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2121.781
+      "ALL_VEHICLES_MILEAGE": 4259.81,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 2106.31
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 154,
-      "TOTAL_MILEAGE": 866.86,
+      "NUM_TRAILS": 149,
+      "TOTAL_MILEAGE": 854.01,
       "TOTAL_SEASONAL_MILEAGE": 641.52,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 157.06,
-        "MOTORCYCLE": 276.17,
-        "SPECIAL": 433.64,
+        "ATV": 151,
+        "MOTORCYCLE": 274.67,
+        "SPECIAL": 428.34,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1647,
-      "TOTAL_MILEAGE": 954.74,
+      "NUM_ROADS": 1646,
+      "TOTAL_MILEAGE": 953.5,
       "ADMIN_MILEAGE": 28.99,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 942.89,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 942.88,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 700.22,
-        "ML2": 242.67,
+        "ML2": 242.66,
         "ML3": 10.35,
-        "ML4": 1.5,
+        "ML4": 0.27,
         "ML5": 0,
         "NONE": 0
       }
@@ -21701,19 +21701,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1278,
-      "TOTAL_MILEAGE": 2168.76,
+      "NUM_ROADS": 1276,
+      "TOTAL_MILEAGE": 2167.57,
       "TOTAL_SEASONAL_MILEAGE": 780.53,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1697.71,
+        "ML2": 1696.53,
         "ML3": 297.13,
         "ML4": 85.6,
         "ML5": 88.32,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 1716.197,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 452.563
+      "ALL_VEHICLES_MILEAGE": 1715.01,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 452.56
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 386,
@@ -22299,15 +22299,15 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2250,
-      "TOTAL_MILEAGE": 3394.51,
+      "NUM_ROADS": 1273,
+      "TOTAL_MILEAGE": 2056.92,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 2943.65,
-        "ML3": 312.68,
-        "ML4": 6.68,
-        "ML5": 131.51,
+        "ML2": 1729.85,
+        "ML3": 234.71,
+        "ML4": 0.33,
+        "ML5": 92,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
@@ -22326,18 +22326,18 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 8260,
-      "TOTAL_MILEAGE": 5643.03,
-      "ADMIN_MILEAGE": 1.91,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 5637,
+      "NUM_ROADS": 4371,
+      "TOTAL_MILEAGE": 3038.08,
+      "ADMIN_MILEAGE": 0.92,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 3032.99,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 4544.16,
-        "ML2": 1092.84,
-        "ML3": 2.42,
-        "ML4": 0.13,
-        "ML5": 0.48,
-        "NONE": 3
+        "ML1": 2317.22,
+        "ML2": 715.77,
+        "ML3": 1.73,
+        "ML4": 0,
+        "ML5": 0.4,
+        "NONE": 2.97
       }
     },
     "STATE": "Oregon"
@@ -22679,15 +22679,15 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 6,
-      "TOTAL_MILEAGE": 7.86,
+      "NUM_ROADS": 2334,
+      "TOTAL_MILEAGE": 3550.27,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 0,
-        "ML3": 5.88,
-        "ML4": 0,
-        "ML5": 1.98,
+        "ML2": 2635.38,
+        "ML3": 735.52,
+        "ML4": 128.77,
+        "ML5": 50.61,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
@@ -22979,12 +22979,12 @@
     },
     "CLOSED_ROADS": {
       "NUM_ROADS": 4168,
-      "TOTAL_MILEAGE": 2089.72,
+      "TOTAL_MILEAGE": 2089.74,
       "ADMIN_MILEAGE": 0,
       "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 2076.87,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 1148.06,
+        "ML1": 1148.05,
         "ML2": 928.81,
         "ML3": 12.02,
         "ML4": 0.84,
@@ -23277,28 +23277,28 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1537,
-      "TOTAL_MILEAGE": 2159.34,
-      "TOTAL_SEASONAL_MILEAGE": 1301.08,
+      "NUM_ROADS": 1904,
+      "TOTAL_MILEAGE": 2784.64,
+      "TOTAL_SEASONAL_MILEAGE": 1301.09,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1809.13,
-        "ML3": 325.62,
-        "ML4": 16.01,
-        "ML5": 7.85,
+        "ML2": 2148.85,
+        "ML3": 566.79,
+        "ML4": 60.4,
+        "ML5": 7.84,
         "NONE": 0.74
       },
-      "ALL_VEHICLES_MILEAGE": 820.106,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1338.494
+      "ALL_VEHICLES_MILEAGE": 820.11,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1338.49
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 54,
-      "TOTAL_MILEAGE": 209.83,
+      "TOTAL_MILEAGE": 209.82,
       "TOTAL_SEASONAL_MILEAGE": 75.19,
       "TRAIL_TYPE": {
         "FULL_SIZE": 39.3,
         "ATV": 30.66,
-        "MOTORCYCLE": 131.12,
+        "MOTORCYCLE": 131.13,
         "SPECIAL": 8.74,
         "OTHER": 0
       }
@@ -24256,19 +24256,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 558,
-      "TOTAL_MILEAGE": 1068.5,
-      "TOTAL_SEASONAL_MILEAGE": 395.89,
+      "NUM_ROADS": 571,
+      "TOTAL_MILEAGE": 1024.2,
+      "TOTAL_SEASONAL_MILEAGE": 0,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 476.81,
-        "ML3": 457.17,
-        "ML4": 110.66,
-        "ML5": 21.29,
-        "NONE": 2.57
+        "ML2": 480.31,
+        "ML3": 430.67,
+        "ML4": 94.45,
+        "ML5": 18.77,
+        "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1068.496
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 0
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 66,
@@ -24528,19 +24528,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 503,
-      "TOTAL_MILEAGE": 715.94,
-      "TOTAL_SEASONAL_MILEAGE": 199.16,
+      "NUM_ROADS": 355,
+      "TOTAL_MILEAGE": 499.02,
+      "TOTAL_SEASONAL_MILEAGE": 124.4,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 272.7,
-        "ML3": 358.77,
-        "ML4": 43.06,
-        "ML5": 41.41,
+        "ML2": 171.29,
+        "ML3": 251.99,
+        "ML4": 37.45,
+        "ML5": 38.3,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 0.3,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 708.919
+      "ALL_VEHICLES_MILEAGE": 0,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 492.54
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 3,
@@ -25180,19 +25180,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 3264,
-      "TOTAL_MILEAGE": 1981.1,
-      "TOTAL_SEASONAL_MILEAGE": 358.63,
+      "NUM_ROADS": 2964,
+      "TOTAL_MILEAGE": 1810.01,
+      "TOTAL_SEASONAL_MILEAGE": 346.32,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1306,
-        "ML3": 475.86,
-        "ML4": 148.92,
+        "ML2": 1186.32,
+        "ML3": 436.46,
+        "ML4": 136.92,
         "ML5": 50.32,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 0.791,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1682.945
+      "ALL_VEHICLES_MILEAGE": 0.79,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1521.81
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 7,
@@ -25207,13 +25207,13 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 2123,
-      "TOTAL_MILEAGE": 663.94,
+      "NUM_ROADS": 2048,
+      "TOTAL_MILEAGE": 637.26,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 662.69,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 636.01,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 658.3,
+        "ML1": 631.61,
         "ML2": 4.39,
         "ML3": 1.09,
         "ML4": 0.16,
@@ -26102,43 +26102,43 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 1067,
-      "TOTAL_MILEAGE": 1670.72,
-      "TOTAL_SEASONAL_MILEAGE": 721.59,
+      "NUM_ROADS": 963,
+      "TOTAL_MILEAGE": 1506.08,
+      "TOTAL_SEASONAL_MILEAGE": 646.88,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 872.19,
-        "ML3": 677.3,
-        "ML4": 112.05,
-        "ML5": 9.18,
+        "ML2": 788.43,
+        "ML3": 617.07,
+        "ML4": 91.61,
+        "ML5": 8.96,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 20.744,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1625.165
+      "ALL_VEHICLES_MILEAGE": 20.74,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1460.54
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 53,
-      "TOTAL_MILEAGE": 102.12,
-      "TOTAL_SEASONAL_MILEAGE": 77.19,
+      "NUM_TRAILS": 45,
+      "TOTAL_MILEAGE": 84.39,
+      "TOTAL_SEASONAL_MILEAGE": 59.46,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 23.11,
+        "ATV": 18.82,
         "MOTORCYCLE": 39.99,
-        "SPECIAL": 39.02,
+        "SPECIAL": 25.58,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1410,
-      "TOTAL_MILEAGE": 1369.68,
+      "NUM_ROADS": 1304,
+      "TOTAL_MILEAGE": 1260.19,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1345.4,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1236.25,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 281.17,
-        "ML2": 1064.23,
-        "ML3": 16.91,
-        "ML4": 3.07,
+        "ML1": 241.81,
+        "ML2": 994.47,
+        "ML3": 16.56,
+        "ML4": 3.08,
         "ML5": 0,
         "NONE": 4.3
       }
@@ -26806,19 +26806,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2050,
-      "TOTAL_MILEAGE": 2868.79,
-      "TOTAL_SEASONAL_MILEAGE": 539.3,
+      "NUM_ROADS": 2236,
+      "TOTAL_MILEAGE": 3124.37,
+      "TOTAL_SEASONAL_MILEAGE": 539.29,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1705.22,
-        "ML3": 1088.69,
-        "ML4": 56.04,
-        "ML5": 18.84,
+        "ML2": 1913.19,
+        "ML3": 1136.05,
+        "ML4": 56.14,
+        "ML5": 19.02,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 2070.674,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 789.098
+      "ALL_VEHICLES_MILEAGE": 2070.68,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 789.1
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 55,
@@ -27240,19 +27240,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2322,
-      "TOTAL_MILEAGE": 2201.84,
-      "TOTAL_SEASONAL_MILEAGE": 91.41,
+      "NUM_ROADS": 2320,
+      "TOTAL_MILEAGE": 2201.54,
+      "TOTAL_SEASONAL_MILEAGE": 91.4,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1993.84,
-        "ML3": 149.28,
+        "ML2": 1993.54,
+        "ML3": 149.27,
         "ML4": 38.61,
         "ML5": 20.11,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 900.853,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1269.461
+      "ALL_VEHICLES_MILEAGE": 900.85,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1269.16
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 80,
@@ -27267,14 +27267,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 6408,
-      "TOTAL_MILEAGE": 3605.26,
-      "ADMIN_MILEAGE": 545.08,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 3598.77,
+      "NUM_ROADS": 6405,
+      "TOTAL_MILEAGE": 3602.26,
+      "ADMIN_MILEAGE": 543.98,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 3595.77,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 3070.23,
-        "ML2": 528.55,
+        "ML1": 3067.22,
+        "ML2": 528.54,
         "ML3": 5.84,
         "ML4": 0,
         "ML5": 0.04,
@@ -27728,19 +27728,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 586,
-      "TOTAL_MILEAGE": 916.61,
-      "TOTAL_SEASONAL_MILEAGE": 314.15,
+      "NUM_ROADS": 500,
+      "TOTAL_MILEAGE": 789.6,
+      "TOTAL_SEASONAL_MILEAGE": 239.52,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 139.39,
-        "ML3": 444.61,
-        "ML4": 261.96,
-        "ML5": 70.65,
+        "ML2": 106.44,
+        "ML3": 375.42,
+        "ML4": 245.58,
+        "ML5": 62.18,
         "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 5.745,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 910.868
+      "ALL_VEHICLES_MILEAGE": 4.89,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 784.73
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 78,
@@ -27755,17 +27755,17 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1246,
-      "TOTAL_MILEAGE": 1685.44,
+      "NUM_ROADS": 1064,
+      "TOTAL_MILEAGE": 1464.14,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1523.44,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1323.34,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 583.16,
-        "ML2": 940.28,
-        "ML3": 145.6,
-        "ML4": 11.79,
-        "ML5": 4.61,
+        "ML1": 507.65,
+        "ML2": 815.67,
+        "ML3": 126.07,
+        "ML4": 11.62,
+        "ML5": 3.13,
         "NONE": 0
       }
     },
@@ -28000,41 +28000,41 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 816,
-      "TOTAL_MILEAGE": 1030.19,
-      "TOTAL_SEASONAL_MILEAGE": 20.27,
+      "NUM_ROADS": 605,
+      "TOTAL_MILEAGE": 768.97,
+      "TOTAL_SEASONAL_MILEAGE": 6.49,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 144.89,
-        "ML3": 756.87,
-        "ML4": 124.7,
-        "ML5": 3.73,
+        "ML2": 113.24,
+        "ML3": 564.41,
+        "ML4": 88.06,
+        "ML5": 3.27,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1030.186
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 768.98
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 27,
-      "TOTAL_MILEAGE": 80.4,
-      "TOTAL_SEASONAL_MILEAGE": 44.32,
+      "NUM_TRAILS": 16,
+      "TOTAL_MILEAGE": 58.08,
+      "TOTAL_SEASONAL_MILEAGE": 22.01,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 80.4,
+        "ATV": 58.08,
         "MOTORCYCLE": 0,
         "SPECIAL": 0,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1107,
-      "TOTAL_MILEAGE": 635.72,
+      "NUM_ROADS": 718,
+      "TOTAL_MILEAGE": 415.07,
       "ADMIN_MILEAGE": 7.7,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 634.86,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 414.2,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 622.19,
-        "ML2": 12.67,
+        "ML1": 406.08,
+        "ML2": 8.12,
         "ML3": 0.87,
         "ML4": 0,
         "ML5": 0,
@@ -28326,19 +28326,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 650,
-      "TOTAL_MILEAGE": 814.75,
+      "NUM_ROADS": 649,
+      "TOTAL_MILEAGE": 814.59,
       "TOTAL_SEASONAL_MILEAGE": 119.62,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 152.69,
+        "ML2": 152.68,
         "ML3": 540.79,
         "ML4": 82.21,
-        "ML5": 31.51,
-        "NONE": 7.55
+        "ML5": 31.5,
+        "NONE": 7.4
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 814.751
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 814.6
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 8,
@@ -28463,17 +28463,17 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 9,
-      "TOTAL_MILEAGE": 11.35,
-      "ADMIN_MILEAGE": 11.35,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 4.9,
+      "NUM_ROADS": 0,
+      "TOTAL_MILEAGE": 0,
+      "ADMIN_MILEAGE": 0,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 0,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 0,
-        "ML2": 4.9,
-        "ML3": 2.15,
+        "ML2": 0,
+        "ML3": 0,
         "ML4": 0,
-        "ML5": 4.3,
+        "ML5": 0,
         "NONE": 0
       }
     },
@@ -28764,45 +28764,45 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2138,
-      "TOTAL_MILEAGE": 1685.93,
-      "TOTAL_SEASONAL_MILEAGE": 1414.39,
+      "NUM_ROADS": 1691,
+      "TOTAL_MILEAGE": 1303.43,
+      "TOTAL_SEASONAL_MILEAGE": 1117.24,
       "MAINTENANCE_LEVELS": {
         "ML1": 1.11,
-        "ML2": 1264.61,
-        "ML3": 170.3,
-        "ML4": 227.53,
-        "ML5": 21.72,
-        "NONE": 0.67
+        "ML2": 991.51,
+        "ML3": 125.94,
+        "ML4": 168.22,
+        "ML5": 16.34,
+        "NONE": 0.32
       },
-      "ALL_VEHICLES_MILEAGE": 1251.928,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 271.789
+      "ALL_VEHICLES_MILEAGE": 997.02,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 186.1
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 2,
-      "TOTAL_MILEAGE": 49.5,
+      "NUM_TRAILS": 0,
+      "TOTAL_MILEAGE": 0,
       "TOTAL_SEASONAL_MILEAGE": 0,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 49.5,
+        "ATV": 0,
         "MOTORCYCLE": 0,
         "SPECIAL": 0,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1558,
-      "TOTAL_MILEAGE": 887.19,
+      "NUM_ROADS": 1132,
+      "TOTAL_MILEAGE": 661.55,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 845.59,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 631.64,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 515.36,
-        "ML2": 330.23,
-        "ML3": 21.11,
-        "ML4": 20.24,
+        "ML1": 413.84,
+        "ML2": 217.8,
+        "ML3": 14.6,
+        "ML4": 15.22,
         "ML5": 0.09,
-        "NONE": 0.16
+        "NONE": 0
       }
     },
     "STATE": "Minnesota"
@@ -29225,15 +29225,15 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1379,
-      "TOTAL_MILEAGE": 730.56,
+      "NUM_ROADS": 1378,
+      "TOTAL_MILEAGE": 730.14,
       "ADMIN_MILEAGE": 24.69,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 727.83,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 727.41,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 704.7,
+        "ML1": 704.27,
         "ML2": 23.13,
-        "ML3": 2.73,
+        "ML3": 2.74,
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
@@ -29578,19 +29578,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 2000,
-      "TOTAL_MILEAGE": 1982.85,
-      "TOTAL_SEASONAL_MILEAGE": 121.62,
+      "NUM_ROADS": 1249,
+      "TOTAL_MILEAGE": 1244.59,
+      "TOTAL_SEASONAL_MILEAGE": 96.26,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1423.72,
-        "ML3": 247.13,
-        "ML4": 312.01,
+        "ML2": 887.43,
+        "ML3": 155.88,
+        "ML4": 201.28,
         "ML5": 0,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1975.748
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1241.18
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 87,
@@ -29605,16 +29605,16 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 355,
-      "TOTAL_MILEAGE": 237.94,
-      "ADMIN_MILEAGE": 191.91,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 218.04,
+      "NUM_ROADS": 180,
+      "TOTAL_MILEAGE": 119.43,
+      "ADMIN_MILEAGE": 97.42,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 111.07,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 56.5,
-        "ML2": 161.54,
-        "ML3": 16.98,
-        "ML4": 2.92,
+        "ML1": 20.55,
+        "ML2": 90.52,
+        "ML3": 7.31,
+        "ML4": 1.05,
         "ML5": 0,
         "NONE": 0
       }
@@ -29973,12 +29973,12 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 320.867
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 3207,
-      "TOTAL_MILEAGE": 1624.7,
-      "TOTAL_SEASONAL_MILEAGE": 1613.45,
+      "NUM_TRAILS": 3206,
+      "TOTAL_MILEAGE": 1624.35,
+      "TOTAL_SEASONAL_MILEAGE": 1613.11,
       "TRAIL_TYPE": {
         "FULL_SIZE": 6.38,
-        "ATV": 1603.15,
+        "ATV": 1602.8,
         "MOTORCYCLE": 0,
         "SPECIAL": 15.18,
         "OTHER": 0
@@ -29986,14 +29986,14 @@
     },
     "CLOSED_ROADS": {
       "NUM_ROADS": 5952,
-      "TOTAL_MILEAGE": 2907.56,
+      "TOTAL_MILEAGE": 2907.57,
       "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 2905.87,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 2905.86,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 2786.14,
+        "ML1": 2786.13,
         "ML2": 119.73,
-        "ML3": 0.45,
+        "ML3": 0.46,
         "ML4": 0.27,
         "ML5": 0.56,
         "NONE": 0.41
@@ -30122,19 +30122,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 499,
-      "TOTAL_MILEAGE": 384.56,
-      "TOTAL_SEASONAL_MILEAGE": 261.7,
+      "NUM_ROADS": 496,
+      "TOTAL_MILEAGE": 378.38,
+      "TOTAL_SEASONAL_MILEAGE": 256.92,
       "MAINTENANCE_LEVELS": {
         "ML1": 0.58,
         "ML2": 257.67,
         "ML3": 104.24,
         "ML4": 11.06,
         "ML5": 4.53,
-        "NONE": 6.48
+        "NONE": 0.3
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 384.557
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 378.38
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -30463,12 +30463,12 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 338.945
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 587,
-      "TOTAL_MILEAGE": 524.12,
-      "TOTAL_SEASONAL_MILEAGE": 512.46,
+      "NUM_TRAILS": 586,
+      "TOTAL_MILEAGE": 523.32,
+      "TOTAL_SEASONAL_MILEAGE": 511.66,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 434.79,
+        "ATV": 433.97,
         "MOTORCYCLE": 0,
         "SPECIAL": 89.33,
         "OTHER": 0
@@ -30801,14 +30801,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 2317,
-      "TOTAL_MILEAGE": 967.99,
-      "ADMIN_MILEAGE": 134.65,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 967.33,
+      "NUM_ROADS": 2316,
+      "TOTAL_MILEAGE": 967.74,
+      "ADMIN_MILEAGE": 134.64,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 967.07,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 773.02,
-        "ML2": 194.31,
+        "ML2": 194.06,
         "ML3": 0.09,
         "ML4": 0,
         "ML5": 0.33,
@@ -30938,19 +30938,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 214,
-      "TOTAL_MILEAGE": 42.88,
+      "NUM_ROADS": 207,
+      "TOTAL_MILEAGE": 42.57,
       "TOTAL_SEASONAL_MILEAGE": 9.02,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 7.8,
+        "ML2": 7.49,
         "ML3": 24.95,
         "ML4": 10.13,
         "ML5": 0,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 34.709
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 34.71
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 0,
@@ -30965,14 +30965,14 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 1037,
-      "TOTAL_MILEAGE": 464.1,
-      "ADMIN_MILEAGE": 72.53,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 454.76,
+      "NUM_ROADS": 1034,
+      "TOTAL_MILEAGE": 462.76,
+      "ADMIN_MILEAGE": 71.18,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 453.41,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
         "ML1": 392.55,
-        "ML2": 62.22,
+        "ML2": 60.86,
         "ML3": 8.83,
         "ML4": 0.51,
         "ML5": 0,
@@ -31264,43 +31264,43 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 3446,
-      "TOTAL_MILEAGE": 1847.49,
+      "NUM_ROADS": 3438,
+      "TOTAL_MILEAGE": 1844.34,
       "TOTAL_SEASONAL_MILEAGE": 693.76,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
-        "ML2": 1744.72,
-        "ML3": 58.37,
-        "ML4": 38.98,
-        "ML5": 4.96,
-        "NONE": 0.45
+        "ML2": 1743.47,
+        "ML3": 58.01,
+        "ML4": 37.88,
+        "ML5": 4.97,
+        "NONE": 0
       },
-      "ALL_VEHICLES_MILEAGE": 22.428,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1282.378
+      "ALL_VEHICLES_MILEAGE": 22.43,
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 1279.45
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 103,
-      "TOTAL_MILEAGE": 1120.34,
+      "NUM_TRAILS": 90,
+      "TOTAL_MILEAGE": 1117.61,
       "TOTAL_SEASONAL_MILEAGE": 1115.97,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 62.44,
+        "ATV": 61.01,
         "MOTORCYCLE": 0,
-        "SPECIAL": 1057.89,
+        "SPECIAL": 1056.59,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 4000,
-      "TOTAL_MILEAGE": 1931.95,
+      "NUM_ROADS": 3995,
+      "TOTAL_MILEAGE": 1930.22,
       "ADMIN_MILEAGE": 26.29,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1902.41,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1901.13,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 1462.43,
-        "ML2": 439.98,
+        "ML1": 1461.38,
+        "ML2": 439.75,
         "ML3": 10.88,
-        "ML4": 11.93,
+        "ML4": 11.48,
         "ML5": 2.64,
         "NONE": 4.09
       }
@@ -31919,19 +31919,19 @@
       }
     ],
     "MVUM_ROADS": {
-      "NUM_ROADS": 177,
-      "TOTAL_MILEAGE": 142.1,
-      "TOTAL_SEASONAL_MILEAGE": 138.2,
+      "NUM_ROADS": 174,
+      "TOTAL_MILEAGE": 141.77,
+      "TOTAL_SEASONAL_MILEAGE": 138.19,
       "MAINTENANCE_LEVELS": {
         "ML1": 0,
         "ML2": 56.6,
-        "ML3": 51.85,
-        "ML4": 32.33,
-        "ML5": 1.32,
+        "ML3": 51.86,
+        "ML4": 32.32,
+        "ML5": 0.98,
         "NONE": 0
       },
       "ALL_VEHICLES_MILEAGE": 0,
-      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 142.104
+      "HIGHWAY_VEHICLES_ONLY_MILEAGE": 141.76
     },
     "MVUM_TRAILS": {
       "NUM_TRAILS": 1,
@@ -32598,15 +32598,15 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 678,
-      "TOTAL_MILEAGE": 477.87,
+      "NUM_ROADS": 667,
+      "TOTAL_MILEAGE": 466.08,
       "ADMIN_MILEAGE": 9.12,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 448.69,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 439.63,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 308.93,
-        "ML2": 139.76,
-        "ML3": 20.35,
+        "ML1": 308.94,
+        "ML2": 130.71,
+        "ML3": 17.61,
         "ML4": 2.21,
         "ML5": 0.57,
         "NONE": 6.06
@@ -32816,15 +32816,15 @@
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 0,
-      "TOTAL_MILEAGE": 0,
-      "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 0,
+      "NUM_ROADS": 41,
+      "TOTAL_MILEAGE": 24.4,
+      "ADMIN_MILEAGE": 3.37,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 20.65,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 0,
-        "ML2": 0,
-        "ML3": 0,
+        "ML1": 9.2,
+        "ML2": 11.46,
+        "ML3": 3.74,
         "ML4": 0,
         "ML5": 0,
         "NONE": 0
@@ -33400,29 +33400,29 @@
       "HIGHWAY_VEHICLES_ONLY_MILEAGE": 149.931
     },
     "MVUM_TRAILS": {
-      "NUM_TRAILS": 299,
-      "TOTAL_MILEAGE": 492.07,
+      "NUM_TRAILS": 283,
+      "TOTAL_MILEAGE": 462.93,
       "TOTAL_SEASONAL_MILEAGE": 8.42,
       "TRAIL_TYPE": {
         "FULL_SIZE": 0,
-        "ATV": 415.94,
+        "ATV": 386.79,
         "MOTORCYCLE": 0,
         "SPECIAL": 76.13,
         "OTHER": 0
       }
     },
     "CLOSED_ROADS": {
-      "NUM_ROADS": 0,
-      "TOTAL_MILEAGE": 0,
-      "ADMIN_MILEAGE": 0,
-      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 0,
+      "NUM_ROADS": 1805,
+      "TOTAL_MILEAGE": 1910.47,
+      "ADMIN_MILEAGE": 7.98,
+      "MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION": 1907.87,
       "MAINTENANCE_LEVELS": {
         "DECOMMISSIONED": 0,
-        "ML1": 0,
-        "ML2": 0,
-        "ML3": 0,
-        "ML4": 0,
-        "ML5": 0,
+        "ML1": 1504.12,
+        "ML2": 403.75,
+        "ML3": 2.04,
+        "ML4": 0.54,
+        "ML5": 0.02,
         "NONE": 0
       }
     },
