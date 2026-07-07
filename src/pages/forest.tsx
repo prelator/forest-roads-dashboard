@@ -171,6 +171,10 @@ const ForestPage = () => {
 
   const closedRoadsMileageSuitableForConversion =
     forest.CLOSED_ROADS?.MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION || 0;
+  const totalFullSizeRoutesMileage =
+    (forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0);
+  const roadCoveredAcreage = (totalFullSizeRoutesMileage * 5280 * 15) / 43560;
+  const roadCoveragePercentage = forest.GIS_ACRES > 0 ? (roadCoveredAcreage / forest.GIS_ACRES) * 100 : 0;
 
   return (
     <Container maxWidth={false} sx={{ px: 0, boxSizing: 'border-box', overflowX: 'hidden' }}>
@@ -237,11 +241,25 @@ const ForestPage = () => {
               <li>
                 <Typography variant="body1">
                   <strong>Total Mileage Open to Full Size Vehicles:</strong>{' '}
-                  {((forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
+                  {totalFullSizeRoutesMileage.toLocaleString(undefined, {
                     minimumFractionDigits: 1,
                     maximumFractionDigits: 1,
                   })}{' '}
                   miles
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Percent of forest land covered by roads (all full size routes, assuming 15 ft width):</strong>{' '}
+                  {roadCoveragePercentage.toLocaleString(undefined, {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                  })}
+                  % ({roadCoveredAcreage.toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  acres)
                 </Typography>
               </li>
               <li>
