@@ -80,6 +80,12 @@ const HomePage = () => {
             This project was created in consultation with Land Access Consulting LLC, a law firm specializing in public land access and travel management planning issues. We are grateful for their expertise and guidance in developing this dashboard and ensuring that it effectively supports our advocacy goals.
           </Typography>
         </Box>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap' }}>
+          <img src="/TPA_logo.png" alt="Trails Preservation Alliance Logo" style={{ height: '80px' }} />
+          <Typography variant="body1" color="text.primary" component="p" sx={{ flex: 1, minWidth: '300px' }}>
+            The Trails Preservation Alliance (TPA) provided financial support and project feedback to help make this dashboard possible. TPA believes tools like this dashboard are essential for understanding access trends and supporting effective advocacy for responsible motorized recreation on public lands. TPA is a Colorado-based nonprofit organization dedicated to protecting, improving, and expanding off-highway motorcycle and motorized recreation opportunities through advocacy, stewardship, education, and partnerships.   
+          </Typography>
+        </Box>
       </Stack>
       <Stack spacing={2} mt={2}>
         <Typography variant="h5" color="text.primary" component="h2">

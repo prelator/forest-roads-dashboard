@@ -173,8 +173,20 @@ const ForestPage = () => {
     forest.CLOSED_ROADS?.MILEAGE_SUITABLE_FOR_TRAIL_CONVERSION || 0;
   const totalFullSizeRoutesMileage =
     (forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0);
+  const totalNonFullSizeTrailsMileage = Math.max(
+    (forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0) - (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0),
+    0
+  );
+  const totalMotorizedRoutesMileage = (forest.MVUM_ROADS?.TOTAL_MILEAGE || 0) + (forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0);
+
   const roadCoveredAcreage = (totalFullSizeRoutesMileage * 5280 * 15) / 43560;
   const roadCoveragePercentage = forest.GIS_ACRES > 0 ? (roadCoveredAcreage / forest.GIS_ACRES) * 100 : 0;
+  const nonFullSizeTrailCoveredAcreage = (totalNonFullSizeTrailsMileage * 5280 * 15) / 43560;
+  const nonFullSizeTrailCoveragePercentage =
+    forest.GIS_ACRES > 0 ? (nonFullSizeTrailCoveredAcreage / forest.GIS_ACRES) * 100 : 0;
+  const allMotorizedRoutesCoveredAcreage = (totalMotorizedRoutesMileage * 5280 * 15) / 43560;
+  const allMotorizedRoutesCoveragePercentage =
+    forest.GIS_ACRES > 0 ? (allMotorizedRoutesCoveredAcreage / forest.GIS_ACRES) * 100 : 0;
 
   return (
     <Container maxWidth={false} sx={{ px: 0, boxSizing: 'border-box', overflowX: 'hidden' }}>
@@ -264,8 +276,36 @@ const ForestPage = () => {
               </li>
               <li>
                 <Typography variant="body1">
+                  <strong>Percent of forest land covered by non-full size trails (assuming 15 ft width):</strong>{' '}
+                  {nonFullSizeTrailCoveragePercentage.toLocaleString(undefined, {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                  })}
+                  % ({nonFullSizeTrailCoveredAcreage.toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  acres)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
+                  <strong>Percent of forest land covered by all open motorized routes (assuming 15 ft width):</strong>{' '}
+                  {allMotorizedRoutesCoveragePercentage.toLocaleString(undefined, {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                  })}
+                  % ({allMotorizedRoutesCoveredAcreage.toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}{' '}
+                  acres)
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="body1">
                   <strong>Non-Full Size Trails:</strong>{' '}
-                  {((forest.MVUM_TRAILS?.TOTAL_MILEAGE || 0) - (forest.MVUM_TRAILS?.TRAIL_TYPE?.FULL_SIZE || 0)).toLocaleString(undefined, {
+                  {totalNonFullSizeTrailsMileage.toLocaleString(undefined, {
                     minimumFractionDigits: 1,
                     maximumFractionDigits: 1,
                   })}{' '}
